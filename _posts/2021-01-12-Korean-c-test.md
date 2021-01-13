@@ -8,9 +8,6 @@ tags:
 - Korean
 - proficiency
 - c-test
----
-
-Web-based c-test for measuring Korean proficiency
 
 ---
 
