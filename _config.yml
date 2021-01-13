@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+permalink: "tools/:title"
 
 # Compress
 compress_html:
