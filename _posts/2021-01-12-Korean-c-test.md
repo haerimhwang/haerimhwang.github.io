@@ -11,11 +11,12 @@ tags:
 ---
 
 * This web-based tool outputs a Korean proficiency score automatically.
-                
+<br>            
+
 * [Click Here for the C-Test](http://yayhaerim.pythonanywhere.com/){:target="blankl"}
+<br>
 
 * When you use this analyzer for your research, please cite: <br>
-
   `Lee-Ellis, S. (2009). The development and validation of a Korean C-Test using Rasch analysis. Language Testing, 26, 245–274.` <br>
 
 ---
