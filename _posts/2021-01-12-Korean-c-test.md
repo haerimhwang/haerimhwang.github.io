@@ -16,6 +16,6 @@ tags:
 
 * When you use this analyzer for your research, please cite: 
 
-  Lee-Ellis, S. (2009). The development and validation of a Korean C-Test using Rasch analysis. Language Testing, 26, 245–274.
+> Lee-Ellis, S. (2009). The development and validation of a Korean C-Test using Rasch analysis. Language Testing, 26, 245–274.
 
 ---
