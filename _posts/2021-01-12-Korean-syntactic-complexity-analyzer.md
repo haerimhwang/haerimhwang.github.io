@@ -18,4 +18,5 @@ tags:
 * [Click Here for the Korean Syntactic Complexity Analyzer for Windows](https://drive.google.com/file/d/1LObMszM6Fghxqk49-ntFH_by83ou7s_h/view?usp=sharing){:target="blankl"}
 
 * Stay tuned for citation
+
 ---
