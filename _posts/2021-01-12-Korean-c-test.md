@@ -14,8 +14,8 @@ tags:
                 
 * [Click Here for the C-Test](http://yayhaerim.pythonanywhere.com/)
 
-* When you use this analyzer for your research, please cite: 
+* When you use this analyzer for your research, please cite: <br>
 
-`Lee-Ellis, S. (2009). The development and validation of a Korean C-Test using Rasch analysis. Language Testing, 26, 245–274.` <br>
+  `Lee-Ellis, S. (2009). The development and validation of a Korean C-Test using Rasch analysis. Language Testing, 26, 245–274.` <br>
 
 ---
