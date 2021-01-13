@@ -12,7 +12,7 @@ tags:
 
 * This web-based tool outputs a Korean proficiency score automatically.
                 
-* [Click Here for the C-Test](http://yayhaerim.pythonanywhere.com/)
+* [Click Here for the C-Test](http://yayhaerim.pythonanywhere.com/){:target="blankl"}
 
 * When you use this analyzer for your research, please cite: <br>
 
