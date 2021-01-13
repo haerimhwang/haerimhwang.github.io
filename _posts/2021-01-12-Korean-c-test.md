@@ -10,10 +10,12 @@ tags:
 - c-test
 ---
 
-* This web-based tool outputs a Korean proficiency score automatically.
-<br>            
+* This web-based tool measures Korean proficiency.
+<br> 
+<br>
 
 * [Click Here for the C-Test](http://yayhaerim.pythonanywhere.com/){:target="blankl"}
+<br>
 <br>
 
 * When you use this analyzer for your research, please cite: <br>
