@@ -2,7 +2,7 @@
 title: English Constructional Diversity Analyzer
 layout: post
 post-image: "https://haerimhwang.github.io/assets/images/CDA.png"
-description: GUI Application for Measuring Constructional Diversity 
+description: GUI Application for Measuring Constructional Diversity of English Texts
 tags:
 - English
 - constructional diversity
