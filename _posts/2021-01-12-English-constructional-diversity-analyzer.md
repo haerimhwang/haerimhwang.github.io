@@ -18,7 +18,8 @@ tags:
 * [Click Here for the Constructional Diversity Analyzer for Windows](https://drive.google.com/file/d/1Xh-1e9Z6GDxZOsE4FVRfCROckDwpP2Ie/view?usp=sharing){:target="blankl"}
 
 * When you use this analyzer for your research, please cite: <br>
-	`Hwang, H., Choe, A., & Zenker, F. (2020). Construction Counter: A tool to measure (nonnative) language development. Brown Bag Series, University of Hawai‘i at Mānoa, Honolulu, USA. (April 16)` <br>
+	`Hwang, H., Choe, A., & Zenker, F. (2020). Construction Counter: A tool to measure (nonnative) language development. Brown Bag Series, 
+	University of Hawai‘i at Mānoa, Honolulu, USA. (April 16)` <br>
 	`Hwang, H., & Kim, H. (submitted). Constructional diversity as a predictor of second language writing development: A corpus-based NLP analysis.` <br>
 	
 ---
