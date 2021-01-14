@@ -1,6 +1,6 @@
 ---
 title: AX Discrimination Task
-layout: r-post
+layout: praat-post
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Web-based c-test for measuring Korean proficiency
   
@@ -11,7 +11,8 @@ tags:
 
 ---
 
-* This script creates an AX discrimination task with the inputted sound files.
+* This script creates an AX discrimination task with the inputted sound files. In the task, a stimulus consists of two sub-stimuli played in sequence, and the participants are asked to judge the similarity/difference between these sub-stimuli.
+
 <br> 
 <br>
 
@@ -43,7 +44,9 @@ responses are sounds? <no> "" "" "" "" 0 0 0
     0.6 0.9 0.35 0.65 "different" 24 "" "different"
 0 goodness categories
 
+<br>
+<br>
 * Reference
   https://www.fon.hum.uva.nl/praat/manual/ExperimentMFC_3_1__A_simple_discrimination_experiment.html
-
+----------
 ---
