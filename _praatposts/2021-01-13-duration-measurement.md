@@ -18,44 +18,47 @@ tags:
 * Codes
 
 	- Set your directories
-	```
-	form Analyze pitch of sound files 
-		 comment Directory of sound files
-		 text sound_directory /Users/haerimhwang/Desktop/Done/
-		 sentence Sound_file_extension .wav
-		 comment Full path of the resulting text file:
-		 text resultfile /Users/haerimhwang/Desktop/results.txt
-	endform
-	```
+	
+		```
+		form Analyze pitch of sound files 
+			 comment Directory of sound files
+			 text sound_directory /Users/haerimhwang/Desktop/Done/
+			 sentence Sound_file_extension .wav
+			 comment Full path of the resulting text file:
+			 text resultfile /Users/haerimhwang/Desktop/results.txt
+		endform
+		```
 	<br>
 	<br>
 
 	- Check if the result file exists
-	```
-	if fileReadable (resultfile$)
-		pause The result file 'resultfile$' already exists! Do you want to overwrite it?
-		filedelete "'resultfile$'"
-	endif
-	```
+	
+		```
+		if fileReadable (resultfile$)
+			pause The result file 'resultfile$' already exists! Do you want to overwrite it?
+			filedelete "'resultfile$'"
+		endif
+		```
 	<br>
 	<br>
 
 	- Write a row with column titles to the result file
 	- (Remember to edit this if you add or change the analyses!)
+	
 	```
 	titleline$ = "object_name	duration	'newline$'"
 	fileappend "'resultfile$'" 'titleline$'
-	```
-	<br>
-	<br>
+		```
+		<br>
+		<br>
 
 
-	- Make a list of all the sound files in the directory we're using, 
-	- and put the number of filenames into the variable "number_files"
-	```
-	Create Strings as file list...  list 'sound_directory$'*.wav
-	number_files = Get number of strings
-	```
+		- Make a list of all the sound files in the directory we're using, 
+		- and put the number of filenames into the variable "number_files"
+		```
+		Create Strings as file list...  list 'sound_directory$'*.wav
+		number_files = Get number of strings
+		```
 	<br>
 	<br>
 
@@ -64,25 +67,25 @@ tags:
 	- Make a variable called "object_name$" that will be equal to the filename minus the ".wav" extension
 	- Save result to text file
 	
-	```
-	for j from 1 to number_files
-		select Strings list
-		file_name$ = Get string... 'j'
-	    Read from file... 'sound_directory$''file_name$'
+		```
+		for j from 1 to number_files
+			select Strings list
+			file_name$ = Get string... 'j'
+		    Read from file... 'sound_directory$''file_name$'
 
-	    object_name$ = selected$ ("Sound")
+		    object_name$ = selected$ ("Sound")
 
-		select Sound 'object_name$'
-		startTime = Get start time
-		endTime = Get end time
-		duration = (endTime - startTime) 
+			select Sound 'object_name$'
+			startTime = Get start time
+			endTime = Get end time
+			duration = (endTime - startTime) 
 
-		resultline$ = "'object_name$'.wav	'duration'	'newline$'"
+			resultline$ = "'object_name$'.wav	'duration'	'newline$'"
 
-		fileappend "'resultfile$'" 'resultline$'		
+			fileappend "'resultfile$'" 'resultline$'		
 
-	endfor
-	```
+		endfor
+		```
 	
 	<br>
 	<br>
@@ -90,12 +93,12 @@ tags:
 	- Clean up all files on the list
 	- Show if the process is completed
 	
-	```
-	select all
-	Remove
+		```
+		select all
+		Remove
 
-	print All files have been processed!
-	```
+		print All files have been processed!
+		```
 
 	<br>
 	<br>
