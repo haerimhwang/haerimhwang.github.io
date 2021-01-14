@@ -14,6 +14,7 @@ tags:
 * This script takes all the files in the specified directory, modify their amplitude (dB), and writes new files to a new folder. It takes three arguments: InputDir is the input folder; positive dB is a dB value to which you want your files to be modified.
 <br>
 <br>
+<br>
 
 * Codes
 
