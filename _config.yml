@@ -83,6 +83,82 @@ defaults:
     values:
       layout: page
 
+
+
+# Permalink
+permalink: "praat-codes/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'praat-posts'
+    values:
+      layout: praat-post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+
+# Permalink
+permalink: "python-codes/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'python-posts'
+    values:
+      layout: python-post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Permalink
+permalink: "r-codes/:title"
+
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'r-posts'
+    values:
+      layout: r-post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
 # Exclude
 exclude:
   - .sass-cache/
@@ -95,3 +171,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  
+  
+  
