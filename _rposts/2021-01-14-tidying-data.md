@@ -1,13 +1,16 @@
 ---
-title: Reshaping Data
+title: Tidying Data
 layout: rpost
-post-image: "https://haerimhwang.github.io/assets/images/ctest.png"
-description: Web-based c-test for measuring Korean proficiency
+rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
+description: Codes for Tidying Data
   
 tags:
-- Korean
-- proficiency
-- c-test
+- R
+- Data Science
+- Tidying data
+- Removing
+- Renaming
+- Reshaping
 
 ---
 
