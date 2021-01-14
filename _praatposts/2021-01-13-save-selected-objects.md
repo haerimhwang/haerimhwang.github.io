@@ -17,14 +17,15 @@ tags:
 
 * Codes
 
-	- Set your directories
-  
+  - Set your directories	
+		
     ```
     dir$ = "/Users/haerimhwang/Desktop/re-recorded/"
     ```
     <br>
     <br>
-    
+
+	
   - Select the sound objects selected on the Praat window
   
     ```
