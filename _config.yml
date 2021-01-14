@@ -82,7 +82,7 @@ defaults:
     scope:
       type: 'praatposts'
     values:
-      layout: post
+      layout: praatpost
       post-image: ""
       description: ""
       tags:
@@ -92,7 +92,7 @@ defaults:
     scope:
       type: 'pythonposts'
     values:
-      layout: post
+      layout: pythonpost
       post-image: ""
       description: ""
       tags:
@@ -102,7 +102,7 @@ defaults:
     scope:
       type: 'rposts'
     values:
-      layout: post
+      layout: rpost
       post-image: ""
       description: ""
       tags:
