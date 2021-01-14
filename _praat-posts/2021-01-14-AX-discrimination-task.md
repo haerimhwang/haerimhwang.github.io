@@ -16,7 +16,9 @@ tags:
 <br> 
 <br>
 
-> "ooTextFile"
+<table>
+<tr>
+ "ooTextFile"
 "ExperimentMFC 7"
 blank while playing? <no>
 stimuli are sounds? <yes>
@@ -44,6 +46,9 @@ responses are sounds? <no> "" "" "" "" 0 0 0
     0.6 0.9 0.35 0.65 "different" 24 "" "different"
 0 goodness categories
 
+</tr>
+</table>
+  
 <br>
 <br>
 * Reference: <br>
