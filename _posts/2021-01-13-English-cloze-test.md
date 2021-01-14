@@ -5,7 +5,7 @@ post-image: "https://haerimhwang.github.io/assets/images/cloze.png"
 description: Web-based cloze test for measuring English proficiency
   
 tags:
-- Englizh
+- English
 - proficiency
 - cloze test
 ---
