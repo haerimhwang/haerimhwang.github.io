@@ -13,13 +13,11 @@ tags:
 
 * This script creates an AX discrimination task with the inputted sound files. In the task, a stimulus consists of two sub-stimuli played in sequence, and the participants are asked to judge the similarity/difference between these sub-stimuli.
 
-<br> 
 <br>
 
 * [Click Here for the Praat Codes]("https://haerimhwang.github.io/assets/praatcodes/AX.txt")
   
   
-<br>
 <br>
 * Reference: <br>
   `https://www.fon.hum.uva.nl/praat/manual/ExperimentMFC_3_1__A_simple_discrimination_experiment.html`
