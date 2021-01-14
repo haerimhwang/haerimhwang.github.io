@@ -47,7 +47,8 @@ tags:
   - "ifile" means as follows:
   - Start i with 1 and do the operation that follows: change i to 2 and do the operation, change i to 3...., keep until i becomes n
   - Open i-th file in the string list
-  - Write the output file	(see your script folder)
+  - Write the output file (see your script folder)
+  
   ```
   for ifile to numberOfFiles
     select Strings list
@@ -66,11 +67,13 @@ tags:
   select all
   Remove
   ```
+  
 	<br>
 	<br>
 
-* Reference:
+* Reference: <br>
   `http://user.keio.ac.jp/~kawahara/scripts/equalize_amp_dB.praat`
+
 <br>
 <br>
 
