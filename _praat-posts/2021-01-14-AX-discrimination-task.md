@@ -1,7 +1,7 @@
 ---
 title: AX Discrimination Task
 layout: r-post
-post-image: "https://haerimhwang.github.io/assets/images/r.png"
+post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Web-based c-test for measuring Korean proficiency
   
 tags:
