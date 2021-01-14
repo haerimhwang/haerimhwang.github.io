@@ -62,7 +62,7 @@ tags:
 	- Set up a "for" loop that will iterate once for every file in the list,
 	- Query the file-list to get the first filename from it, then read that file in,
 	- Make a variable called "object_name$" that will be equal to the filename minus the ".wav" extension
-	- Save result to text file:
+	- Save result to text file
 	```
 	for j from 1 to number_files
 		select Strings list
