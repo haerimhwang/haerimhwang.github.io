@@ -48,6 +48,7 @@ tags:
   - Start i with 1 and do the operation that follows: change i to 2 and do the operation, change i to 3...., keep until i becomes n
   - Open i-th file in the string list
   - Write the output file (see your script folder)
+  
   ```
   for ifile to numberOfFiles
     select Strings list
