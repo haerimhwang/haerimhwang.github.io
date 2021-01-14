@@ -37,7 +37,7 @@ Different amounts of background noise can change the ideal pause detection param
 	- The name of the selected LongSound object is put to string soundname$
 
 		```
-		form Pause analysis from LongSound(s)
+		form Pause analysis from LongSound(s)                                                                    
 		   comment Give the time period you wish to include:
 		   real Starting_time_(seconds) 0
 		   real Finishing_time_(0=all) 0
