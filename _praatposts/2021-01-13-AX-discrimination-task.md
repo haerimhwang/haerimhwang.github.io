@@ -2,7 +2,7 @@
 title: AX Discrimination Task
 layout: praatpost
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
-description: Web-based c-test for measuring Korean proficiency
+description: Experiment MFC Codes for Running a AX Discrimination Listening Experiment
   
 tags:
 - praat
@@ -16,9 +16,7 @@ tags:
 <br> 
 <br>
 
-<table>
-<tr>
- "ooTextFile"
+> "ooTextFile"
 "ExperimentMFC 7"
 blank while playing? <no>
 stimuli are sounds? <yes>
@@ -45,9 +43,7 @@ responses are sounds? <no> "" "" "" "" 0 0 0
     0.1 0.4 0.35 0.65 "same" 24 "" "same"
     0.6 0.9 0.35 0.65 "different" 24 "" "different"
 0 goodness categories
-
-</tr>
-</table>
+  
   
 <br>
 <br>
