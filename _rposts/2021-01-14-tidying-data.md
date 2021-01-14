@@ -7,7 +7,7 @@ description: Codes for Tidying Data
 tags:
 - R
 - Data Science
-- Tidying data
+- Tidying
 - Removing
 - Renaming
 - Reshaping
