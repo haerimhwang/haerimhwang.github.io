@@ -76,7 +76,7 @@ defaults:
 
     values:
       layout: 'post'  
-      permalink: "/tools/:title"
+      permalink: "/tools/:title/"
       post-image: ""
       description: ""
       tags:
