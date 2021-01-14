@@ -45,16 +45,16 @@ tags:
 	- Write a row with column titles to the result file
 	- (Remember to edit this if you add or change the analyses!)
 	
-	```
-	titleline$ = "object_name	duration	'newline$'"
-	fileappend "'resultfile$'" 'titleline$'
+		```
+		titleline$ = "object_name	duration	'newline$'"
+		fileappend "'resultfile$'" 'titleline$'
 		```
 		<br>
 		<br>
 
 
-		- Make a list of all the sound files in the directory we're using, 
-		- and put the number of filenames into the variable "number_files"
+	- Make a list of all the sound files in the directory we're using, 
+	- and put the number of filenames into the variable "number_files"
 		```
 		Create Strings as file list...  list 'sound_directory$'*.wav
 		number_files = Get number of strings
