@@ -1,4 +1,4 @@
 ---
 title: Python
-layout: python-codes
+layout: pythoncodes
 ---
