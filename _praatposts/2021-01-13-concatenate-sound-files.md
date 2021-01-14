@@ -20,8 +20,7 @@ tags:
 <br>
 
 * Codes
-<br>
-<br>
+
   - Open two files in the input directory 
   - Concatenate them
 
