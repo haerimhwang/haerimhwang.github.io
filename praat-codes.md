@@ -1,4 +1,4 @@
 ---
 title: Praat
-layout: praat-codes
+layout: praatcodes
 ---
