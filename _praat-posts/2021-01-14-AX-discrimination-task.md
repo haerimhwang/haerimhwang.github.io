@@ -1,0 +1,49 @@
+---
+title: AX Discrimination Task
+layout: r-post
+post-image: "https://haerimhwang.github.io/assets/images/r.png"
+description: Web-based c-test for measuring Korean proficiency
+  
+tags:
+- praat
+- ExperimentMFC
+- AX task
+
+---
+
+* This script creates an AX discrimination task with the inputted sound files.
+<br> 
+<br>
+
+> "ooTextFile"
+"ExperimentMFC 7"
+blank while playing? <no>
+stimuli are sounds? <yes>
+"sounds/" ".wav"
+carrier phrase "" ""
+initial silence duration 0.0 seconds
+medial silence duration 1.0 seconds ! inter-stimulus interval
+final silence duration 5.0 seconds
+4 different stimuli
+    "pame,bame" "" "bame,pame" "" "pame,pame" "" "bame,bame" "" 
+2 replications per stimulus
+break after every 4 stimuli
+<PermuteBalancedNoDoublets>
+"Click to start."
+"Say whether these sounds are the same or different."
+"You can have a short break if you like. Click to proceed."
+"The experiment has finished. Thank you for your participation."
+0 replays
+replay button 0 0 0 0 "" ""
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+2 response categories
+    0.1 0.4 0.35 0.65 "same" 24 "" "same"
+    0.6 0.9 0.35 0.65 "different" 24 "" "different"
+0 goodness categories
+
+* Reference
+  https://www.fon.hum.uva.nl/praat/manual/ExperimentMFC_3_1__A_simple_discrimination_experiment.html
+
+---
