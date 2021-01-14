@@ -78,7 +78,7 @@ defaults:
 
     values:
       layout: 'post'  
-      permalink: "tools/:title"
+      permalink: "/tools/:title"
       post-image: ""
       description: ""
       tags:
@@ -89,7 +89,7 @@ defaults:
 
     values:
       layout: 'praat-post'  
-      permalink: "praat-posts/:title"
+      permalink: "/praat-posts/:title"
       post-image: ""
       description: ""
       tags:
@@ -101,7 +101,7 @@ defaults:
 
     values:
       layout: 'python-post'  
-      permalink: "python-posts/:title"
+      permalink: "/python-posts/:title"
       post-image: ""
       description: ""
       tags:
@@ -113,7 +113,7 @@ defaults:
 
     values:
       layout: 'r-post'  
-      permalink: "r-posts/:title"
+      permalink: "/r-posts/:title"
       post-image: ""
       description: ""
       tags:
