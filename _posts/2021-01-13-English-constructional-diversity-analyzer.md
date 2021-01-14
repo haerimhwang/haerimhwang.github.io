@@ -1,5 +1,5 @@
 ---
-title: English Constructional Diversity 
+title: English Constructional Diversity Analyzer
 layout: post
 post-image: "https://haerimhwang.github.io/assets/images/CDA.png"
 description: GUI Application for Measuring Constructional Diversity of English Texts
@@ -23,7 +23,9 @@ tags:
 
 * When you use this analyzer for your research, please cite: <br>
 	`Hwang, H., Choe, A., & Zenker, F. (2020). Construction Counter: A tool to measure (nonnative) language development. Brown Bag Series, 
-	University of Hawai‘i at Mānoa, Honolulu, USA. (April 16)` <br>
+	University of Hawai‘i at Mānoa, Honolulu, USA. (April 16)` 
+	<br>
+	<br>
 	`Hwang, H., & Kim, H. (submitted). Constructional diversity as a predictor of second language writing development: A corpus-based NLP analysis.` <br>
 	
 ---
