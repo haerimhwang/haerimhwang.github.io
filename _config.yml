@@ -61,10 +61,10 @@ plugins:
 
 # Permalink
 permalinks: 
-  tools: "tools/:title"
-  praat-codes: "praat-codes/:title"
-  python-codes: "python-codes/:title"
-  r-codes: "r-codes/:title"
+  tools: "/tools/:title"
+  praat-codes: "/praat-codes/:title"
+  python-codes: "/python-codes/:title"
+  r-codes: "/r-codes/:title"
 
 # Compress
 compress_html:
