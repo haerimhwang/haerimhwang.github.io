@@ -77,6 +77,37 @@ defaults:
       description: ""
       tags:
         - ""
+        
+  -
+    scope:
+      type: 'praatposts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+ 
+   -
+    scope:
+      type: 'pythonposts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+ 
+   -
+    scope:
+      type: 'rposts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+        
   -
     scope:
       type: 'pages'
