@@ -68,49 +68,54 @@ compress_html:
 
 # Defaults
 defaults:
-  - scope:
-      type: 'posts'
-    values:
-      permalink: "tools/:title"
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
+- 
+  scope:
+    type: 'posts'
+  values:
+    permalink: "tools/:title"
+    layout: post
+    post-image: ""
+    description: ""
+    tags: ""
         
-  - scope:
-      type: 'praatposts'
-    values:
-      permalink: "praatcodes/:title"
-      layout: praatpost
-      post-image: ""
-      description: ""
-      tags:
-        - ""
- 
-   - scope:
-      type: 'pythonposts'
-    values:
-      layout: pythonpost
-      post-image: ""
-      description: ""
-      tags:
-        - ""
- 
-   - scope:
-      type: 'rposts'
-    values:
-      layout: rpost
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-        
-  - scope:
-      type: 'pages'
-    values:
-      layout: page
+- 
+  scope:
+    type: 'praatposts'
+  values:
+    permalink: "praatposts/:title"
+    layout: praatpost
+    post-image: ""
+    description: ""
+    tags: ""
 
+- 
+  scope:
+    type: 'pythonposts'
+  values:
+    permalink: "pythonposts/:title"
+    layout: pythonpost
+    post-image: ""
+    description: ""
+    tags: ""
+    
+- 
+  scope:
+    type: 'rposts'
+  values:
+    permalink: "rposts/:title"
+    layout: rpost
+    post-image: ""
+    description: ""
+    tags: ""    
+
+- 
+  scope:
+    type: 'pages'
+  values:
+    layout: page
+    post-image: ""
+    description: ""
+    tags: ""
 
 # Exclude
 exclude:
