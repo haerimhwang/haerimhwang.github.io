@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "blog/:title"
+#permalink: "tools/:title"
 
 # Compress
 compress_html:
@@ -70,6 +70,10 @@ compress_html:
 
 # Collection folders
 collections:
+  posts:
+    output: true
+    permalink: /tools/:title
+      
   praatposts:
     output: true
     permalink: /praatcodes/:title
