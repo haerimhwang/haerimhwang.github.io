@@ -15,7 +15,8 @@ tags:
 
 ---
 
-* This script outputs final proficiency scores for the English poduction data based on the three measures: (a) morpho-syntactic complexity (verbal density), (b) lexical complexity (Moving-Average Type-Token Ratio), and (c) morphological/syntactic/lexical accuracy (pre-coded by human annotators and then inputted to the codes).  
+* This script outputs final proficiency scores for the English poduction data based on the three measures: (a) morpho-syntactic complexity (verbal density), (b) lexical complexity (Moving-Average Type-Token Ratio), and (c) morphological/syntactic/lexical accuracy (pre-coded by human annotators and then inputted to the codes). 
+
   - Morpho-syntactic complexity was measured in terms of verbal density by dividing the number of finite verbs plus the number of nonfinite verbs (infinitives, gerunds, and participles) by the total number of T-units (see K.-S. Park, 2014, p. 157). 
   - For lexical complexity, the Moving Average Type-Token Ratio (MATTR; Covington & McFall, 2010) was computed by calculating the average of the type-token ratio for every moving text sequence of 15 consecutive words.
   - Morphological, syntactic, and lexical errors were manually coded by two English native speakers. For example, morphological errors included errors in subject–verb agreement (e.g., [EL2_04] The girl brush the teeth.), tense agreement (e.g., [EL2_06] The bear woke up and say …), and adjectives (e.g., [LL2_10] sleep for asleep). Syntactic errors included errors in the use of overt determiners (e.g., [LL2_13] So Ø boy argued that the book is too close to her.) and voice (e.g., [LL2_01] After that, the boy was waked and was afraid again.). Lexical errors involved non-target-like use of target forms with respect to their meaning or function, such as non-target-like use of lexical items (e.g., [LL2_02] … she visited her mom and dad to stay with her.). For the full details about the error coding procedure, see K.-S. Park (2014, pp. 164–168).
@@ -169,7 +170,6 @@ tags:
     ```
     df.to_csv("output.csv", sep=',', encoding='utf-8')
     ```
-
   <br>
   <br>
   <br>
@@ -178,9 +178,11 @@ tags:
   `Hwang, H. (2020). A contrast between VP-ellipsis and Gapping in English: L1 acquisition, L2 acquisition, and L2 processing (Unpublished doctoral dissertation). University of Hawai'i, Honolulu, HI.` 
 <br>
 <br>
+<br>
 
 * References: <br>
   `Park, K.-S. (2014). Information structure and dative word‑order alternations in English and Korean: L1 children, L2 children, and L2 adults (Unpublished doctoral dissertation). University of Hawai‘i at Mānoa, Honolulu, HI.`
+  <br>
   <br>
   `Covington, M. A., & McFall, J. D. (2010). Cutting the Gordian knot: The moving-average type-token ratio (MATTR). Journal of quantitative linguistics, 17, 94–100.`
 
