@@ -261,7 +261,7 @@ Different amounts of background noise can change the ideal pause detection param
 
 		#******************************************************************************************************
 
-		procedure BoundaryCheck 	# this procedure checks whether a boundary already exists at a given time (in tier 1)
+		procedure BoundaryCheck # this procedure checks whether a boundary already exists at a given time (in tier 1)
 
 			tmpint = Get interval at time... 1 boundary
 			tmpstart = Get starting point... 1 tmpint
