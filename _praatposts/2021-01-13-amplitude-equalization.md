@@ -53,7 +53,7 @@ tags:
     select Strings list
     fileName$ = Get string... ifile
     Read from file... 'inputDir$''fileName$'
-  ```
+  
     Scale intensity... 'dB' # THIS IS WHERE YOU SPECIFY THE OPERATION YOU WANT PRAAT TO DO
 
     Write to WAV file... 'fileName$'
