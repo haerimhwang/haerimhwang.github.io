@@ -60,7 +60,11 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "tools/:title"
+permalinks: 
+  tools: "tools/:title"
+  praat-codes: "praat-codes/:title"
+  python-codes: "python-codes/:title"
+  r-codes: "r-codes/:title"
 
 # Compress
 compress_html:
