@@ -68,8 +68,7 @@ compress_html:
 
 # Defaults
 defaults:
-  -
-    scope:
+  - scope:
       type: 'posts'
     values:
       permalink: "tools/:title"
@@ -79,8 +78,7 @@ defaults:
       tags:
         - ""
         
-  -
-    scope:
+  - scope:
       type: 'praatposts'
     values:
       permalink: "praatcodes/:title"
@@ -90,8 +88,7 @@ defaults:
       tags:
         - ""
  
-   -
-    scope:
+   - scope:
       type: 'pythonposts'
     values:
       layout: pythonpost
@@ -100,8 +97,7 @@ defaults:
       tags:
         - ""
  
-   -
-    scope:
+   - scope:
       type: 'rposts'
     values:
       layout: rpost
@@ -110,8 +106,7 @@ defaults:
       tags:
         - ""
         
-  -
-    scope:
+  - scope:
       type: 'pages'
     values:
       layout: page
