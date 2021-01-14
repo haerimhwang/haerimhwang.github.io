@@ -1,4 +1,4 @@
 ---
 title: R
-layout: tools
+layout: r-codes
 ---
