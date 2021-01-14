@@ -46,7 +46,8 @@ responses are sounds? <no> "" "" "" "" 0 0 0
 
 <br>
 <br>
-* Reference
-  https://www.fon.hum.uva.nl/praat/manual/ExperimentMFC_3_1__A_simple_discrimination_experiment.html
-----------
+* Reference: <br>
+  `https://www.fon.hum.uva.nl/praat/manual/ExperimentMFC_3_1__A_simple_discrimination_experiment.html`
+
+
 ---
