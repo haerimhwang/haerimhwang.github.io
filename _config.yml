@@ -61,9 +61,6 @@ plugins:
 
 # Permalink
 permalink: "tools/:title"
-permalink: "praatcodes/:title"
-permalink: "pythoncodes/:title"
-permalink: "rcodes/:title"
 
 # Compress
 compress_html:
@@ -76,6 +73,31 @@ defaults:
       type: 'posts'
     values:
       layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+
+# Permalink
+permalink: "praatcodes/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'praatposts'
+    values:
+      layout: praatpost
       post-image: ""
       description: ""
       tags:
