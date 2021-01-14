@@ -17,16 +17,16 @@ tags:
 
 * Codes
 
-####### Set your directories
-```
-form Analyze pitch of sound files 
-  	 comment Directory of sound files
-  	 text sound_directory /Users/haerimhwang/Desktop/Done/
-  	 sentence Sound_file_extension .wav
- 	 comment Full path of the resulting text file:
- 	 text resultfile /Users/haerimhwang/Desktop/results.txt
-endform
-```
+	###### Set your directories
+	```
+	form Analyze pitch of sound files 
+		 comment Directory of sound files
+		 text sound_directory /Users/haerimhwang/Desktop/Done/
+		 sentence Sound_file_extension .wav
+		 comment Full path of the resulting text file:
+		 text resultfile /Users/haerimhwang/Desktop/results.txt
+	endform
+	```
 <br>
 <br>
 
