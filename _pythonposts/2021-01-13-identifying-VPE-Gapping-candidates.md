@@ -175,11 +175,10 @@ tags:
                     writer.writeheader()  # if a file doesn't exist yet, write a header
                 writer.writerow({"file_name": file_name, 'total_counter': total_counter, 'counter': counter, "sent": sent})# write a CSV file including the file name, the total number of Gapping candidates, the number of Gapping candidates in the sentence under analysis, and the sentence identified as a Gapping candidate
     
-    ```
-    
-<br>
-<br>
-<br>
+    ``` 
+  <br>
+  <br>
+  <br>
 
 * When you use this script, please cite: <br>
   `Hwang, H. (2020). A contrast between VP-ellipsis and Gapping in English: L1 acquisition, L2 acquisition, and L2 processing (Unpublished doctoral dissertation). University of Hawai'i, Honolulu, HI.` 
