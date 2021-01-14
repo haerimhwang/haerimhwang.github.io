@@ -2,7 +2,7 @@
 title: Duration Measurement 
 layout: praatpost
 praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
-description: Experiment MFC Codes for Running a AX Discrimination Listening Experiment
+description: Codes for Measuring the Duration of Sound Files
   
 tags:
 - praat
