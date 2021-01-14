@@ -49,8 +49,8 @@ tags:
 		titleline$ = "object_name	duration	'newline$'"
 		fileappend "'resultfile$'" 'titleline$'
 		```
-		<br>
-		<br>
+	<br>
+	<br>
 
 
 	- Make a list of all the sound files in the directory we're using, 
@@ -86,7 +86,6 @@ tags:
 
 		endfor
 		```
-	
 	<br>
 	<br>
 
@@ -99,7 +98,6 @@ tags:
 
 		print All files have been processed!
 		```
-
 	<br>
 	<br>
 
