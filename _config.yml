@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-#permalink: "tools/:title"
+permalink: "blog/:title"
 
 # Compress
 compress_html:
@@ -72,7 +72,6 @@ defaults:
     scope:
       type: 'posts'
     values:
-      permalink: "/tools/:title"
       layout: post
       post-image: ""
       description: ""
@@ -84,22 +83,6 @@ defaults:
     values:
       layout: page
 
-defaults:
-  -
-    scope:
-      type: 'praatposts'
-    values:
-      permalink: "praatcodes/:title"
-      layout: praatpost
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
 # Exclude
 exclude:
   - .sass-cache/
