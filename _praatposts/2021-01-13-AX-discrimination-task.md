@@ -1,7 +1,7 @@
 ---
 title: AX Discrimination Task
 layout: praatpost
-post-image: https://haerimhwang.github.io/assets/images/praat.png
+post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Experiment MFC Codes for Running a AX Discrimination Listening Experiment
   
 tags:
