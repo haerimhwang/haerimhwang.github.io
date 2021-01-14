@@ -60,11 +60,8 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalinks: 
-  tools: "/tools/:title"
-  praat-codes: "/praat-codes/:title"
-  python-codes: "/python-codes/:title"
-  r-codes: "/r-codes/:title"
+permalink: "/tools/:title"
+
 
 # Compress
 compress_html:
@@ -74,19 +71,10 @@ compress_html:
 defaults:
   -
     scope:
-      type: 
-        tools: 'posts'
-        praat-codes: 'praat-posts'
-        python-codes: 'python-posts'
-        r-codes: 'r-posts'
-        
+      type: 'posts'
+
     values:
-      layout: 
-          tools: 'post'
-          praat-codes: 'praat-post'
-          python-codes: 'python-post'
-          r-codes: 'r-post'
-          
+      layout: 'post'          
       post-image: ""
       description: ""
       tags:
