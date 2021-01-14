@@ -60,7 +60,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "python-codes/:title"
+permalink: "tools/:title"
 
 # Compress
 compress_html:
@@ -70,9 +70,9 @@ compress_html:
 defaults:
   -
     scope:
-      type: 'python-posts'
+      type: 'posts'
     values:
-      layout: python-post
+      layout: post
       post-image: ""
       description: ""
       tags:
