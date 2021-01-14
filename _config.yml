@@ -70,7 +70,63 @@ compress_html:
 
 
 
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
 
+    values:
+      layout: 'post'  
+      permalink: "tools/:title"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'praat-posts'
+
+    values:
+      layout: 'praat-post'  
+      permalink: "praat-posts/:title"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  
+  -
+    scope:
+      type: 'python-posts'
+
+    values:
+      layout: 'python-post'  
+      permalink: "python-posts/:title"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  
+-
+    scope:
+      type: 'r-posts'
+
+    values:
+      layout: 'r-post'  
+      permalink: "r-posts/:title"
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  
+  
+  
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+      
 
 
 # Exclude
