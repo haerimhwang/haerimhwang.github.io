@@ -60,28 +60,28 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink.tools: "tools/:title"
+permalink: "tools/:title"
 
 # Compress
-compress_html.tools:
-  clippings.tools: all
+compress_html:
+  clippings: all
 
 # Defaults
-defaults.tools:
+defaults:
   -
-    scope.tools:
-      type.tools: 'posts'
-    values.tools:
-      layout.tools: post
-      post-image.tools: ""
-      description.tools: ""
-      tags.tools:
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
         - ""
   -
-    scope.tools:
-      type.tools: 'pages'
-    values.tools:
-      layout.tools: page
+    scope:
+      type: 'pages'
+    values:
+      layout: page
 
 
 
