@@ -1,8 +1,8 @@
 ---
-title: Identifying VP-ellipsis and Gapping candidates
+title: Identify VP-ellipsis and Gapping Candidates
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: Codes for Identifying VPE and Gapping instances from English Data using benepar and spaCy
+description: Codes for Identifying VPE and Gapping Candidates from English Data Using benepar and spaCy
   
 tags:
 - Python
