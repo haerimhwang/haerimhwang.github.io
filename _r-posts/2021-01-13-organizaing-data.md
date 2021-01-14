@@ -1,6 +1,6 @@
 ---
 title: Korean C-Test
-layout: post
+layout: r-post
 post-image: "https://haerimhwang.github.io/assets/images/ctest.png"
 description: Web-based c-test for measuring Korean proficiency
   
