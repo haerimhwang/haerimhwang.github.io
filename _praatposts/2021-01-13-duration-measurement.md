@@ -10,7 +10,7 @@ tags:
 
 ---
 
-* This script is for measuring the duration of individual sound files and saving the ourput in a separate text file. This script is developed based on the two scripts: (1) one by Brynn Hauk from the praat workshop in LING 632 at University of Hawai'i and (2) the other by Paul Boersma and David Weenink.
+* #### This script is for measuring the duration of individual sound files and saving the ourput in a separate text file. This script is developed based on the two scripts: (1) one by Brynn Hauk from the praat workshop in LING 632 at University of Hawai'i and (2) the other by Paul Boersma and David Weenink.
 <br>
 <br>
 <br>
