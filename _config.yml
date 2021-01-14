@@ -66,6 +66,25 @@ permalink: "blog/:title"
 compress_html:
   clippings: all
 
+
+
+# Collection folders
+collections:
+  praatposts:
+    output: true
+    permalink: /praatcodes/:title
+    
+  pythonposts:
+    output: true
+    permalink: /pythoncodes/:title
+    
+  rposts:
+    output: true
+    permalink: /rcodes/:title
+
+
+
+
 # Defaults
 defaults:
   -
@@ -77,11 +96,46 @@ defaults:
       description: ""
       tags:
         - ""
+     
+  -
+    scope:
+      type: 'praatposts'
+    values:
+      layout: praatpost
+      post-image: ""
+      description: ""
+      tags:
+        - ""     
+     
+  -
+    scope:
+      type: 'pythonposts'
+    values:
+      layout: pythonpost
+      post-image: ""
+      description: ""
+      tags:
+        - ""     
+
+  -
+    scope:
+      type: 'rposts'
+    values:
+      layout: rpost
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+        
   -
     scope:
       type: 'pages'
     values:
       layout: page
+
+
+
+
 
 # Exclude
 exclude:
