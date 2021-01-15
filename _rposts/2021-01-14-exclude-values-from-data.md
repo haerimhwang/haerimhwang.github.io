@@ -17,6 +17,9 @@ tags:
 <br>
 
 * You can download [the sample dataset](https://haerimhwang.github.io/assets/data/CSV_judgment_data.csv) for practice.
+<br> 
+<br>
+<br>
 
 * Codes
 
