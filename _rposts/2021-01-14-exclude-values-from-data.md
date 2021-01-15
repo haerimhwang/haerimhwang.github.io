@@ -20,6 +20,14 @@ tags:
 
 * Codes
 
+  - Open the file "CSV_judgment_data.csv"
+  
+    ```
+    raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
+    ```
+    <br>
+    <br>
+    
   - Exclude the group "Bilingual"; the two lines below do the same thing
   
     ```
