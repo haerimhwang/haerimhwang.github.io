@@ -31,7 +31,7 @@ tags:
     <br>
     <br>
     
-  - Load packages; install them when they are not installed
+  - Load packages; install them if they are not installed
     ```
     package.check <- lapply(
       packages,
