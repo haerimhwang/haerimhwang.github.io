@@ -40,8 +40,8 @@ tags:
     <br>
     <br>
     
-  -  Reshape data from a wide format to a long format
-    
+  - Reshape data from a wide format to a long format
+  
     ```
     data_L2_long <- gather(data_L2_wide, condition, judgment, If_No_gap:Who_Gap, factor_key = TRUE)
     ```
