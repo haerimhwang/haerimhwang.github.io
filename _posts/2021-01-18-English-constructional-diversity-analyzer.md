@@ -15,9 +15,9 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Constructional Diversity Analyzer for Mac](https://drive.google.com/file/d/1bAqLUhY_5KbX7OHO9ceRAXMN_-yOftg1/view?usp=sharing){:target="blankl"}
+* [Click Here for Mac](https://drive.google.com/file/d/1bAqLUhY_5KbX7OHO9ceRAXMN_-yOftg1/view?usp=sharing){:target="blankl"}
 
-* [Click Here for the Constructional Diversity Analyzer for Windows](https://drive.google.com/file/d/1Xh-1e9Z6GDxZOsE4FVRfCROckDwpP2Ie/view?usp=sharing){:target="blankl"}
+* [Click Here for Windows](){:target="blankl"}
 <br>
 <br>
 
