@@ -15,9 +15,9 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Korean Syntactic Complexity Analyzer for Mac](https://drive.google.com/file/d/147XIqwBzTRuwXoAoeBBs804UORxWi8Kn/view?usp=sharing){:target="blankl"}
+* [Click Here for Mac](https://drive.google.com/file/d/147XIqwBzTRuwXoAoeBBs804UORxWi8Kn/view?usp=sharing){:target="blankl"}
 
-* [Click Here for the Korean Syntactic Complexity Analyzer for Windows](https://drive.google.com/file/d/1LObMszM6Fghxqk49-ntFH_by83ou7s_h/view?usp=sharing){:target="blankl"}
+* [Click Here for Windows](){:target="blankl"}
 <br>
 <br>
 
