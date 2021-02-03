@@ -20,7 +20,7 @@ tags:
   - <b> Morpho-syntactic complexity </b> was measured in terms of verbal density by dividing the number of finite verbs plus the number of nonfinite verbs (infinitives, gerunds, and participles) by the total number of T-units (see K.-S. Park, 2014, p. 157). 
   - For <b> lexical complexity </b>, the Moving Average Type-Token Ratio (MATTR; Covington & McFall, 2010) was computed by calculating the average of the type-token ratio for every moving text sequence of 15 consecutive words.
   - <b> Morphological, syntactic, and lexical accuracy </b> (or errors) were manually coded by two English native speakers. For example, morphological errors included errors in subject–verb agreement (e.g., The girl brush the teeth.), tense agreement (e.g., The bear woke up and say …), and adjectives (e.g., sleep for asleep). Syntactic errors included errors in the use of overt determiners (e.g., So Ø boy argued that the book is too close to her.) and voice (e.g., After that, the boy was waked and was afraid again.). Lexical errors involved non-target-like use of target forms with respect to their meaning or function, such as non-target-like use of lexical items (e.g., … she visited her mom and dad to stay with her.). For the full details about the error coding procedure, see K.-S. Park (2014, pp. 164–168).
-  - Note that your predoded data for accuracy should look like [this file](.
+  - Note that your predoded data for accuracy should be saved as a CSV file. Click [this file](https://haerimhwang.github.io/assets/python/proficiency.csv){:target="blankl"} for example.
 <br> 
 <br>
 <br>
