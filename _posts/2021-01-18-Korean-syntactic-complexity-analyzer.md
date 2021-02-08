@@ -18,7 +18,7 @@ tags:
 * [Click Here for Mac](https://drive.google.com/file/d/147XIqwBzTRuwXoAoeBBs804UORxWi8Kn/view?usp=sharing){:target="blankl"}
 <br>
 <br>
-* [Click Here for Windows](){:target="blankl"}
+* [Click Here for Windows](){:target="blankl"} <br>
    * Important for Windows users: This tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="blankl"} and (2) set Environment Variables in Java. Click [here](https://www.guru99.com/install-java.html){:target="blankl"} for full instructions. 
 <br>
 <br>
