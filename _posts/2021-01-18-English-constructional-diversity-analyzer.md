@@ -19,7 +19,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for Windows](){:target="blankl"}
+* [Click Here for Windows](https://drive.google.com/file/d/1YFuJ8jh1Rrw3PfAoNqJhBMAGSVkZd4IB/view?usp=sharing){:target="blankl"}
 <br>
 <br>
 
