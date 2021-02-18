@@ -28,6 +28,6 @@ tags:
 	University of Hawai‘i at Mānoa, Honolulu, USA. (April 16)` 
 	<br>
 	<br>
-	`Hwang, H., & Kim, H. (submitted). Constructional diversity as a predictor of second language writing development: A corpus-based NLP analysis.` <br>
+	`Hwang, H., & Kim, H. (submitted). Automatic analysis of constructional diversity as a predictor of EFL students' writing proficiency. <br>
 	
 ---
