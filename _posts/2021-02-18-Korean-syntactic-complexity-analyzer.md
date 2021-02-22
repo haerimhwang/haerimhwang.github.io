@@ -18,7 +18,7 @@ tags:
 * [Click Here for Mac](https://drive.google.com/file/d/147XIqwBzTRuwXoAoeBBs804UORxWi8Kn/view?usp=sharing){:target="blankl"}
 <br>
 <br>
-* [Click Here for Windows](https://drive.google.com/file/d/1WxbKzZ_rT9c5AUI6TPj1NMIDwnKx4lR6/view?usp=sharing){:target="blankl"} <br>
+* [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing){:target="blankl"} <br>
    * Important for Windows users: This tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="blankl"} and (2) set Environment Variables in Java. Click [here](https://www.guru99.com/install-java.html){:target="blankl"} for full instructions. 
 <br>
 <br>
