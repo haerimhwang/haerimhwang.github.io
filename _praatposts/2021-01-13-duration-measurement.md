@@ -17,7 +17,7 @@ tags:
 
 * Codes
 
-	- Set your directories
+	- Set your directory
 	
 		```
 		form Analyze pitch of sound files 
@@ -53,7 +53,7 @@ tags:
 	<br>
 
 
-	- Make a list of all the sound files in the directory we're using, 
+	- Make a list of all the sound files in the directory you're using, 
 	- and put the number of filenames into the variable "number_files"
 		```
 		Create Strings as file list...  list 'sound_directory$'*.wav
@@ -62,9 +62,9 @@ tags:
 	<br>
 	<br>
 
-	- Set up a "for" loop that will iterate once for every file in the list,
-	- Query the file-list to get the first filename from it, then read that file in,
-	- Make a variable called "object_name$" that will be equal to the filename minus the ".wav" extension
+	- Set up a "for" loop that will iterate once for every file in the list;
+	- Query the file-list to get the first filename from it, then read that file in;
+	- Make a variable called "object_name$" that will be equal to the filename minus the ".wav" extension;
 	- Save result to text file
 	
 		```
