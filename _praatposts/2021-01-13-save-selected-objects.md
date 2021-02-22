@@ -17,7 +17,7 @@ tags:
 
 * Codes
 
-  - Set your directories	
+  - Set your output directory where the selected objects will be saved
 		
     ```
     dir$ = "/Users/haerimhwang/Desktop/re-recorded/"
