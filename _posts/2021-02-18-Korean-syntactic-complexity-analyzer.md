@@ -15,7 +15,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for Mac](https://drive.google.com/file/d/147XIqwBzTRuwXoAoeBBs804UORxWi8Kn/view?usp=sharing){:target="blankl"}
+* [Click Here for Mac](https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing){:target="blankl"}
 <br>
 <br>
 * [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing){:target="blankl"} <br>
