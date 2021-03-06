@@ -50,7 +50,8 @@ tags:
     <br>
     <br>
   
-  - Step 2: Split one csv file to multiple textfiles by participant code (i.e., row[0])
+  - Step 2: Split your CSV file to multiple textfiles by participant code (i.e., row[0])
+  - You can download [this CSV file](https://haerimhwang.github.io/assets/python/proficiency_data.csv){:target="blankl"} for example.
   
     ```  
     for key, rows in groupby(csv.reader(open("proficiency_data.csv", encoding="utf-8-sig", errors="ignore")), 
