@@ -42,22 +42,8 @@ tags:
     <br>
     <br>
   
-  - Step 2: Split one csv file to multiple textfiles by participant code (i.e., row[0])
-  
-    ```  
-    from itertools import groupby # group categories and apply a function to the categories (https://www.kaggle.com/crawford/python-groupby-tutorial)
 
-    for key, rows in groupby(csv.reader(open("Kor-teacher_data/FLKC.csv", encoding="utf-8-sig", errors="ignore")), 
-                             lambda row: row[0]): # for the csv file; group the data based on the first column (i.e., teacher code)
-
-        with open("Kor-teacher_data/%s.txt" % key, "w") as output: # under the data folder
-            for row in rows: # iterate through rows            
-                output.write("".join(str(row[1])) + "\n") # combine the info under the second column (i.e., utterances)
-    ```    
-    <br>
-    <br>   
-
-  - Step 3: Identify VPE candididates
+  - Step 2: Identify VPE candididates
 
     ```
     ## Sub_step 1: Set the lemma triggers and POS tag triggers
@@ -70,7 +56,7 @@ tags:
     ## Sub_step 2: Extract VP-ellipsis candidates
     vpe_candidates = [] # create a holder
 
-    all_files = sorted(glob.glob("practice_data/*.txt")) # use glob to get all filenames in folder
+    all_files = sorted(glob.glob("data/*.txt")) # use glob to get all filenames in folder
 
 
     for file in all_files: # iterate through files
@@ -114,8 +100,8 @@ tags:
 
                         ## create/open csv file to save the data
                         import os.path
-                        vpe_candidates_exists = os.path.isfile("xxx.csv") # set the file path
-                        with open ("xxx.csv", 'a') as csvfile: # create the file
+                        vpe_candidates_exists = os.path.isfile("vpe_candidates.csv") # set the file path
+                        with open ("vpe_candidates.csv", 'a') as csvfile: # create the file
                             headers = ["file_name", "total_counter", "counter", "token", "VPE_type", "sent"] # set the headers
                             writer = csv.DictWriter(csvfile, delimiter=',', lineterminator='\n',fieldnames=headers)
                             if not vpe_candidates_exists: # if the file doesn't exist yet
@@ -132,14 +118,14 @@ tags:
     <br>
     <br>
 
-  - Step 4: Identify Gapping candididates 
+  - Step 3: Identify Gapping candididates 
     ```
     ## Sub_step 1: Set the pattern which potentially has Gapping in it
     gap = 'NP|NN|NNP|PP $ NN|NNP|NP|PP|ADVP !$ VP|VBD|VBG|VBN|VBP|VBZ|VB'# potential gapping sentences: If NP is a sister of other constituents except for VPs
 
 
     ## Sub_step 2: Extract Gapping candidates
-    all_files = sorted(glob.glob("practice_data/*.txt")) # use glob to get all filenames in folder
+    all_files = sorted(glob.glob("data/*.txt")) # use glob to get all filenames in folder
 
     for file in all_files: # iterate through files
         text = open(file, "r", encoding="utf-8-sig").read() # open each file 
@@ -168,8 +154,8 @@ tags:
 
             ## create/open csv file to save the freq data
             import os.path
-            gapping_candidates_exists = os.path.isfile("gapping_candidates_textbook.csv") # set the file path
-            with open ("gapping_candidates_textbook.csv", 'a') as csvfile: # create a file
+            gapping_candidates_exists = os.path.isfile("gapping_candidates.csv") # set the file path
+            with open ("gapping_candidates.csv", 'a') as csvfile: # create a file
                 headers = ["file_name", "total_counter", "counter", "sent"] # set headers
                 writer = csv.DictWriter(csvfile, delimiter=',', lineterminator='\n',fieldnames=headers) 
                 if not gapping_candidates_exists:
