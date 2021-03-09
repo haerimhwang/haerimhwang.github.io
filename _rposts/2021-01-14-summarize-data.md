@@ -24,7 +24,7 @@ tags:
 
 * Codes
 
-  - Open the file "CSV_judgment_data.csv"
+  - Open the sample CSV file you downloaded from the above link 
   
     ```
     raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
