@@ -16,30 +16,9 @@ tags:
 <br>
 <br>
 
-* Codes
-
-  - Step 1: Import modules
-
-    ```
-    import os
-    import csv 
-    from itertools import groupby
-    ```
+* [Click Here for the Python Script](https://colab.research.google.com/drive/1eRXr3Y5ILYKqfNuouozNHVSceoCn5164?usp=sharing){:target="blankl"}
 <br>
 <br>
- 
-- Step 2: Split a CSV file to text files
-
-  ```
-  for key, rows in groupby(csv.reader(open("xxx.csv", encoding="utf-8-sig", errors="ignore")), lambda row: row[0]): # group the data based on the first column 
-      with open("%s.txt" % key, "w") as output: # or "with open("data/%s.txt" % key, "w") as output:" if you want to put all text files under the "data" folder
-          for row in rows: # iterate through rows            
-              output.write("".join(str(row[1])) + "\n") # combine the information in the cells under the second column
-
-  ```
-
 <br>
-<br>
-
 
 
