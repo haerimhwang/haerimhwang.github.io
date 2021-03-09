@@ -22,7 +22,7 @@ tags:
 
 * Codes
 
-  - Open the file "data_summary_L2.csv"
+  - Open the sample CSV file you downloaded from the above link 
   
     ```
     data_summary_L2 <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
