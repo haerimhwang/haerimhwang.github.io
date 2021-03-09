@@ -1,18 +1,17 @@
 ---
-title: Split CSV to Multiple Text Files
+title: Word2Vec Model Analysis for Semantic Similarities
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: Codes for Splitting One CSV File to Multiple Text Files 
+description: Codes for Analyzing Semantic Similarities via Word2Vec Model
   
 tags:
 - 
-- Splitting data
-- Multiple text files
-- Criterion
+- Word2Vec
+- Semantic similarities
 
 ---
 
-* This script splits a large CSV dataset into multiple text files based on the first column. The name of each file comes from the first column and the content of each file will come from all the cells in the second column.
+* This script analyzes semantic similarities between words by constructing a Word2Vec Model.
 <br> 
 <br>
 <br>
