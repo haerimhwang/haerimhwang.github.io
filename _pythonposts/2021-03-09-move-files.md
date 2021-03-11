@@ -29,7 +29,7 @@ tags:
 <br>
 <br>
  
-- Step 2: Move files that match a certain criterion from one directory to another
+  - Step 2: Move files that match a certain criterion from one directory to another
 
   ```
   source = "source_directory"
