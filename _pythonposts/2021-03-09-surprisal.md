@@ -32,7 +32,7 @@ tags:
 <br>
 <br>
  
-- Step 2: Read in corpus data that are freely available
+  - Step 2: Read in corpus data that are freely available
 
     ```
     nltk.download('reuters')
@@ -43,7 +43,7 @@ tags:
 <br>
 <br>
  
-- Step 3: Create placeholders for probability and surprisal
+  - Step 3: Create placeholders for probability and surprisal
 
     ```
     # Create a placeholder for probability model
@@ -55,7 +55,7 @@ tags:
 <br>
 <br>
   
-- Step 4: Count frequency of co-occurance  
+  - Step 4: Count frequency of co-occurance  
 
     ```
     for sentence in reuters.sents():
@@ -66,7 +66,7 @@ tags:
 <br>
 <br>
   
-- Step 5: Transform the counts to probabilities
+  - Step 5: Transform the counts to probabilities
 
     ```
     for w1_w2 in model_prob:
@@ -77,7 +77,7 @@ tags:
 <br>
 <br>
   
-- Step 6: Transform the counts to surprisal
+  - Step 6: Transform the counts to surprisal
 
     ```
     for w1_w2 in model_surprisal:
@@ -89,7 +89,7 @@ tags:
 <br>
 <br>  
 
-- Step 7: Test probability model
+  - Step 7: Test probability model
 
     ```
     model_prob['you', 'are']
@@ -98,7 +98,7 @@ tags:
 <br>
 <br>  
 
-- Step 8: Test surprisal model
+  - Step 8: Test surprisal model
 
     ```
     model_surprisal['you', 'are']
