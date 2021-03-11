@@ -29,7 +29,6 @@ tags:
     from collections import Counter, defaultdict
     import math
     ```
-
   <br>
   <br>
  
@@ -40,7 +39,6 @@ tags:
     
     reuters.sents()[0:10]
     ```
-
   <br>
   <br>
  
@@ -95,7 +93,6 @@ tags:
     ```
     model_prob['you', 'are']
     ```
-
   <br>
   <br>  
 
@@ -104,7 +101,6 @@ tags:
     ```
     model_surprisal['you', 'are']
     ```
-
 <br>
 <br>  
 <br>
