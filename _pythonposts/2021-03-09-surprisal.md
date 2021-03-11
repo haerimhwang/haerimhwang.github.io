@@ -1,18 +1,19 @@
 ---
-title: Split CSV to Multiple Text Files
+title: Build Probability and Surprisal Model
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: Codes for Splitting One CSV File to Multiple Text Files 
+description: Codes for Building Probability and Surprisal Model
   
 tags:
 - 
-- Splitting data
-- Multiple text files
-- Criterion
+- Probability
+- Surprisal
+- Language model
+- N-gram
 
 ---
 
-* This script splits a large CSV dataset into multiple text files based on the first column. The name of each file comes from the first column and the content of each file will come from all the cells in the second column.
+* This script builds language models to compute probability and surprisal based on n-gram counts.
 <br> 
 <br>
 <br>
@@ -33,87 +34,82 @@ tags:
  
 - Step 2: Read in corpus data that are freely available
 
-  ```
-  nltk.download('reuters')
+    ```
+    nltk.download('reuters')
 
-  reuters.sents()[0:10]
+    reuters.sents()[0:10]
 
-  ```
-
-  <br>
-  <br>
+    ```
+<br>
+<br>
  
 - Step 3: Create placeholders for probability and surprisal
 
-  ```
-  # Create a placeholder for probability model
-  model_prob = defaultdict(lambda: defaultdict(lambda: 0))
+    ```
+    # Create a placeholder for probability model
+    model_prob = defaultdict(lambda: defaultdict(lambda: 0))
 
-  # Create a placeholder for surprisal model
-  model_surprisal = defaultdict(lambda: defaultdict(lambda: 0))
-  ```
-
-  <br>
-  <br>
+    # Create a placeholder for surprisal model
+    model_surprisal = defaultdict(lambda: defaultdict(lambda: 0))
+    ```
+<br>
+<br>
   
 - Step 4: Count frequency of co-occurance  
 
-  ```
-  for sentence in reuters.sents():
-    for w1, w2, w3 in trigrams(sentence, pad_right=True, pad_left=True):
-        model_prob[(w1, w2)][w3] += 1
-        model_surprisal[(w1, w2)][w3] += 1
-  ```
-
-  <br>
-  <br>
+    ```
+    for sentence in reuters.sents():
+      for w1, w2, w3 in trigrams(sentence, pad_right=True, pad_left=True):
+          model_prob[(w1, w2)][w3] += 1
+          model_surprisal[(w1, w2)][w3] += 1
+    ```
+<br>
+<br>
   
 - Step 5: Transform the counts to probabilities
 
-  ```
-  for w1_w2 in model_prob:
-      total_count = float(sum(model_prob[w1_w2].values()))
-      for w3 in model_prob[w1_w2]:
-          model_prob[w1_w2][w3] /= total_count # probability
-  ```
-
-  <br>
-  <br>
+    ```
+    for w1_w2 in model_prob:
+        total_count = float(sum(model_prob[w1_w2].values()))
+        for w3 in model_prob[w1_w2]:
+            model_prob[w1_w2][w3] /= total_count # probability
+    ```
+<br>
+<br>
   
 - Step 6: Transform the counts to surprisal
 
-  ```
-  for w1_w2 in model_surprisal:
-    total_count = float(sum(model_surprisal[w1_w2].values()))
-    for w3 in model_surprisal[w1_w2]:
-        probability = model_surprisal[w1_w2][w3] / total_count  
-        model_surprisal[w1_w2][w3] = -math.log(probability) #-math.log(probability, 2) <-- Smith and Levy, 2013
-  ```
-
-  <br>
-  <br>  
+    ```
+    for w1_w2 in model_surprisal:
+      total_count = float(sum(model_surprisal[w1_w2].values()))
+      for w3 in model_surprisal[w1_w2]:
+          probability = model_surprisal[w1_w2][w3] / total_count  
+          model_surprisal[w1_w2][w3] = -math.log(probability) #-math.log(probability, 2) <-- Smith and Levy, 2013
+    ```
+<br>
+<br>  
 
 - Step 7: Test probability model
 
-  ```
-  model_prob['you', 'are']
-  ```
+    ```
+    model_prob['you', 'are']
+    ```
 
-  <br>
-  <br>  
+<br>
+<br>  
 
 - Step 8: Test surprisal model
 
-  ```
-  model_surprisal['you', 'are']
-  ```
-
-  <br>
-  <br>  
-  <br>
+    ```
+    model_surprisal['you', 'are']
+    ```
+<br>
+<br>  
+<br>
 
 * Reference: <br>
   `https://www.analyticsvidhya.com/blog/2019/08/comprehensive-guide-language-model-nlp-python-code/` 
+  <br>
   `https://nlpforhackers.io/language-models/`
 <br>
 <br>
