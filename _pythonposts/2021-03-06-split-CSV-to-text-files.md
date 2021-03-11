@@ -29,7 +29,7 @@ tags:
 <br>
 <br>
  
-- Step 2: Split a CSV file to text files
+  - Step 2: Split a CSV file to text files
 
   ```
   for key, rows in groupby(csv.reader(open("xxx.csv", encoding="utf-8-sig", errors="ignore")), lambda row: row[0]): # group the data based on the first column 
