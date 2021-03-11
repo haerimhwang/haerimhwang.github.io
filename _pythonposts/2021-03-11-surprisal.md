@@ -79,8 +79,8 @@ tags:
   - Step 6: Transform the counts to surprisal
 
      ```
-      for w1_w2 in model_surprisal:
-        total_count = float(sum(model_surprisal[w1_w2].values()))
+     for w1_w2 in model_surprisal:
+      total_count = float(sum(model_surprisal[w1_w2].values()))
         for w3 in model_surprisal[w1_w2]:
           probability = model_surprisal[w1_w2][w3] / total_count  
           model_surprisal[w1_w2][w3] = -math.log(probability) #-math.log(probability, 2) <-- Smith and Levy, 2013
