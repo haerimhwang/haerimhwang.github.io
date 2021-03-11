@@ -30,8 +30,8 @@ tags:
     import math
     ```
 
-<br>
-<br>
+  <br>
+  <br>
  
   - Step 2: Read in corpus data that are freely available
 
@@ -41,8 +41,8 @@ tags:
     reuters.sents()[0:10]
     ```
 
-<br>
-<br>
+  <br>
+  <br>
  
   - Step 3: Create placeholders for probability and surprisal
 
@@ -53,8 +53,8 @@ tags:
     # Create a placeholder for surprisal model
     model_surprisal = defaultdict(lambda: defaultdict(lambda: 0))
     ```
-<br>
-<br>
+  <br>
+  <br>
   
   - Step 4: Count frequency of co-occurance  
 
@@ -64,8 +64,8 @@ tags:
         model_prob[(w1, w2)][w3] += 1
         model_surprisal[(w1, w2)][w3] += 1
     ```
-<br>
-<br>
+  <br>
+  <br>
   
   - Step 5: Transform the counts to probabilities
 
@@ -75,9 +75,9 @@ tags:
       for w3 in model_prob[w1_w2]:
         model_prob[w1_w2][w3] /= total_count # probability
       ```
-<br>
-<br>
-  
+  <br>
+  <br>
+
   - Step 6: Transform the counts to surprisal
 
      ```
@@ -87,8 +87,8 @@ tags:
           probability = model_surprisal[w1_w2][w3] / total_count  
           model_surprisal[w1_w2][w3] = -math.log(probability) #-math.log(probability, 2) <-- Smith and Levy, 2013
      ```
-<br>
-<br>  
+  <br>
+  <br>  
 
   - Step 7: Test probability model
 
@@ -96,8 +96,8 @@ tags:
     model_prob['you', 'are']
     ```
 
-<br>
-<br>  
+  <br>
+  <br>  
 
   - Step 8: Test surprisal model
 
