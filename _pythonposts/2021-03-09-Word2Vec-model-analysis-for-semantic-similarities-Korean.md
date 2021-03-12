@@ -12,7 +12,7 @@ tags:
 
 ---
 
-* This script analyzes semantic similarities between words by constructing a Word2Vec Model.
+* This script analyzes semantic similarities between Korean words by constructing a Word2Vec Model.
 <br> 
 <br>
 <br>
