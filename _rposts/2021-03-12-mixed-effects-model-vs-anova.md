@@ -88,15 +88,15 @@ tags:
 
   - When we run the model on p. 2 with a contrast coding, we get the results for random effects as below. 
 
-   ```
+    ```
     Random effects:
     Groups		Name			Variance	Std.Dev.	Corr 
     participant	  	(Intercept)		0.040101	0.20025 
-                 	construction		0.150601	0.38807		0.80 
-                 	clause			0.160550	0.40069		−0.61	−0.87
-                 	construction:clause	0.477556	0.69105		−0.85	−0.80
-    item		(Intercept)		0.009452	0.09722 
-                 	construction		0.007289	0.08537		−0.45
+                 		construction		0.150601	0.38807		0.80 
+                 		clause			0.160550	0.40069		−0.61	−0.87
+                 		construction:clause	0.477556	0.69105		−0.85	−0.80
+    item			(Intercept)		0.009452	0.09722 
+                 		construction		0.007289	0.08537		−0.45
                   	clause			0.007876	0.08875		0.70	−0.95
                   	construction:clause	0.036609	0.19134		−0.60 	−0.45
     residual					0.168750	0.41079		0.16	0.76
