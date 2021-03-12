@@ -117,8 +117,9 @@ tags:
     construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
     ```
 
-<br>
-<br>
+    <br>
+    <br>
+    
   - Here, the underlined intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
 <br>
 
