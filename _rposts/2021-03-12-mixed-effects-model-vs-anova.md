@@ -46,7 +46,7 @@ tags:
     
   - In this study, “construction” and “clause” are the two independent variables. The dependent variable is z-scores that I converted from the raw acceptability judgment scores.
 
-<br>
+    <br>
   
   - In the following mixed-effects model (run with a contrast coding), the two independent variables “construction” and “clause” are added as fixed effects. 
 
@@ -57,14 +57,14 @@ tags:
     
   - Because the effects of “construction” and “clause” and their interaction might be different for different participants and items, I also added “participant” and “item” as random effects. Here, roughly speaking, the notation “(1 + construction * clause | participant)” that is underlined means that you tell the model to expect differing responses to the factors in question, which are “construction” and “clause” and their interaction in this case.
 
-<br>
+    <br>
 
   - By adding these random effects, now I have different intercept and slopes for “construction,” “clause,” and “construction:clause” (indicating interaction between “construction” and “clause”) per participant and item as below.
   
     ```
     $participant
-     		(Intercept) 	construction	clause		construction:clause
-    L2A_01	−0.13035717	−1.8822782	−0.21515671	−0.14715510
+            (Intercept) 	construction	clause		construction:clause
+    L2A_01  −0.13035717	−1.8822782	−0.21515671	−0.14715510
     L2A_02	0.06596786	−1.7498164	−0.22280625	−0.22145612
     L2A_03	0.28485458	−1.3562880	−0.63579403	−1.24079459
     … …
@@ -81,15 +81,15 @@ tags:
   
   - Simply speaking, the intercept means a grand mean of z-scores given by each participant and item. (This is not true when you run a mixed-effects model with other coding options, such as a dummy coding. I will come back to this point.) The following slope value, termed as a coefficient, under the third column “construction” can be regarded as a difference between z‑scores for Gapping and those for VPE. 
 
-<br>
+    <br>
   
   - What is important for us is that the column with the coefficients for the effect of “construction,” “clause,” and their interaction is different for each participant and item. However, there is also some consistency in how “construction” affects the z‑scores despite the variation across participants and items. For example, the coefficients for “construction” across participants are always negative and many of the values are quite similar to each other. Specifically, for all participants, z-score tends to go down in the case of Gapping, but for some people it goes down slightly more so than for others (compare L2A_01 vs. L2A_03).
 
-<br>
+    <br>
 
   - Before turning to the interpretation of the results, see Figure 1 for the overall results of this pilot study. This figure shows acceptability z‑scores by condition.
 
-<br>
+    <br>
 
   - When we run the model on p. 2 with a contrast coding, we get the results for random effects as below. 
 
@@ -110,7 +110,7 @@ tags:
     
   - This is a measure of how much variability in the dependent measure there is due to participants and items, which are our random effects. You can see that item has much less variability than participant. At the very bottom, you see “residual” which stands for the variability that is not due to either participant or item. 
 
-<br>
+    <br>
   
   - Now, let’s take a look at the results of the model that we built (again, with a contrast coding). 
 
@@ -127,14 +127,14 @@ tags:
     
   - Here, the underlined intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
 
-<br>
+    <br>
 
   - The coefficient (often noted as Estimate or b) of “construction” is the slope for the categorical effect of “construction.” This means that to go from “VPE” to “Gapping”, you have to go down 1.32417. In other words, an acceptability judgment score is lower in Gapping than in VPE, by about 1.32. 
 
-<br>
+    <br>
   - The coefficient “construction:clause” indicates a difference within one factor minus a difference within the other factor. We can obtain -0.94653 by subtracting (VPE-A − VPE-C) from (Gapping-A − Gapping-C).
 
-<br>
+    <br>
   - Then, there is a standard error associated with this slope. A t-value is simply the estimate divided by the standard error. 
  
 <br>
