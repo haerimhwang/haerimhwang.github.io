@@ -63,14 +63,14 @@ tags:
   
     ```
     $participant
-		(Intercept) 	construction	clause		construction:clause
+     		(Intercept) 	construction	clause		construction:clause
     L2A_01	−0.13035717	−1.8822782	−0.21515671	−0.14715510
     L2A_02	0.06596786	−1.7498164	−0.22280625	−0.22145612
     L2A_03	0.28485458	−1.3562880	−0.63579403	−1.24079459
     … …
 
     $item
-	(Intercept) 	construction	clause		construction:clause
+     	(Intercept) 	construction	clause		construction:clause
     1	0.11852205	−1.292183	−0.6962850	−0.8422584
     2	0.19970942	−1.387608	−0.5917419	−0.8100677
     3	0.24531526	−1.374109	−0.5889505	−0.9270524
@@ -95,7 +95,7 @@ tags:
 
     ```
     Random effects:
-    Groups		Name			Variance	Std.Dev.	Corr 
+    Groups			Name			Variance	Std.Dev.	Corr 
     participant	  	(Intercept)		0.040101	0.20025 
                  		construction		0.150601	0.38807		0.80 
                  		clause			0.160550	0.40069		−0.61	−0.87
@@ -118,8 +118,8 @@ tags:
     Fixed effects:
     				Estimate	Std. Error  df		t value		Pr(>|t|)
     (Intercept)		        0.20417	    	0.05044	    27.42000	4.047		0.000381***
-    construction		−1.32417	0.09212	    22.78900	−14.375	  	6.47e-13***
-    clause			−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
+    construction			−1.32417	0.09212	    22.78900	−14.375	  	6.47e-13***
+    clause				−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
     construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
     ```
     
