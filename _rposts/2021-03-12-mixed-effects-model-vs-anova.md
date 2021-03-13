@@ -55,7 +55,7 @@ tags:
     ```
     <br>
     
-  - Because the effects of “construction” and “clause” and their interaction might be different for different participants and items, I also added “participant” and “item” as random effects. Here, roughly speaking, the notation “(1 + construction * clause | participant)” that is underlined means that you tell the model to expect differing responses to the factors in question, which are “construction” and “clause” and their interaction in this case.
+  - Because the effects of “construction” and “clause” and their interaction might be different for different participants and items, I also added “participant” and “item” as random effects. Here, roughly speaking, the notation “(1 + construction * clause ⦙ participant)” means that you tell the model to expect differing responses to the factors in question, which are “construction” and “clause” and their interaction in this case.
 
     <br>
 
@@ -125,7 +125,7 @@ tags:
     
     <br>
     
-  - Here, the underlined intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
+  - Here, the intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
 
     <br>
 
