@@ -45,6 +45,7 @@ tags:
     <br>
     
   - In this study, “construction” and “clause” are the two independent variables. The dependent variable is z-scores that I converted from the raw acceptability judgment scores.
+
 <br>
   
   - In the following mixed-effects model (run with a contrast coding), the two independent variables “construction” and “clause” are added as fixed effects. 
@@ -55,6 +56,7 @@ tags:
     <br>
     
   - Because the effects of “construction” and “clause” and their interaction might be different for different participants and items, I also added “participant” and “item” as random effects. Here, roughly speaking, the notation “(1 + construction * clause | participant)” that is underlined means that you tell the model to expect differing responses to the factors in question, which are “construction” and “clause” and their interaction in this case.
+
 <br>
 
   - By adding these random effects, now I have different intercept and slopes for “construction,” “clause,” and “construction:clause” (indicating interaction between “construction” and “clause”) per participant and item as below.
@@ -120,8 +122,7 @@ tags:
     clause			−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
     construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
     ```
-
-    <br>
+    
     <br>
     
   - Here, the underlined intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
