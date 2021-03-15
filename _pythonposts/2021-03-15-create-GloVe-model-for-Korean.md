@@ -2,7 +2,7 @@
 title: Create GloVe Model for Korean data
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: CODES FOR Creating GloVe MODEL to analyze SEMANTIC SIMILARITIES in English data 
+description: CODES FOR Creating GloVe MODEL to analyze SEMANTIC SIMILARITIES between English words 
   
 tags:
 - GloVe
@@ -11,7 +11,7 @@ tags:
 
 ---
 
-* This script analyzes semantic similarities between Korean words by constructing a GloVe Model. We use Google Colab for the script, which allows us to use GPU instead of CPU. 
+* This script creates a GloVe model to analyze semantic similarities between English words. We use Google Colab for the script, which allows us to use GPU instead of CPU. 
 <br> 
 <br>
 <br>
