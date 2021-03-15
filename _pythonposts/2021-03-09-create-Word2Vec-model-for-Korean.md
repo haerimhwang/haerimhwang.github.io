@@ -2,7 +2,7 @@
 title: Create Word2Vec Model for Korean data
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: Codes for Creating Word2Vec Model to compute Semantic Similarities in Korean data
+description: Codes for Creating Word2Vec Model to compute Semantic Similarities between Korean words
   
 tags:
 - 
@@ -12,7 +12,7 @@ tags:
 
 ---
 
-* This script analyzes semantic similarities between English words by constructing a Word2Vec Model. We use Google Colab for the script, which allows us to use GPU instead of CPU. 
+* This script creates a Word2Vec model to analyze semantic similarities between Korean words. We use Google Colab for the script, which allows us to use GPU instead of CPU. 
 <br> 
 <br>
 <br>
