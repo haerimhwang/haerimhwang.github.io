@@ -12,7 +12,7 @@ tags:
 
 ---
 
-* This script analyzes semantic similarities between Korean words by constructing a Word2Vec Model.
+* This script analyzes semantic similarities between English words by constructing a Word2Vec Model. We use Google Colab for the script, which allows us to use GPU instead of CPU. 
 <br> 
 <br>
 <br>
