@@ -1,11 +1,10 @@
 ---
-title: Word2Vec Model Analysis for Semantic Similarities for English data
+title: Create Word2Vec Model for English data
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: CODES FOR ANALYZING English Data for SEMANTIC SIMILARITIES VIA WORD2VEC MODEL
+description: CODES FOR Creating WORD2VEC MODEL to compute SEMANTIC SIMILARITIES for English data 
   
 tags:
-- 
 - Word2Vec
 - Semantic Similarities
 - English
