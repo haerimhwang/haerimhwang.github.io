@@ -2,7 +2,7 @@
 title: Create Word2Vec Model for English data
 layout: pythonpost
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
-description: CODES FOR Creating WORD2VEC MODEL to compute SEMANTIC SIMILARITIES for English data 
+description: CODES FOR Creating WORD2VEC MODEL to compute SEMANTIC SIMILARITIES in English data 
   
 tags:
 - Word2Vec
