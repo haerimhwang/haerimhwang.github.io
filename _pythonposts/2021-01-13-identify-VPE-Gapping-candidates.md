@@ -5,7 +5,6 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Identifying VPE and Gapping Candidates from English Data Using benepar and spaCy
   
 tags:
-- Python
 - Natural Language Processing
 - English
 - VP-ellipsis
