@@ -5,9 +5,10 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: CODES FOR Using Pre-trained GloVe MODEL to analyze SEMANTIC SIMILARITIES in English data 
   
 tags:
+- Natural Language Processing
+- English
 - Pre-trained GloVe model
 - Semantic Similarities
-- English
 
 ---
 
