@@ -5,8 +5,8 @@ praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Concatenating Sound Files
   
 tags:
-- praat
 - Concatenating
+- Combining
 
 ---
 
