@@ -5,7 +5,7 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Splitting One CSV File to Multiple Text Files 
   
 tags:
-- 
+- Data science
 - Splitting data
 - Multiple text files
 - Criterion
