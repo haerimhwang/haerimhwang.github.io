@@ -5,9 +5,10 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: CODES FOR Creating WORD2VEC MODEL to analyze SEMANTIC SIMILARITIES between English words 
   
 tags:
+- Natural Language Processing
+- English
 - Word2Vec
 - Semantic Similarities
-- English
 
 ---
 
