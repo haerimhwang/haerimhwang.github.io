@@ -5,7 +5,6 @@ praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Equalizing Amplitude of Sound Files
   
 tags:
-- praat
 - amplitude
 - dB
 
