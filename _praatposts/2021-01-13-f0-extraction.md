@@ -5,8 +5,8 @@ praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Extracting F0 Values from Sound Files
   
 tags:
-- praat
 - f0 extraction
+- frequency
 
 ---
 
