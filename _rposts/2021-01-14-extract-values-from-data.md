@@ -5,7 +5,6 @@ rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Extracting Values from Data
   
 tags:
-- R
 - Data Science
 - Extract Values
 
