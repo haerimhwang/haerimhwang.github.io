@@ -5,9 +5,10 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: CODES FOR Creating GloVe MODEL to analyze SEMANTIC SIMILARITIES between Korean words 
   
 tags:
+- Natural Language Processing
+- Korean
 - GloVe
 - Semantic Similarities
-- Korean
 
 ---
 
