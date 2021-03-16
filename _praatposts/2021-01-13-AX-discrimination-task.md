@@ -5,8 +5,8 @@ praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Experiment MFC Codes for Running a AX Discrimination Listening Experiment
   
 tags:
-- praat
 - ExperimentMFC
+- Discrimination
 - AX task
 
 ---
