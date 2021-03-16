@@ -5,7 +5,7 @@ rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes (and explanations) for Linear Mixed-Effects Regression Analysis
   
 tags:
-- R
+- Data Science
 - Linear Mixed-Effects Regression
 - ANOVA
 
