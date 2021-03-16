@@ -5,7 +5,8 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Building Probability and Surprisal Model
   
 tags:
-- 
+- Natural Language Processing
+- English
 - Probability
 - Surprisal
 - Language model
