@@ -5,8 +5,8 @@ praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Measuring the Duration of Sound Files
   
 tags:
-- praat
 - duration
+- length
 
 ---
 
