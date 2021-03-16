@@ -5,7 +5,6 @@ rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Reshaping Data
   
 tags:
-- R
 - Data Science
 - Reshaping Data
 
