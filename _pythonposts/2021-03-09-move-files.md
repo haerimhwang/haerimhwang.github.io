@@ -5,7 +5,7 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Moving Files that Match a Certain Criterion from One Directory to Another
   
 tags:
-- 
+- Data science
 - Move files
 - Change directories
 - Criterion
