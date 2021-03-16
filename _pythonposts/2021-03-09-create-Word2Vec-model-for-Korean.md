@@ -5,10 +5,10 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Creating Word2Vec Model to compute Semantic Similarities between Korean words
   
 tags:
-- 
+- Natural Language Processing
+- Korean
 - Word2Vec
 - Semantic similarities
-- Korean
 
 ---
 
