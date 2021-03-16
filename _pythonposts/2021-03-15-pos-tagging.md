@@ -5,10 +5,9 @@ pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Part-of-Speech Tagging
   
 tags:
-- Python
 - Natural Language Processing
 - English
-- Part-of-Speech
+- Part-of-Speech tagging
 
 ---
 
