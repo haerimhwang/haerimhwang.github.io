@@ -5,7 +5,6 @@ rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Summarizing Data
   
 tags:
-- R
 - Data Science
 - Summarizing Data
 - Descriptive Statistics
