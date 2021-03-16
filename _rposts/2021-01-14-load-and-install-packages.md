@@ -5,7 +5,6 @@ rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Loading Packages and Installing Those Which are not Installed
   
 tags:
-- R
 - Data Science
 - Load packages
 - Install packages
