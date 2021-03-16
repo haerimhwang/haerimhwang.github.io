@@ -5,7 +5,6 @@ praatpost-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Saving Selected Objects on Praat
   
 tags:
-- praat
 - save objects
 
 ---
