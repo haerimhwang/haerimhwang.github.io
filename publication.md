@@ -1,4 +1,4 @@
 ---
-title: publication
+title: PUBLICATION
 layout: publication
 ---
