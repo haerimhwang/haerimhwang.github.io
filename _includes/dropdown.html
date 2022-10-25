@@ -1,13 +1,18 @@
 <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
-        CODES
-    </a>
+    
+    <a class="navbar-link"> CODES </a>
+    
     <div class="navbar-dropdown has-background-black is-left">
-
+        {% for sitepage in site.html_pages %}
+        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/tools' or sitepage.url == '/publication' or sitepage.url == '/teaching' %}
+        
         <a href="{{sitepage.url | absolute_url}}"
             class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
             {{sitepage.title}}
         </a>
+        
+        
+        
         {% endunless %}
         {% endfor %}
         <!-- <hr class="navbar-divider">
