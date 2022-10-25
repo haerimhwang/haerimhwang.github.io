@@ -23,7 +23,7 @@ layout: compress
     var position = window.pageYOffset;
 
     for (var i = 0; i < navItems.length; i++) {
-      navItems[i].classList.remove('is-active');
+      navItems[i].classList.add('is-active');
     }
 
     for (var i = 0; i < heroes.length; i++) {
@@ -32,7 +32,8 @@ layout: compress
 
         if (scroll >= sectionTop && scroll < sectionBottom) {
           navItems[i].classList.add('is-active');
-      }
+          
+      } 
     }
   });
 </script>
