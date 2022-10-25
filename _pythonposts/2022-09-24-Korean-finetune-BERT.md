@@ -1,6 +1,6 @@
 ---
 title: Finetune BERT Models for Korean data
-layout: post
+layout: python
 post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for finetuning BERT models for sentiment analysis, summarization, mask prediction, text generation, and question answering
 tags:
