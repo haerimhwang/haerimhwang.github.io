@@ -19,7 +19,6 @@ tags:
 (6) number of verbs per sentence, and <br>
 (7) type frequency of particles per sentence. <br>
 <br>
-<br>
 
 * This tool has been developed using Kivy (https://kivy.org/#home) and KoNLPy (https://konlpy.org/en/latest/). 
 <br>
@@ -31,7 +30,6 @@ tags:
 
 * [Click Here for Mac](https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing) <br>
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu when this app is identified as one created by an unidentified developer on your device!  
-<br>
 <br>
         
 * [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing) <br>
