@@ -1,5 +1,5 @@
 ---
 title: Tool
-layout: blog
+layout: tool
 ---
 
