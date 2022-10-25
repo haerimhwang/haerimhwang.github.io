@@ -1,5 +1,5 @@
 ---
-title: tool
+title: TOOL
 layout: tool
 ---
 
