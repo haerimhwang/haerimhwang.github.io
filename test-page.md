@@ -1,6 +1,6 @@
 ---
-title: Test Page
-layout: page
+title: PYTHON
+layout: python
 ---
 
 # This is heading 1
