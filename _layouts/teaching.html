@@ -1,116 +1,29 @@
-<section class="hero is-fullheight" id="publications"> 
-  <div id="publication"></div><div id="publication">
-  <section class="hero" id="publication">
-    <div class="hero-body"><div class="container"> 
-      <br> 
-      <br> 
-      <br>
-      <h1> <b> Courses </b></h1>
+---
+layout: compress
+---
 
-      <br> 
-      <br> 
-      Fall, 2022 <br>
-      <b> Theoretical Linguistics <b> (MA) <br>
-      Department of English, The Chinese University of Hong Kong, Hong Kong <br> <br>
-  
-      <b> Cognitive Linguistics <b> (MA) <br>
-      Department of English, The Chinese University of Hong Kong, Hong Kong       
-        
-      Spring, 2022 <br>
-      <b> Psycholinguistics <b> (BA) <br>
-      Department of English, Korea University, Seoul, Republic of Korea <br> <br>
-        
-      Fall, 2021 <br>
-      <b> Psycholinguistics <b> (MA) <br>
-      Department of English, Korea University, Seoul, Republic of Korea <br> <br>
-  
-      Spring, 2021 <br>
-      <b> Psycholinguistics <b> (BA, online) <br>
-      Department of English, Korea University, Seoul, Republic of Korea <br> <br>
-        
-      Spring, 2020 <br>
-      <b> Second Language Analysis: Basic Language Concepts for Second Language Learning, Teaching, & Use <b> (BA, transitioned to online due to COVID) <br>
-      Department of Second Language Studies, University of Hawai'i, Honolulu, HI, USA <br> <br>     
-              
-      Fall, 2019 <br>
-      <b> Professionalism in Second Language Studies <b> (BA) <br>
-      Department of Second Language Studies, University of Hawai'i, Honolulu, HI, USA <br> <br>       
-              
-      Fall, 2018 – Spring, 2019 <br>
-      <b> Language Concepts for Second Language Learning and Teaching <b> (BA & MA) <br>
-      Department of Second Language Studies, University of Hawai'i, Honolulu, HI, USA <br> <br>       
- 
-      Spring, 2018 <br>
-      <b> Second Language Learning <b> (BA, online and offline hybrid course) <br>
-      Department of Second Language Studies, University of Hawai'i, Honolulu, HI, USA <br> <br>    
-        
-      Fall, 2017 <br>
-      <b> Second Language Learning <b> (BA) <br>
-      Department of Second Language Studies, University of Hawai'i, Honolulu, HI, USA <br> <br>       
+<!DOCTYPE html>
+<html>
 
-        
-      <br>  
-      <br>  
-        
-        
-      <h1> <b> Invited lectures/workshops </b></h1>
-      <br> 
-      <br> 
+{% include head.html %}
 
-        
-        
-      2022 <br> 
-      <b> Coh-Metrix workshop: Analysis of learner speech data <b> (BA) <br>
-      KAMALL (Korea Association of Multimedia-Assisted Language Learning) Digital Literacy Academy for Language Education Experts, Seoul, Korea. (June 10)
-      <br> 
-      <br> 
-        
-      <b> Artificial Intelligence and English Education <b> (BA) <br>
-      Seoul National University of Education & Sindorim Elementary School, Seoul, Republic of Korea (May 17)
-      <br> 
-      <br>    
-        
-      <b> Python and R Workshop: Keyword Analysis in Python & Ordinal Regression Analysis in R <b> (MA, PhD) <br>
-      Department of Physical Education, Sangji University, Wonju, Republic of Korea (April 28–30)
-      <br> 
-      <br>    
-        
-      <b> Python workshop: Text mining in Python <b> <br>
-      KAMALL (Korea Association of Multimedia-Assisted Language Learning) Digital Literacy Academy for Language Education Experts, Seoul, Korea (March 11)
-      <br> 
-      <br> 
-        
-      <b> Python Workshop: Artificial Intelligence in Applied Linguistics <b> (MA) <br>
-      Department of English Education, Gyeongin National University of Education, Anyang, Republic of Korea (February 17)
-      <br> 
-      <br> 
-        
-      <b> Python Workshop: Lexical and Syntactic Analysis of Korean Data <b> (MA, PhD) <br>
-      Department of Korean Studies, Ewha Womans University, Seoul, Republic of Korea (February 4–6)
-      <br> 
-      <br>     
-        
-      2021 <br>
-      <b> Python Workshop: Frequency and Semantic Analysis of Korean Datan <b> (BA) <br>
-      Department of Korean Studies, Ewha Womans University, Seoul, Republic of Korea (September 24–26)
-      <br> 
-      <br>    
-        
-      <b> R Workshop: Data Visualization <b> (BA) <br>
-      Department of English Language Education, Seoul National University, Seoul, Republic of Korea (December 11)
-      <br> 
-      <br>    
-        
-        
-      </div>
-    </div>
-  </section>
-  </div>
-</section>
+<body>
 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
+    <section class="hero is-fullheight" id="teaching">
+        <div class="hero-body">
+
+        <!--Publication Section-->
+        {% for post in site.posts %}
+            {% include teaching.html %}
+        {% endfor %}
+        </div>
+    </section>
+    <br>
+    <!--Footer begins here-->
+    {% include footer.html %}
+    <script src="{{site.url}}{{site.baseurl}}/assets/js/simple-jekyll-search.js"></script>
+
+
+</body>
+
+</html>
