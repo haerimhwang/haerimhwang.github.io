@@ -62,8 +62,8 @@ plugins:
   - jekyll-feed
 
 # Permalink
-#permalink: "tools/:title"
-permalinks: "tools/:title", "python/:title", "r/:title", "praat/:title"
+permalink: "tools/:title"
+#permalinks: "tools/:title", "python/:title", "r/:title", "praat/:title"
 
 # Compress
 compress_html:
@@ -79,6 +79,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
+      permalink: "tools/:title"
         - ""
   -
     scope:
@@ -88,6 +89,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
+      permalink: "python/:title"
         - ""
   -
     scope:
@@ -97,6 +99,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
+      permalink: "r/:title"
         - ""
   -
     scope:
@@ -106,6 +109,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
+      permalink: "praat/:title"
         - ""
   -
     scope:
