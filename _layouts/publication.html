@@ -1,49 +1,43 @@
-<section class="hero is-fullheight" id="publications"> 
-  <div id="publication"></div><div id="publication">
-  <section class="hero" id="publication">
-    <div class="hero-body"><div class="container"> 
-      <br> 
-      <br> 
-      <br>
-      <h1> <b> Publications </b></h1>
-      <br> 
-      <br> 
-      <b> Hwang, H.</b>, & Kim, H. (under review). Korean Syntactic Complexity Analyzer (KOSCA): An NLP Tool for the Analysis of Syntactic Complexity in Second Language Production. 
-      
-      <br> 
-      <br> 
-      <b> Hwang, H.</b>, & Kim, H. (2022). <a href = "https://academic.oup.com/applij/advance-article-abstract/doi/10.1093/applin/amac046/6686677?redirectedFrom=fulltext" target="_blank"> Automatic analysis of constructional diversity as a predictor of EFL students’ writing proficiency. </a> Applied Linguistics. (online first) 
-      <br> 
-      <br> 
-      Kim, H., & <b> Hwang, H. </b> (2022). <a href= "https://onlinelibrary.wiley.com/doi/abs/10.1111/lang.12480" target="_blank"> Assessing verb-construction integration in young learners of English as a foreign language. </a> Language Learning, 72(2), 497–533. doi: http://doi.org/10.1111/lang.12480. 
-      <br> 
-      <br> 
-      <b> Hwang, H. </b> (2022). <a href="https://www.degruyter.com/view/journals/cllt/ahead-of-print/article-10.1515-cllt-2019-0061/article-10.1515-cllt-2019-0061.xml?language=en" target="_blank"> Syntactico-semantic realizations of pronouns in the English transitive construction: A corpus-based analysis. </a> Corpus Linguistics and Linguistic Theory, 18(1), 115–143. doi: 10.1515/cllt-2019-0061. 
-      <br> 
-      <br> 
-      Kim, H., Shin, G-H., & <b> Hwang, H. </b> (2020). <a href="https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/integration-of-verbal-and-constructional-information-in-the-second-language-processing-of-english-dative-constructions/C71C6D5DDEC6AE37E564354918252394" target="_blank"> Integration of verbal and constructional information in the second language processing of English dative constructions. </a> Studies in Second Language Acquisition, 42(4), 825–847. doi: 10.1017/S0272263119000743. 
-      <br> 
-      <br>
-      Kim, H., Rah, Y., & <b> Hwang, H. </b> (2020). <a href="http://journal.kate.or.kr/wp-content/uploads/2020/07/v75_sp1_04.pdf" target="_blank"> Testing usage-based approaches to assessing EFL learners’ development of English argument structure constructions. </a> English Teaching, 75(s1), 55–78. doi: 10.15858/engtea.75.s1.202006.55 
-      <br> 
-      <br> 
-      <b> Hwang, H. </b>, Jung, H., & Kim, H. (2020). <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/modl.12626" target="_blank"> Effects of written versus spoken production modalities on syntactic complexity measures in beginning-level child EFL learners. </a> Modern Language Journal, 104(1), 267–283. doi: 10.1111/modl.12626 
-      <br> 
-      <br> 
-      <b> Hwang, H. </b>, & Kim, H. (2019). <a href="http://journal.kate.or.kr/wp-content/uploads/2020/01/v74_4_01.pdf" target="_blank"> A comparative analysis of EFL students’ needs and evaluation of English curriculum: A case study from Korea. </a> English Teaching, 74, 3–29. doi: 10.15858/engtea.74.4.201912.3 
-      <br> 
-      <br> 
-      Deen, K., Bondoc, I., Camp, A., Estioca, S., <b> Hwang, H. </b>, Shin, G.-H., Takahashi, M., Zenker, F., & Zhong, J. (2018). <a href="http://www.lingref.com/bucld/42/BUCLD42-16.pdf" target="_blank"> Repetition brings success: Revealing knowledge of the passive voice. </a> In A. B. Bertolini & M. J. Kaplan (Eds.), Proceedings of the 42nd annual Boston University Conference on Language Development (pp. 200–213). Somerville, MA: Cascadilla Press. 
-      <br> 
-      <br> 
-      Kim, H., <b> Hwang, H. </b>, & Rah, Y. (2017). <a href="http://cogsci.snu.ac.kr/jcs/index.php/issues/?pageid=5&uid=236&mod=document" target="_blank"> Young EFL students’ reliance on path-breaking verbs in the use of English argument structure constructions. </a> Journal of Cognitive Science, 18, 341–366. doi: 10.17791/jcs.2017.18.3.341 <br> <br> <br> <br> <br><h1> <b> DISSERTATION </b></h1><br> <br> <b> Hwang, H.</b> (2020). <a href="https://haerimhwang.github.io/assets/Hwang_Dissertation.pdf" target="_blank"> A contrast between VP-ellipsis and Gapping in English: L1 acquisition, L2 acquisition, and L2 processing (Unpublished doctoral dissertation). </a> University of Hawai'i, Honolulu, HI, USA. 
-      <br> 
-      <br> 
-      <br>
-      </div>
-    </div>
-  </section>
-  </div>
-</section>
+---
+layout: compress
+---
 
+<!DOCTYPE html>
+<html>
 
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+
+    <section class="hero is-fullheight" id="publication">
+        <div class="hero-body">
+            <div class="container">
+                {% include toolpage-heading.html %}
+            </div>
+        </div>
+        <div id="results-container"></div>
+        <!--Publication Section-->
+        {% for post in site.posts %}
+            {% include publication.html %}
+        {% endfor %}
+        </div>
+    </section>
+    <br>
+    <!--Footer begins here-->
+    {% include footer.html %}
+    <script src="{{site.url}}{{site.baseurl}}/assets/js/simple-jekyll-search.js"></script>
+
+    <script>
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{site.url}}{{site.baseurl}}/search.json',
+            searchResultTemplate: '<div style="border: 0.15rem dashed black" class="searchResult columns has-text-centered" id="tool-card"><div class="column is-marginless is-paddingless is-one-third-desktop is-one-third-fullhd is-one-third-tablet"><div class="image is-16by9" style="background-image: url({image});"></div></div><a href="{url}"><div class="column has-text-left-desktop has-text-left-tablet"><h1 class="title is-size-4-touch">{title}</h1><div class="content has-text-grey">{content}<hr class="has-background-grey"><span class="has-text-grey">Published on <span class="has-text-weight-semibold">{date}</span></span> | <i class="fas fa-clock"></i> <span class="has-text-weight-semibold">{readtime} min</span> read</div></div></a></div>',
+            noResultsText: '<div class="subtitle has-text-centered is-uppercase">No Results Found</div><hr class="has-background-black" style="margin: 0.5rem 5rem 2.5rem 5rem">',
+            fuzzy: true,
+        });
+    </script>
+</body>
+
+</html>
