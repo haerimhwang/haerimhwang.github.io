@@ -10,7 +10,6 @@ layout: compress
   {% include navbar.html %}
   {% include showcase.html %}
   {% include about.html %}
-  
   <!--Footer begins here-->
   {% include footer.html %}
 </body>
@@ -31,7 +30,9 @@ layout: compress
         var sectionTop = heroes[i].offsetTop-viewOffset;
         var sectionBottom = heroes[i].offsetTop + heroes[i].offsetHeight-viewOffset;
 
-
+        if (scroll >= sectionTop && scroll < sectionBottom) {
+          navItems[i].classList.add('is-active');
+      }
     }
   });
 </script>
