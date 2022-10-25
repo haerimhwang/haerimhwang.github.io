@@ -15,7 +15,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Python Script in Google Colab.](https://colab.research.google.com/drive/1q-SCWPBRFt6USIW1T2SYZAhaHd6qGlKH?usp=sharing). 
+* [Click Here for the Python Script in Google Colab.](https://colab.research.google.com/drive/1q-SCWPBRFt6USIW1T2SYZAhaHd6qGlKH?usp=sharing)
 <br>
 <br>
 
