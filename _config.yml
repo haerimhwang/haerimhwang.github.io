@@ -63,6 +63,9 @@ plugins:
 
 # Permalink
 permalink: "tools/:title"
+permalink: "python/:title"
+permalink: "r/:title"
+permalink: "praat/:title"
 
 # Compress
 compress_html:
