@@ -84,6 +84,33 @@ defaults:
         - ""
   -
     scope:
+      type: 'pythonposts'
+    values:
+      layout: python
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'rposts'
+    values:
+      layout: r
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'praatposts'
+    values:
+      layout: praat
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
       type: 'pages'
     values:
       layout: page
