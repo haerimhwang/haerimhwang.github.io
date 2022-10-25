@@ -80,7 +80,7 @@ defaults:
       description: ""
       tags:
       permalink: "tools/:title"
-        - ""
+
   -
     scope:
       type: 'pythonposts'
@@ -90,7 +90,7 @@ defaults:
       description: ""
       tags:
       permalink: "python/:title"
-        - ""
+
   -
     scope:
       type: 'rposts'
@@ -100,7 +100,7 @@ defaults:
       description: ""
       tags:
       permalink: "r/:title"
-        - ""
+
   -
     scope:
       type: 'praatposts'
@@ -110,7 +110,7 @@ defaults:
       description: ""
       tags:
       permalink: "praat/:title"
-        - ""
+
   -
     scope:
       type: 'pages'
