@@ -14,7 +14,7 @@ tags:
 
 * The Korean Morphological Richenss Analyzer (KOMORA) 1.0 measures syntactic complexity of Korean texts. The 15 indices computed by this tool are:  
     (1) number of sentences, <br>
-    (2) number of eojeols, <br>  
+    (2) number of eojeols, <br>
     (3) token frequency of morphemes,  <br>
     (4) type frequency of morphemes, <br> 
     (5) type-token ratio (ttr; Chotlos 1944),  <br>
@@ -44,5 +44,3 @@ tags:
 <br>
 
 * Stay tuned for citation!
-<br>
-<br>
