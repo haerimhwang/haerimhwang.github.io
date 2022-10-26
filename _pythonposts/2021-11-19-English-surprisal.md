@@ -1,6 +1,6 @@
 ---
 title: Build Probability and Surprisal Model for English Data
-layout: python
+layout: pythonpost
 post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Building Probability and Surprisal Model
 tags:
