@@ -89,7 +89,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
-      permalink: "python/:title"
+      permalink: "python.html/:title"
 
   -
     scope:
