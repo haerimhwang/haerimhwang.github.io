@@ -85,7 +85,7 @@ defaults:
     scope:
       type: 'pythonposts'
     values:
-      layout: python
+      layout: pythonpost
       post-image: ""
       description: ""
       tags:
@@ -95,7 +95,7 @@ defaults:
     scope:
       type: 'rposts'
     values:
-      layout: r
+      layout: rpost
       post-image: ""
       description: ""
       tags:
@@ -105,7 +105,7 @@ defaults:
     scope:
       type: 'praatposts'
     values:
-      layout: praat
+      layout: praatpost
       post-image: ""
       description: ""
       tags:
