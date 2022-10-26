@@ -1,7 +1,7 @@
 ---
 title: Move Files from One Directory to Another
 layout: pythonpost
-post-image: "https://haerimhwang.github.io/assets/images/python.png"
+pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Moving Files that Match a Certain Criterion from One Directory to Another
 
 tags:
