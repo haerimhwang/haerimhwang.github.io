@@ -1,6 +1,6 @@
 ---
 title: Train a GPT2 text generating model for English
-layout: python
+layout: pythonpost
 post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for training a GPT2 text generating model for English
 tags:
