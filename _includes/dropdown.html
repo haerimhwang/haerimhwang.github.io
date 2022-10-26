@@ -4,7 +4,7 @@
     
     <div class="navbar-dropdown has-background-black is-left">
         {% for sitepage in site.html_pages %}
-        {% unless sitepage.url == '/' or sitepage.url == '/404'  or sitepage.url == '/tools' or sitepage.url == '/publication' or sitepage.url == '/teaching' %}
+        {% unless sitepage.url == '/' or sitepage.url == '/404.html'  or sitepage.url == '/tools.html' or sitepage.url == '/publication.html' or sitepage.url == '/teaching.html' %}
         
         <a href="{{sitepage.url | absolute_url}}"
             class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
