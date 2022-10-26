@@ -1,7 +1,7 @@
 ---
 title: Use a Pre-trained GloVe Model for English data
-layout: post
-post-image: "https://haerimhwang.github.io/assets/images/python.png"
+layout: pythonpost
+pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Using a Pre-trained GloVe MODEL to analyze SEMANTIC SIMILARITIES in English data
 tags:
 - GloVe 
