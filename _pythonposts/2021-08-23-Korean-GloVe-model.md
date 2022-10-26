@@ -1,6 +1,6 @@
 ---
 title: Create GloVe Model for Korean data
-layout: python
+layout: pythonpost
 post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for creating GloVe MODEL to analyze SEMANTIC SIMILARITIES between Korean words
 tags:
