@@ -1,7 +1,7 @@
 ---
 title: Train a Sentence Generating Model for Korean Data
 layout: pythonpost
-post-image: "https://haerimhwang.github.io/assets/images/python.png"
+pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for training a Sentence Generating Model for Korean Data
 tags:
 - BERT 
