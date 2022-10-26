@@ -89,7 +89,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
-#      permalink: "python.html/:title"
+      permalink: "python/:title"
 
   -
     scope:
@@ -99,7 +99,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
- #     permalink: "r/:title"
+      permalink: "r/:title"
 
   -
     scope:
@@ -109,7 +109,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
-#      permalink: "praat/:title"
+      permalink: "praat/:title"
 
   -
     scope:
