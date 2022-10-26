@@ -1,4 +1,4 @@
 ---
 title: PYTHON
-layout: pythonpost
+layout: python
 ---
