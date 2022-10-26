@@ -1,7 +1,7 @@
 ---
 title: Train a GPT2 text generating model for English
 layout: pythonpost
-post-image: "https://haerimhwang.github.io/assets/images/python.png"
+pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for identifying VP ellipsis and Gapping candidates from English data Using benepar and spaCy
 tags:
 - benepar
