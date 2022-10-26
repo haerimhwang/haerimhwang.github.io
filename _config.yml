@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "tools/:title"
+permalink: "python/:title"
 
 
 # Compress
