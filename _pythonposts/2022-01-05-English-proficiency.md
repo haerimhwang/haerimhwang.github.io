@@ -1,7 +1,7 @@
 ---
 title: Measure English Proficiency
-layout: python
-post-image: "https://haerimhwang.github.io/assets/images/python.png"
+layout: pythonpost
+pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Measuring English Proficiency by Computing Moving-Average Type-Token Ratio for Lexical Complexity and Verbal Density for Morpho-Syntactic Complexity and by Reading in Pre-coded Accuracy Data
 tags:
 - language model 
