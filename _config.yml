@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "praat/:title"
+#permalink: "praat/:title"
 
 
 # Compress
@@ -73,8 +73,9 @@ compress_html:
 defaults:
   -
     scope:
-#      type: 'posts'
       path: _posts
+      type: 'posts'
+
     values:
       layout: post
       post-image: ""
@@ -84,8 +85,9 @@ defaults:
       
   -
     scope:
-#      type: 'posts'
       path: _pythonposts
+      type: 'posts'
+
     values:
       layout: pythonpost
       pythonpostpost-image: ""
@@ -95,8 +97,9 @@ defaults:
  
  -
     scope:
-#      type: 'posts'
       path: _praatposts
+      type: 'posts'
+
     values:
       layout: praatpost
       praatpost-image: ""
@@ -106,8 +109,9 @@ defaults:
  
   -
     scope:
-#      type: 'posts'
       path: _rposts
+      type: 'posts'
+
     values:
       layout: rpost
       praatpost-image: ""
