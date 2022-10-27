@@ -15,7 +15,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for the C-Test](http://haerimhwang.pythonanywhere.com/). 
+* [Click Here for the C-Test](http://haerimhwang.pythonanywhere.com/){:target="_blank"}.
 <br>
 <br>
 
