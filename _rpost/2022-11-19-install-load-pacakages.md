@@ -2,9 +2,10 @@
 title: Load and Install Packages
 layout: rpost
 rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
-description: Codes for Extracting Particular Values from Data
+description: Codes for Installing and Loading Packages
 tags:
-- data extraction
+- installing pacakges
+- loading pacakges
 - data science 
 - python
 ---
