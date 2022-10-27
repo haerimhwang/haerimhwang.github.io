@@ -18,8 +18,8 @@ layout: compress
         </div>
         <div id="results-container"></div>
         <!--Praat Cards Section-->
-        {% for praatpost in site.praatposts %}
-            {% include praat-card.html %}
+        {% for post in site.posts %}
+            {% include tool-card.html %}
         {% endfor %}
         </div>
     </section>
