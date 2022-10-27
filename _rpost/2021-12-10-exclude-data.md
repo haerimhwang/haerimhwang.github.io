@@ -7,7 +7,7 @@ tags:
 - data exclusion
 - data removal
 - data science 
-- python
+- r
 ---
 
 * These codes exclude rows with certain values in data frame.  
@@ -17,7 +17,7 @@ tags:
     
     * Open the sample CSV file you downloaded from the above link
         
-            raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
+          raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
             
         
           
@@ -25,17 +25,17 @@ tags:
         
     * Exclude the group “Bilingual”; the two lines below do the same thing
         
-            raw_data <- subset(raw_data, raw_data$group != "Bilingual")
-            raw_data <- raw_data [(!(raw_data$group == "Bilingual")),] 
+          raw_data <- subset(raw_data, raw_data$group != "Bilingual")
+          raw_data <- raw_data [(!(raw_data$group == "Bilingual")),] 
             
         
           
           
         
-    *   Exclude the response “I don’t know,” which is coded as “9”; the two lines below do the same thing
+    * Exclude the response “I don’t know,” which is coded as “9”; the two lines below do the same thing
         
-            raw_data <- subset(raw_data, raw_data$judgment !="9")
-            raw_data <- raw_data [(!(raw_data$judgment == "9")),]
+          raw_data <- subset(raw_data, raw_data$judgment !="9")
+          raw_data <- raw_data [(!(raw_data$judgment == "9")),]
             
         
           
@@ -43,7 +43,5 @@ tags:
         
     * Remove one participant whose proficiency is N/A
         
-            raw_data <- raw_data[!is.na(raw_data$proficiency),]
+          raw_data <- raw_data[!is.na(raw_data$proficiency),]
             
-        
-          
