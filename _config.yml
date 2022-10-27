@@ -85,8 +85,9 @@ defaults:
   -
     scope:
       type: 'posts'
+      path: _pythonposts
     values:
-      layout: _pythonpost
+      layout: pythonpost
       pythonpostpost-image: ""
       description: ""
       tags:
@@ -95,13 +96,25 @@ defaults:
  -
     scope:
       type: 'posts'
+      path: _praatposts
     values:
-      layout: _praatpost
+      layout: praatpost
       praatpost-image: ""
       description: ""
       tags:
       permalink: "praat/:title"
  
+  -
+    scope:
+      type: 'posts'
+      path: _rposts
+    values:
+      layout: rpost
+      praatpost-image: ""
+      description: ""
+      tags:
+      permalink: "r/:title"
+      
   -
     scope:
       type: 'pages'
