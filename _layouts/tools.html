@@ -16,10 +16,9 @@ layout: compress
                 {% include toolpage-heading.html %}
             </div>
         </div>
-        <p> sssss </p>
         <div id="results-container"></div>
         <!--Tool Cards Section-->
-        {% for a in site.posts %}
+        {% for post in site.pythonposts %}
             {% include tool-card.html %}
         {% endfor %}
         </div>
