@@ -7,7 +7,7 @@ tags:
 - summarizing data
 - descriptive statistics
 - data science 
-- python
+- r
 ---
 
 * These codes summarize data by outputting (a) mean, (b) standard deviation, (c) standard error, and (d) confidence interval.  
