@@ -85,7 +85,7 @@ defaults:
     scope:
       type: 'posts'
     values:
-      layout: post
+      layout: pythonpost
       post-image: ""
       description: ""
       tags:
