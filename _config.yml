@@ -96,7 +96,17 @@ defaults:
     scope:
       type: 'pythonposts'
     values:
-      layout: praatpost
+      layout: pythonpost
+      post-image: ""
+      description: ""
+      tags:
+      permalink: "python/:title"
+ 
+   -
+    scope:
+      type: 'pythonposts'
+    values:
+      layout: post
       post-image: ""
       description: ""
       tags:
