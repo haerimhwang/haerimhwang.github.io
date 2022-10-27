@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "python/:title"
+#permalink: "python/:title"
 
 
 # Compress
@@ -91,7 +91,17 @@ defaults:
       description: ""
       tags:
       permalink: "python/:title"
-
+ 
+ -
+    scope:
+      type: 'posts'
+    values:
+      layout: praatpost
+      post-image: ""
+      description: ""
+      tags:
+      permalink: "praat/:title"
+ 
   -
     scope:
       type: 'pages'
