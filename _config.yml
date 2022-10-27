@@ -73,8 +73,8 @@ compress_html:
 defaults:
   -
     scope:
-      path: _posts
-      type: 'posts'
+      path: "_posts"
+      type: posts
 
     values:
       layout: post
@@ -85,8 +85,8 @@ defaults:
       
   -
     scope:
-      path: _pythonposts
-      type: 'posts'
+      path: "_pythonposts"
+      type: posts
 
     values:
       layout: pythonpost
@@ -97,8 +97,8 @@ defaults:
  
  -
     scope:
-      path: _praatposts
-      type: 'posts'
+      path: "_praatposts"
+      type: posts
 
     values:
       layout: praatpost
@@ -109,8 +109,8 @@ defaults:
  
   -
     scope:
-      path: _rposts
-      type: 'posts'
+      path: "_rposts"
+      type: posts
 
     values:
       layout: rpost
