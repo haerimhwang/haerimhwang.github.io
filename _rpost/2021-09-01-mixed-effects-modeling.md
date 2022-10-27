@@ -8,7 +8,7 @@ tags:
 - anova
 - statistics
 - data science 
-- python
+- r
 ---
 
 * This post explains basics of linear mixed-effects regression vs. ANOVA.  
