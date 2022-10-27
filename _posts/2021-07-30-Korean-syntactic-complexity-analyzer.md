@@ -20,20 +20,20 @@ tags:
 (7) type frequency of particles per sentence. <br>
 <br>
 
-* This tool has been developed using Kivy (https://kivy.org/#home) and KoNLPy (https://konlpy.org/en/latest/). 
+* This tool has been developed using [Kivy](https://kivy.org/#home){:target="_blank"} and [KoNLPy](https://konlpy.org/en/latest/){:target="_blank"}. 
 <br>
 <br>
 
-* Find the user manual for KOSCA from [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf). 
+* Find the user manual for KOSCA from [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf){:target="_blank"}. 
 <br>
 <br>
 
-* [Click Here for Mac](https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing) <br>
+* [Click Here for Mac](https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu when this app is identified as one created by an unidentified developer on your device!  
 <br>
         
-* [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing) <br>
-    * On Windows, this tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and (2) set Environment Variables in Java. Click [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf) for full instructions. 
+* [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing){:target="_blank"} <br>
+    * On Windows, this tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"} and (2) set Environment Variables in Java. Click [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf){:target="_blank"} for full instructions. 
 <br>
 <br>      
     
