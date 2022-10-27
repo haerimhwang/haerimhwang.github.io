@@ -84,7 +84,7 @@ defaults:
 
   -
     scope:
-      type: 'pythonposts'
+      type: 'posts'
     values:
       layout: pythonpost
       post-image: ""
