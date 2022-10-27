@@ -1,7 +1,7 @@
 ---
 title: Tag English Words for Part-of-Speech
-layout: pythonpost
-pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
+layout: post
+post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Tagging English Words for Part-of-Speech
 tags:
 - part-of-speech 
