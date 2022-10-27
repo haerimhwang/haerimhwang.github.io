@@ -18,16 +18,16 @@ tags:
     
     * Open the sample CSV file you downloaded from the above link
         
-            raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
+          raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
       
     * Summarize data by condition using the package “dplyr” : Mean, Standard Deviation, Standard Error, Confidence Interval (CI)
         
-            data_summary_practice_01 <- raw_data %>%
+          data_summary_practice_01 <- raw_data %>%
               group_by(condition) %>%
               summarize(mean_acceptance_rate = mean(judgment, na.rm = TRUE))
       
         
     * Summarize data by condition using the package “Rmisc” : Mean, Standard Deviation, Standard Error, Confidence Interval (CI)
         
-            data_summary_practice_02 <- summarySE(raw_data, measurevar="judgment", groupvars="condition") 
+          data_summary_practice_02 <- summarySE(raw_data, measurevar="judgment", groupvars="condition") 
             
