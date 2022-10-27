@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: "praat/:title"
+#permalink: "praat/:title"
 
 
 # Compress
@@ -80,8 +80,7 @@ defaults:
       description: ""
       tags:
       permalink: "tools/:title"
-
-
+      
   -
     scope:
       type: 'posts'
