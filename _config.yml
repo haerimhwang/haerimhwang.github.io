@@ -85,21 +85,12 @@ defaults:
     scope:
       type: 'posts'
     values:
-      layout: pythonpost
+      layout: post
       post-image: ""
       description: ""
       tags:
       permalink: "python/:title"
 
-  -
-    scope:
-      type: 'pythonposts'
-    values:
-      layout: pythonpost
-      post-image: ""
-      description: ""
-      tags:
-      permalink: "python/:title"
 
   -
     scope:
