@@ -81,7 +81,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
-      permalink: "tools/:title"
+      permalink: tools/:title
       
   -
     scope:
@@ -93,7 +93,7 @@ defaults:
       pythonpostpost-image: ""
       description: ""
       tags:
-      permalink: "python/:title"
+      permalink: python/:title
  
  -
     scope:
@@ -105,7 +105,7 @@ defaults:
       praatpost-image: ""
       description: ""
       tags:
-      permalink: "praat/:title"
+      permalink: praat/:title
  
   -
     scope:
@@ -117,7 +117,7 @@ defaults:
       praatpost-image: ""
       description: ""
       tags:
-      permalink: "r/:title"
+      permalink: r/:title
       
   -
     scope:
