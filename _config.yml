@@ -93,13 +93,13 @@ defaults:
 
   -
     scope:
-      type: 'rposts'
+      type: 'pythonposts'
     values:
-      layout: rpost
+      layout: pythonpost
       post-image: ""
       description: ""
       tags:
-      permalink: "r/:title"
+      permalink: "python/:title"
 
   -
     scope:
