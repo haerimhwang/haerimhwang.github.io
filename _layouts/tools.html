@@ -18,7 +18,7 @@ layout: compress
         </div>
         <div id="results-container"></div>
         <!--Tool Cards Section-->
-        {% for post in site.posts.python %}
+        {% for post in site.category[python] %}
             {% include tool-card.html %}
         {% endfor %}
         </div>
