@@ -69,7 +69,7 @@ plugins:
 compress_html:
   clippings: all
 
-# Defaults
+# Defaults: https://blog.webjeda.com/jekyll-categories/
 defaults:
   -
     scope:
@@ -81,7 +81,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
-      categories: tools
+      categories: python
       permalink: "python/:title"
      
       
