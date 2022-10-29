@@ -1,6 +1,7 @@
 ---
 title: Concatenate Sound Files
-layout: praatpost
+layout: post
+categories: praat
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Concatenating Sound Files
 tags:
