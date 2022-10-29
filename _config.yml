@@ -73,7 +73,7 @@ compress_html:
 defaults:
   -
     scope:
-      path: "_posts"
+      path: "python/_posts"
       type: posts
 
     values:
