@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-permalink: /:categories/:title/
+#permalink: /:categories/:title
 
 
 # Compress
@@ -71,17 +71,18 @@ compress_html:
 
 # Defaults
 defaults:
-#  -
-#    scope:
-#      path: "_posts"
-#      type: posts
+  -
+    scope:
+      path: "_posts/tools"
+      type: posts
 
-#    values:
-#      layout: post
-#      post-image: ""
-#      description: ""
-#      tags:
-#      permalink: "tools/:title"
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+      categories: tools
+      permalink: "tools/:title"
      
       
   -
