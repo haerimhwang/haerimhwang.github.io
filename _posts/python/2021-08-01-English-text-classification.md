@@ -2,7 +2,7 @@
 title: Build Text Classification Models (LSTM, BERT, etc.) for English data
 layout: post
 categories: python
-pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
+post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for building text classification models for English data
 tags:
 - language model 
