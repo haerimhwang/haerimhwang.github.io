@@ -1,6 +1,7 @@
 ---
 title: Measure Duration 
-layout: praatpost
+layout: post
+categories: praat
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Measuring Duration of Sound Files
 tags:
