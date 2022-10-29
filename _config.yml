@@ -86,13 +86,12 @@ compress_html:
  defaults:
   # TOOLS
   - scope:
-      path: "_posts/python"
+      path: "_posts"
       type: posts
     values:
       layout: post
       permalink: tools/:title
-      category: python
-      foo: bar
+
       
   -
     scope:
