@@ -354,7 +354,13 @@ a.navbar-item.is-active {
 }
 
 
-
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 350px;
+  width: 500px;
+}
 
 
 
