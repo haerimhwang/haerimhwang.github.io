@@ -92,11 +92,7 @@ compress_html:
       layout: post
       permalink: tools/:title
   # PYTHON
-  - scope:
-      path: "_posts/python"
-      type: posts
-    values:
-      permalink: python/:title
+
       
   -
     scope:
