@@ -2,7 +2,7 @@
 title: Load and Install Packages
 layout: post
 categories: r
-rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
+post-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Installing and Loading Packages
 tags:
 - installing pacakges
