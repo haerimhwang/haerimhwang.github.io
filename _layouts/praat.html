@@ -13,14 +13,14 @@ layout: compress
     <section class="hero is-fullheight" id="tools">
         <div class="hero-body">
             <div class="container">
-                {% include toolpage-heading.html %}
+                {% include post-heading.html %}
             </div>
         </div>
         <div id="results-container"></div>
-        <!--Tool Cards Section-->
+        <!--POST Cards Section-->
 
         {% for post in site.categories.praat %}
-            {% include tool-card.html %}
+            {% include post-card.html %}
         {% endfor %}
         
         
