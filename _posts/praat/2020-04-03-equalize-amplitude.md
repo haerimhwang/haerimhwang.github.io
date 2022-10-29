@@ -1,6 +1,7 @@
 ---
 title: Equalize amplitude
-layout: praatpost
+layout: post
+categories: praat
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Tagging English Words for Part-of-Speech
 tags:
