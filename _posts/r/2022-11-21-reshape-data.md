@@ -1,6 +1,7 @@
 ---
 title: Reshape Data
-layout: rpost
+layout: post
+categories: r
 rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Reshaping Data
 tags:
