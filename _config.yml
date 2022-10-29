@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-#permalink: /:categories/:title
+permalink: /:categories/:title
 
 
 # Compress
@@ -71,20 +71,7 @@ compress_html:
 
 # Defaults: https://blog.webjeda.com/jekyll-categories/
 defaults:
-  -
-    scope:
-      path: "_posts/python"
-      type: posts
-
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-      categories: python
-      permalink: "tools/:title"
-     
-      
+    
   -
     scope:
       type: 'pages'
