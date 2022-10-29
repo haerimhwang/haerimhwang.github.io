@@ -89,7 +89,7 @@ compress_html:
       path: "_posts/python"
       type: posts
     values:
-      layout: pythonpost
+      layout: post
       permalink: tools/:title
       category: python
       foo: bar
