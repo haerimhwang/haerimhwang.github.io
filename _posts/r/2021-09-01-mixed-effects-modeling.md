@@ -2,7 +2,7 @@
 title: Linear Mixed-Effects Regression Analysis
 layout: post
 categories: r
-rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
+post-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes (and explanations) for Linear Mixed-Effects Regression Analysis
 tags:
 - linear mixed-effects regression
