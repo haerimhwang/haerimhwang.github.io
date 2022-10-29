@@ -19,16 +19,16 @@ tags:
     
     * Step 1: Import modules
         
-            import nltk
-            nltk.download('punkt')
-            nltk.download('averaged_perceptron_tagger')       
+          import nltk
+          nltk.download('punkt')
+          nltk.download('averaged_perceptron_tagger')       
         
     * Step 2: Tag each word for its part-of-speech
         
-            sentence = "You are right that I need to send it to him soon."
-            tokens = nltk.word_tokenize(sentence)
-            tagged = nltk.pos_tag(tokens)    
+          sentence = "You are right that I need to send it to him soon."
+          tokens = nltk.word_tokenize(sentence)
+          tagged = nltk.pos_tag(tokens)    
         
-    *   Step 3: Check output
-        
-            tagged
+    * Step 3: Check output
+
+          tagged
