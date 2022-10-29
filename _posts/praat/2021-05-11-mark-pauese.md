@@ -1,6 +1,7 @@
 ---
 title: Mark pauses
-layout: praatpost
+layout: post
+categories: praat
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Marking Pauses
 tags:
