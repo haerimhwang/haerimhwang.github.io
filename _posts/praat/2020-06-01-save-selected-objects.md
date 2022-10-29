@@ -1,6 +1,7 @@
 ---
 title: Save Selected Objects 
-layout: praatpost
+layout: post
+categories: praat
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
 description: Codes for Saving Selected Objects 
 tags:
