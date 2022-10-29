@@ -1,6 +1,7 @@
 ---
 title: Korean Morphological Richness Analyzer
 layout: post
+categories: tools
 post-image: "https://haerimhwang.github.io/assets/images/KOMORA.png"
 description: GUI Application for Measuring Morphological Richness of Korean Texts
 tags:
