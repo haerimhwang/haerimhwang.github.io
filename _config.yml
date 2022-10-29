@@ -89,10 +89,9 @@ compress_html:
       path: "_posts/python"
       type: posts
     values:
-      layout: post
       permalink: tools/:title
-  # PYTHON
-
+      category: python
+      foo: bar
       
   -
     scope:
