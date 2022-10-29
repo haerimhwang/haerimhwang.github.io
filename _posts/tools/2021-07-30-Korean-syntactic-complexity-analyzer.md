@@ -41,7 +41,6 @@ tags:
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
 <br>
-<br>
     
 * Stay tuned for citation!
 <br>
