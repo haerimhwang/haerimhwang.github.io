@@ -70,19 +70,33 @@ compress_html:
   clippings: all
 
 # Defaults
-defaults:
-  -
-    scope:
+#defaults:
+#  -
+#    scope:
+#      path: "_posts"
+#      type: posts
+
+#    values:
+#      layout: post
+#      post-image: ""
+#      description: ""
+#      tags:
+#      permalink: tools/:title
+      
+ defaults:
+  # TOOLS
+  - scope:
       path: "_posts"
       type: posts
-
     values:
       layout: post
-      post-image: ""
-      description: ""
-      tags:
       permalink: tools/:title
-      
+  # PYTHON
+  - scope:
+      path: "_posts/python"
+      type: posts
+    values:
+      permalink: python/:title
       
   -
     scope:
