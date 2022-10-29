@@ -82,7 +82,7 @@ defaults:
       description: ""
       tags:
       categories: python
-      permalink: "python/:title"
+      permalink: "tools/:title"
      
       
   -
