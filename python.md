@@ -1,4 +1,0 @@
----
-title: PYTHON
-layout: python
----
