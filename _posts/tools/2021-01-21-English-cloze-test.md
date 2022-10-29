@@ -1,6 +1,7 @@
 ---
 title: English Cloze test
 layout: post
+categories: tools
 post-image: "https://haerimhwang.github.io/assets/images/cloze.png"
 description: Web-based cloze test for measuring English proficiency
 tags:
