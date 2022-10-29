@@ -1,6 +1,7 @@
 ---
 title: Create Word2Vec Model for Korean data
-layout: pythonpost
+layout: post
+categories: python
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for creating WORD2VEC model to analyze semantic similarities between Korean words
 tags:
