@@ -2,7 +2,7 @@
 title: Reshape Data
 layout: post
 categories: r
-rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
+post-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Reshaping Data
 tags:
 - reshaping data
