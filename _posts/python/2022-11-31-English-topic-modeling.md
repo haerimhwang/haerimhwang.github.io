@@ -1,6 +1,7 @@
 ---
 title: Topic Modeling for English Data
-layout: pythonpost
+layout: post
+categories: python
 pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Topic Modeling for English Data
 tags:
