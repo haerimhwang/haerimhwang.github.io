@@ -83,41 +83,6 @@ defaults:
       tags:
       permalink: tools/:title
       
-  -
-    scope:
-      path: "_pythonposts"
-      type: posts
-
-    values:
-      layout: pythonpost
-      pythonpostpost-image: ""
-      description: ""
-      tags:
-      permalink: python/:title
- 
- -
-    scope:
-      path: "_praatposts"
-      type: posts
-
-    values:
-      layout: praatpost
-      praatpost-image: ""
-      description: ""
-      tags:
-      permalink: praat/:title
- 
-  -
-    scope:
-      path: "_rposts"
-      type: posts
-
-    values:
-      layout: rpost
-      praatpost-image: ""
-      description: ""
-      tags:
-      permalink: r/:title
       
   -
     scope:
