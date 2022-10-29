@@ -1,6 +1,7 @@
 ---
 title: Load and Install Packages
-layout: rpost
+layout: post
+categories: r
 rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Installing and Loading Packages
 tags:
