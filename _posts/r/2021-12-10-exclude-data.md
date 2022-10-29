@@ -2,7 +2,7 @@
 title: Exclude Particular Values from Data
 layout: post
 categories: r
-rpost-image: "https://haerimhwang.github.io/assets/images/r.png"
+post-image: "https://haerimhwang.github.io/assets/images/r.png"
 description: Codes for Excluding Particular Values from Data
 tags:
 - data exclusion
