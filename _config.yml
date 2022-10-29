@@ -73,7 +73,7 @@ compress_html:
 defaults:
   -
     scope:
-      path: "_posts"
+      path: "_posts/tools"
       type: posts
 
     values:
@@ -81,7 +81,7 @@ defaults:
       post-image: ""
       description: ""
       tags:
-      permalink: "toolssssss/:title"
+      permalink: "tool/:title"
      
       
   -
