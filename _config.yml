@@ -62,7 +62,7 @@ plugins:
   - jekyll-feed
 
 # Permalink
-#permalink: "praat/:title"
+permalink: "tools/:title"
 
 
 # Compress
@@ -70,7 +70,7 @@ compress_html:
   clippings: all
 
 # Defaults
-#defaults:
+defaults:
 #  -
 #    scope:
 #      path: "_posts"
@@ -82,16 +82,7 @@ compress_html:
 #      description: ""
 #      tags:
 #      permalink: tools/:title
-      
- defaults:
-  # TOOLS
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      permalink: tools/:title
-
+     
       
   -
     scope:
