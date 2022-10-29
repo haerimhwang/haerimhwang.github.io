@@ -1,6 +1,7 @@
 ---
 title: Korean Syntactic Complexity Analyzer
 layout: post
+categories: tools
 post-image: "https://haerimhwang.github.io/assets/images/KOSCA.png"
 description: GUI Application for Measuring Syntactic Compexity of Korean Texts
 tags:
