@@ -14,9 +14,9 @@ tags:
 <br>
 
 * You can download [the sample dataset](https://haerimhwang.github.io/assets/data/CSV_judgment_data.csv){:target="_blank"} for practice.  
-        
-* Codes
-    
+<br>
+
+* Codes 
     * Open the sample CSV file you downloaded from the above link
         
           raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
