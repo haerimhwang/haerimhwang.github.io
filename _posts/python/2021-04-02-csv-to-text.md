@@ -2,7 +2,7 @@
 title: Split CSV to Multiple Text Files
 layout: post
 categories: python
-pythonpost-image: "https://haerimhwang.github.io/assets/images/python.png"
+post-image: "https://haerimhwang.github.io/assets/images/python.png"
 description: Codes for Splitting One CSV File to Multiple Text Files
 tags:
 - file transformation
