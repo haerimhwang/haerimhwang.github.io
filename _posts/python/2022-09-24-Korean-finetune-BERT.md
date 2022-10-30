@@ -20,7 +20,7 @@ tags:
 <br>
 <br>
 
-* Click [HERE](https://colab.research.google.com/drive/1vV8R1RehYhjYCnXFqY_ahqE7lfqru31K?usp=sharing){:target="_blank"} for the Python Script in Google Colab.
+* Click [HERE](https://colab.research.google.com/drive/1vV8R1RehYhjYCnXFqY_ahqE7lfqru31K?usp=sharing){:target="_blank"} for Python codes in Google Colab.
 <br>
 <br>
 
