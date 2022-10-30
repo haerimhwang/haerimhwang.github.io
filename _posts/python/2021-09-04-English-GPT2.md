@@ -20,7 +20,7 @@ tags:
 <br>
 <br>
 
-* These codes were revised based on the following references.
+* These codes were revised based on the following references.<br>
     `https://colab.research.google.com/github/sarthakmalik/GPT2.Training.Google.Colaboratory/blob/master/Train_a_GPT_2_Text_Generating_Model_w_GPU.ipynb#scrollTo=6OFnPCLADfll`
     
 <br>
