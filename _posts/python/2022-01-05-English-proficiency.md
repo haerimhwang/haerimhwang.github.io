@@ -14,18 +14,25 @@ tags:
 - python
 ---
 
-* This script outputs final proficiency z-scores for the English poduction data based on the three measures: (a) morpho-syntactic complexity (verbal density), (b) lexical complexity (Moving-Average Type-Token Ratio), and (c) morphological/syntactic/lexical accuracy (pre-coded by human annotators and then inputted to the codes). <br>
-
-    * **Morpho-syntactic complexity** was measured in terms of verbal density by dividing the number of finite verbs plus the number of nonfinite verbs (infinitives, gerunds, and participles) by the total number of T-units (see K.-S. Park, 2014, p. 157). <br>
-    
-    * For **lexical complexity** , the Moving Average Type-Token Ratio (MATTR; Covington & McFall, 2010) was computed by calculating the average of the type-token ratio for every moving text sequence of 15 consecutive words. <br>
-    
-    * **Morphological, syntactic, and lexical accuracy** (or errors) were manually coded by two English native speakers. For example, morphological errors included errors in subject–verb agreement (e.g., The girl brush the teeth.), tense agreement (e.g., The bear woke up and say …), and adjectives (e.g., sleep for asleep). Syntactic errors included errors in the use of overt determiners (e.g., So Ø boy argued that the book is too close to her.) and voice (e.g., After that, the boy was waked and was afraid again.). Lexical errors involved non-target-like use of target forms with respect to their meaning or function, such as non-target-like use of lexical items (e.g., … she visited her mom and dad to stay with her.). For the full details about the error coding procedure, see K.-S. Park (2014, pp. 164–168). <br>
-    
-    * Note that your predoded data for accuracy should be saved as a CSV file. Click [this file](https://haerimhwang.github.io/assets/python/proficiency_data.csv) for example. <br>
+* This script outputs final proficiency z-scores for the English poduction data based on the three measures: (a) morpho-syntactic complexity (verbal density), (b) lexical complexity (Moving-Average Type-Token Ratio), and (c) morphological/syntactic/lexical accuracy (pre-coded by human annotators and then inputted to the codes). 
+<br>
 <br>
 
-* Codes    
+   * **Morpho-syntactic complexity** was measured in terms of verbal density by dividing the number of finite verbs plus the number of nonfinite verbs (infinitives, gerunds, and participles) by the total number of T-units (see K.-S. Park, 2014, p. 157). 
+<br>
+
+   * For **lexical complexity** , the Moving Average Type-Token Ratio (MATTR; Covington & McFall, 2010) was computed by calculating the average of the type-token ratio for every moving text sequence of 15 consecutive words. 
+<br>
+    
+   * **Morphological, syntactic, and lexical accuracy** (or errors) were manually coded by two English native speakers. For example, morphological errors included errors in subject–verb agreement (e.g., The girl brush the teeth.), tense agreement (e.g., The bear woke up and say …), and adjectives (e.g., sleep for asleep). Syntactic errors included errors in the use of overt determiners (e.g., So Ø boy argued that the book is too close to her.) and voice (e.g., After that, the boy was waked and was afraid again.). Lexical errors involved non-target-like use of target forms with respect to their meaning or function, such as non-target-like use of lexical items (e.g., … she visited her mom and dad to stay with her.). For the full details about the error coding procedure, see K.-S. Park (2014, pp. 164–168). 
+<br>
+    
+   * Note that your predoded data for accuracy should be saved as a CSV file. Click [this file](https://haerimhwang.github.io/assets/python/proficiency_data.csv) for example. 
+<br>
+<br>
+
+* Codes 
+   
     * Step 1: Import modules
         
           from __future__ import division # translate the / and /= operators to true division opcodes; use print function without using the parentheses
@@ -43,18 +50,19 @@ tags:
           from nltk.tree import ParentedTree # create a subclass of tree that automatically maintains parent pointers for single-parented tree 
           from nltk.tokenize import sent_tokenize # tokenize text into sentences
           import benepar # constituency parser
-          parser = benepar.Parser("benepar_en") # parse English sentences        
+          parser = benepar.Parser("benepar_en") # parse English sentences
+          
+   <br>
 
-
-    * Step 2: Split your CSV file to multiple textfiles by participant code (i.e., row\[0\])
-    * You can download [this CSV file](https://haerimhwang.github.io/assets/python/proficiency_data.csv) for example.
+    * Step 2: Split your CSV file to multiple textfiles by participant code (i.e., row\[0\]); you can download [this CSV file](https://haerimhwang.github.io/assets/python/proficiency_data.csv) for example.
         
-        for key, rows in groupby(csv.reader(open("proficiency_data.csv", encoding="utf-8-sig", errors="ignore")), 
-                                 lambda row: row[0]): # group the data based on the first column (i.e., participant)
-            with open("data/%s.txt" % key, "w") as output: # under the "data" folder
-                for row in rows: # iterate through rows
-                    output.write("".join(str(row[1])) + "\t" + (str(row[2])) + "\n") # combine the info under the second column (i.e., utterances) and the info under the third column (i.e., accuracy coding)
-
+          for key, rows in groupby(csv.reader(open("proficiency_data.csv", encoding="utf-8-sig", errors="ignore")), 
+                                    lambda row: row[0]): # group the data based on the first column (i.e., participant)
+              with open("data/%s.txt" % key, "w") as output: # under the "data" folder
+                  for row in rows: # iterate through rows
+                      output.write("".join(str(row[1])) + "\t" + (str(row[2])) + "\n") # combine the info under the second column (i.e., utterances) and the info under the third column (i.e., accuracy coding)
+                      
+   <br>
 
 * Step 3: Measure (a) Moving-Average Type-Token Ratio and (2) verbal density
     
@@ -129,7 +137,8 @@ tags:
             output = sorted(output, key=itemgetter(0)) # sort the "output" list basaed on the ppt_code
         
         print(output)
-   
+        
+    <br> 
    
     * Step 4: Convert raw scores to z-scores
         
@@ -152,19 +161,25 @@ tags:
             
           df['proficiency'] = df.iloc[:, df.columns.str.contains('_zscore')].sum(1) # sum z-scores to get a final proficiency score
           df # check the data frame
-     
+          
+    <br> 
      
     * Step 5: Save the output in CSV
         
           df.to_csv("output.csv", sep=',', encoding='utf-8')
+          
 <br>
 <br>
 
 * When you use this script, please cite:  
     `Hwang, H. (2020). A contrast between VP-ellipsis and Gapping in English: L1 acquisition, L2 acquisition, and L2 processing (Unpublished doctoral dissertation). University of Hawai'i, Honolulu, HI.`  
 <br>
+<br>
         
 * References:  
    `Park, K.-S. (2014). Information structure and dative word‑order alternations in English and Korean: L1 children, L2 children, and L2 adults (Unpublished doctoral dissertation). University of Hawai‘i at Mānoa, Honolulu, HI.`  
    
    `Covington, M. A., & McFall, J. D. (2010). Cutting the Gordian knot: The moving-average type-token ratio (MATTR). Journal of quantitative linguistics, 17, 94–100.`
+   
+<br>
+<br>   
