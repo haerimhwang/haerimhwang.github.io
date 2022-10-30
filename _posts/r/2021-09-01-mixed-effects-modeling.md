@@ -18,7 +18,7 @@ tags:
 * What makes linear mixed-effects analyses different from ANOVA?  <br>
    * ANOVA assumes that observations are independent within and between participants and items. However, multiple responses from the same participant and those to the same item cannot be regarded as independent from each other. The way linear mixed-effects models to deal with this situation is to add random effects for participant and item. This allows us to resolve the non‑independence by assuming a different baseline value of dependent measure for each participant and item. We can model differences between participants/items by assuming different random intercepts and slopes for each participant/item.  
 <br>
-
+<br>
 * How does a formula work?  
     
       contrast.model <- lmer(DependentMeasure ~ Factor1 * Factor2 + (1 + Factor1 * Factor2 | Participant) + (1 + Factor1 * Factor2 | item), data)
@@ -42,7 +42,6 @@ tags:
     * In the following mixed-effects model (run with a contrast coding), the two independent variables “construction” and “clause” are added as fixed effects.
         
           Haerim.model <- lmer(z-score ~ construction * clause + (1 + construction * clause | participant) + (1 + construction * clause | item), data)
-
   <br>
    * Because the effects of “construction” and “clause” and their interaction might be different for different participants and items, I also added “participant” and “item” as random effects. Here, roughly speaking, the notation “(1 + construction \* clause ⦙ participant)” means that you tell the model to expect differing responses to the factors in question, which are “construction” and “clause” and their interaction in this case.
 <br>
@@ -62,7 +61,6 @@ tags:
           2	0.19970942	−1.387608	−0.5917419	−0.8100677
           3	0.24531526	−1.374109	−0.5889505	−0.9270524
           … …
-
   <br>
    * Simply speaking, the intercept means a grand mean of z-scores given by each participant and item. (This is not true when you run a mixed-effects model with other coding options, such as a dummy coding. I will come back to this point.) The following slope value, termed as a coefficient, under the third column “construction” can be regarded as a difference between z‑scores for Gapping and those for VPE.
 <br>
@@ -86,8 +84,6 @@ tags:
                         		clause			0.007876	0.08875		0.70	−0.95
                         		construction:clause	0.036609	0.19134		−0.60 	−0.45
           residual					0.168750	0.41079		0.16	0.76
-
-
   <br>
    * This is a measure of how much variability in the dependent measure there is due to participants and items, which are our random effects. You can see that item has much less variability than participant. At the very bottom, you see “residual” which stands for the variability that is not due to either participant or item.
 <br>
@@ -100,7 +96,6 @@ tags:
           construction			−1.32417	0.09212	    22.78900	−14.375	  	6.47e-13***
           clause				−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
           construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
-
   <br>
    * Here, the intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
 <br>
