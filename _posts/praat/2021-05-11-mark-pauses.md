@@ -26,6 +26,7 @@ tags:
     
   * DEFAULT VALUES (initialization of variables)
   <br>
+  <br>
   
   * The name of the selected LongSound object is put to string soundname$
       
@@ -57,6 +58,7 @@ tags:
         
   <br>           
   * Then we set up a “for” loop that will iterate once for every file in the list
+  <br>
   <br>
   
   * Query the file-list to get the first filename from it, then read that file in    
