@@ -14,6 +14,7 @@ tags:
 
 * This script marks up each word in a text as corresponding to a particular part of speech.
 <br>
+<br>
 
 * Codes
     
@@ -21,14 +22,21 @@ tags:
         
           import nltk
           nltk.download('punkt')
-          nltk.download('averaged_perceptron_tagger')       
-        
+          nltk.download('averaged_perceptron_tagger') 
+          
+    <br>
+    
     * Step 2: Tag each word for its part-of-speech
         
           sentence = "You are right that I need to send it to him soon."
           tokens = nltk.word_tokenize(sentence)
           tagged = nltk.pos_tag(tokens)    
-        
+          
+    <br>
+    
     * Step 3: Check output
 
           tagged
+          
+<br>
+<br>
