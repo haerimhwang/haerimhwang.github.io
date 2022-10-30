@@ -4,7 +4,7 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
-{% assign posts = site.posts | sort: "title" %}
+
 {% include head.html %}
 
 <body>
@@ -20,8 +20,8 @@ layout: compress
         
         
         <!--POST Cards Section categories.praat-->
+        {% assign posts = site.posts | sort: "title" %}
         {% for post in site.posts %}
-            
             {% include post-card.html %}
         {% endfor %}
         
