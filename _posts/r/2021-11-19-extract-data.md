@@ -19,12 +19,12 @@ tags:
 <br>
 
 * Codes           
-  * Open the sample CSV file you downloaded from the above link
+ * Open the sample CSV file you downloaded from the above link
         
         raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T) 
 <br>
 
-  * Extract the “critical_wanna” conditions only
+ * Extract the “critical_wanna” conditions only
         
         raw_data <- raw_data[which(raw_data$type == "critical_wanna"),]
         raw_data <- droplevels(raw_data) 
