@@ -27,14 +27,14 @@ tags:
 
    * Load packages; install them if they are not installed
         
-          package.check <- lapply(
-            packages,
-            FUN = function(x) {
-              if (!require(x, character.only = TRUE)) {
-                install.packages(x, dependencies = TRUE)
-                library(x, character.only = TRUE)
-              }
-            }
-          )
+         package.check <- lapply(
+           packages,
+           FUN = function(x) {
+             if (!require(x, character.only = TRUE)) {
+               install.packages(x, dependencies = TRUE)
+               library(x, character.only = TRUE)
+             }
+           }
+         )
 <br> 
 <br>  
