@@ -56,9 +56,9 @@ tags:
         
   <br>         
   * Then we set up a “for” loop that will iterate once for every file in the list
-  <br>     
-  * Query the file-list to get the first filename from it, then read that file in
-  <br>     
+  <br>
+  
+  * Query the file-list to get the first filename from it, then read that file in    
 
         for j to number_files 
             select Strings list
