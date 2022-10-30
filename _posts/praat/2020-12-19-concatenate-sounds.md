@@ -11,11 +11,17 @@ tags:
 ---
 
 * This script makes pairs of two sounds using all the sound files in a folder. It does not make a pair of two identical sounds. The ISI duration can be specified in the input menu.       
-    
+<br>
+<br>
+
 * Useful for 2AFC listening experiments.  
-   
+<br>
+<br>
+
 * Codes  
     * Open two files in the input directory
+    <br>
+    
     * Concatenate them
 
           form Files
@@ -65,4 +71,6 @@ tags:
 
           select all
           Remove
-
+          
+<br>
+<br>
