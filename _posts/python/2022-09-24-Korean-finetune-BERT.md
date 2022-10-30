@@ -20,11 +20,13 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Python Script in Google Colab.](https://colab.research.google.com/drive/1vV8R1RehYhjYCnXFqY_ahqE7lfqru31K?usp=sharing)
+* Click [HERE](https://colab.research.google.com/drive/1vV8R1RehYhjYCnXFqY_ahqE7lfqru31K?usp=sharing){:target="_blank"} for the Python Script in Google Colab.
 <br>
 <br>
 
 * These codes were revised based on the following references.
     `https://github.com/kiyoungkim1/LMkor`  
     `https://github.com/Seongtae-Kim/WinterSchool_BERT`
-    
+
+<br>
+<br>
