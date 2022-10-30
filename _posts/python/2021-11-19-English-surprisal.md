@@ -69,7 +69,9 @@ tags:
               for w3 in model_surprisal[w1_w2]:
                 probability = model_surprisal[w1_w2][w3] / total_count  
                 model_surprisal[w1_w2][w3] = -math.log(probability) #-math.log(probability, 2) <-- Smith and Levy, 2013
-      
+                
+    <br>        
+             
     * Step 7: Test probability model
         
           model_prob['you', 'are']
