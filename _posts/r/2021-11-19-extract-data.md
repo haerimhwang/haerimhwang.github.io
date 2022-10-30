@@ -18,11 +18,11 @@ tags:
 <br>
 <br>
 
-* Codes 
-   * Open the sample CSV file you downloaded from the above link
-   
-        raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)      
+* Codes           
+  * Open the sample CSV file you downloaded from the above link
         
+        raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T) 
+                    
 <br>
 <br>      
                      
