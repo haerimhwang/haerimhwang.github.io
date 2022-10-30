@@ -13,7 +13,8 @@ tags:
 
 * These codes load packages and install those which are not installed.  
 <br>  
-<br>  
+<br>
+
 * Codes   
     * Specify the packages of interest
         
@@ -24,8 +25,9 @@ tags:
                      "ggplot2", #for plotting
                      "ggrepel") #for labeling data points          
 <br>
-<br>  
-    * Load packages; install them if they are not installed
+<br>
+
+   * Load packages; install them if they are not installed
         
           package.check <- lapply(
             packages,
