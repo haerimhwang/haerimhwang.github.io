@@ -26,6 +26,7 @@ tags:
     
   * DEFAULT VALUES (initialization of variables)
   <br>
+  
   * The name of the selected LongSound object is put to string soundname$
       
         form Pause analysis from LongSound(s)                                                                    
@@ -54,7 +55,7 @@ tags:
         Create Strings as file list...  list 'input_folder$'*.wav
         number_files = Get number of strings
         
-  <br>         
+  <br>           
   * Then we set up a “for” loop that will iterate once for every file in the list
   <br>
   
