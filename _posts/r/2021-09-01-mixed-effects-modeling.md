@@ -75,17 +75,17 @@ tags:
 <br>
     * When we run the model with a contrast coding, we get the results for random effects as below.
         
-            Random effects:
-            Groups			Name			Variance	Std.Dev.	Corr 
-            participant	  	(Intercept)		0.040101	0.20025 
-                         		construction		0.150601	0.38807		0.80 
-                         		clause			0.160550	0.40069		−0.61	−0.87
-                         		construction:clause	0.477556	0.69105		−0.85	−0.80
-            item			(Intercept)		0.009452	0.09722 
-                         		construction		0.007289	0.08537		−0.45
-                          		clause			0.007876	0.08875		0.70	−0.95
-                          		construction:clause	0.036609	0.19134		−0.60 	−0.45
-            residual					0.168750	0.41079		0.16	0.76
+          Random effects:
+          Groups			Name			Variance	Std.Dev.	Corr 
+          participant	  	(Intercept)		0.040101	0.20025 
+                       		construction		0.150601	0.38807		0.80 
+                       		clause			0.160550	0.40069		−0.61	−0.87
+                       		construction:clause	0.477556	0.69105		−0.85	−0.80
+          item			(Intercept)		0.009452	0.09722 
+                       		construction		0.007289	0.08537		−0.45
+                        		clause			0.007876	0.08875		0.70	−0.95
+                        		construction:clause	0.036609	0.19134		−0.60 	−0.45
+          residual					0.168750	0.41079		0.16	0.76
 
 
   <br>
@@ -94,12 +94,12 @@ tags:
 <br>
     * Now, let’s take a look at the results of the model that we built (again, with a contrast coding).
         
-            Fixed effects:
-            				Estimate	Std. Error  df		t value		Pr(>|t|)
-            (Intercept)		        0.20417	    	0.05044	    27.42000	4.047		0.000381***
-            construction			−1.32417	0.09212	    22.78900	−14.375	  	6.47e-13***
-            clause				−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
-            construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
+          Fixed effects:
+          				Estimate	Std. Error  df		t value		Pr(>|t|)
+          (Intercept)		        0.20417	    	0.05044	    27.42000	4.047		0.000381***
+          construction			−1.32417	0.09212	    22.78900	−14.375	  	6.47e-13***
+          clause				−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
+          construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
 
   <br>
    * Here, the intercept means a grand mean of the z-scores of my data. (cf. In the model built by a dummy coding, the intercept value indicates the mean of a certain condition/level that was automatically set as a reference level/condition. Such a model built in R takes whatever comes first in the alphabet to be the reference level/condition.)
