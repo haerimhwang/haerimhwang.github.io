@@ -16,8 +16,9 @@ tags:
 
 * This script builds a couple of machine learning models to classify documents by pre-set categories. We use Google Colab for the script, which allows us to use GPU instead of CPU. <br>
 <br>
+<br>
 
-* [Click Here for the Python Script in Google Colab.](https://colab.research.google.com/drive/1V1b0Y1gr9P0tG62op_wRdPnU2tP8Sv6c?usp=sharing) 
+* Click [HERE](https://colab.research.google.com/drive/1V1b0Y1gr9P0tG62op_wRdPnU2tP8Sv6c?usp=sharing){:target="_blank"} for the Python Script in Google Colab.
 <br>
 <br>
 
@@ -25,3 +26,5 @@ tags:
    `https://colab.research.google.com/github/shranith/ML-notebooks/blob/master/text_classification_20ng.ipynb`  
    `https://www.kaggle.com/dikshabhati2002/text-classification-lstm-bert-ml-models`
     
+<br>
+<br>
