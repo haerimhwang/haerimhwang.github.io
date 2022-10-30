@@ -21,9 +21,7 @@ layout: compress
         
         <!--POST Cards Section {% for post in site.categories.praat %} -->
 
-        {% assign praatposts = site.categories.praat | sort = post.title %}
-        
-        {% for post in praatposts %}
+        {% for post in site.categories.praat %}
             {% include post-card.html %}
         {% endfor %}
         
