@@ -32,11 +32,11 @@ tags:
 <br>
 <br>
 
-* This tool has been developed using Lexical Richness (https://pypi.org/project/lexicalrichness/), Kivy (https://kivy.org/#home), and KoNLPy (https://konlpy.org/en/latest/). 
+* This tool has been developed using [Lexical Richness](https://pypi.org/project/lexicalrichness/){:target="_blank"}, [Kivy](https://kivy.org/#home){:target="_blank"}, and [KoNLPy](https://konlpy.org/en/latest/){:target="_blank"}. 
 <br>
 <br>
 
-* Find the user manual for KOMORA from [here](https://haerimhwang.github.io/assets/KOMORA_user_manual.pdf) 
+* Find the user manual for KOMORA from [here](https://haerimhwang.github.io/assets/KOMORA_user_manual.pdf){:target="_blank"}. 
 <br>
 <br>
 
