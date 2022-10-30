@@ -15,6 +15,7 @@ tags:
 
 * This script moves multiple files that match a certain criterion from one directory to another.  
 <br>
+<br>
 
 * Codes
     
@@ -24,7 +25,8 @@ tags:
             import shutil
             import glob 
             
- 
+    <br>   
+    
     * Step 2: Move files that match a certain criterion from one directory to another
         
             source = "source_directory"
@@ -43,4 +45,7 @@ tags:
                 elif "Mandarin.txt" in filename:
                     destination = "source_directory/Mandarin/"
                     shutil.move(filename, destination + filename) 
-           
+                    
+<br>
+<br>
+
