@@ -19,8 +19,9 @@ layout: compress
         <div id="results-container"></div>
         
         
-        <!--POST Cards Section -->
-        {% for post in site.categories.praat %}
+        <!--POST Cards Section categories.praat-->
+        {% for post in site.posts %}
+            
             {% include post-card.html %}
         {% endfor %}
         
