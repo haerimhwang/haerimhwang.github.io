@@ -16,10 +16,12 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Python Script in Google Colab.](https://colab.research.google.com/drive/1kW31z37K_5pm2-BlQATzAHnibObnqIzu?usp=sharing)
+* Click [HERE](https://colab.research.google.com/drive/1kW31z37K_5pm2-BlQATzAHnibObnqIzu?usp=sharing){:target="_blank"} for the Python Script in Google Colab.
 <br>
 <br>
 
 * These codes were revised based on the following references.
     `https://colab.research.google.com/github/sarthakmalik/GPT2.Training.Google.Colaboratory/blob/master/Train_a_GPT_2_Text_Generating_Model_w_GPU.ipynb#scrollTo=6OFnPCLADfll`
     
+<br>
+<br>   
