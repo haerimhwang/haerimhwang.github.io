@@ -33,6 +33,7 @@ tags:
     
     * What Praat does for looping is first to create a string list and counts how many files there are in that list (find n)
     <br>
+    <br>
     
     * This allows us to do operation X for n-times
         
@@ -43,14 +44,18 @@ tags:
     
     * “for” is a function for loop.
     <br>
+    <br>
     
     * “ifile” means as follows:
+    <br>
     <br>
     
     * Start i with 1 and do the operation that follows: change i to 2 and do the operation, change i to 3…., keep until i becomes n
     <br>
+    <br>
     
     * Open i-th file in the string list
+    <br>
     <br>
     
     * Write the output file (see your script folder)
