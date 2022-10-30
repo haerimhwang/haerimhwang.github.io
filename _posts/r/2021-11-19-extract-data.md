@@ -23,9 +23,8 @@ tags:
         
           raw_data <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
  <br>
- <br>
-        
-    * Extract the “critical\_wanna” conditions only
+       
+  * Extract the “critical\_wanna” conditions only
         
           raw_data <- raw_data[which(raw_data$type == "critical_wanna"),]
           raw_data <- droplevels(raw_data) 
