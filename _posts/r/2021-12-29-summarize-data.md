@@ -13,6 +13,7 @@ tags:
 * These codes summarize data by outputting (a) mean, (b) standard deviation, (c) standard error, and (d) confidence interval.  
 <br>   
 <br>
+
 * You can download [the sample dataset](https://haerimhwang.github.io/assets/data/CSV_judgment_data.csv) for practice.  
 <br> 
 <br> 
