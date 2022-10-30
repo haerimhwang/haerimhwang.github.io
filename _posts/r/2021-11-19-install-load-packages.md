@@ -13,6 +13,7 @@ tags:
 
 * These codes load packages and install those which are not installed.  
 <br>  
+<br>  
 * Codes   
     * Specify the packages of interest
         
@@ -22,7 +23,8 @@ tags:
                      "reshape", #for reshaping data
                      "ggplot2", #for plotting
                      "ggrepel") #for labeling data points          
-<br>        
+<br>
+<br>  
     * Load packages; install them if they are not installed
         
           package.check <- lapply(
@@ -34,4 +36,5 @@ tags:
               }
             }
           )
-<br>            
+<br> 
+<br>  
