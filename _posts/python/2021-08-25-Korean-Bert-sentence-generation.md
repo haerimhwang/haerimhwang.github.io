@@ -20,10 +20,13 @@ tags:
 <br>
 <br>
 
-* These codes were revised based on the following references.
+* These codes were revised based on the following references. <br>
    `https://ratsgo.github.io/nlpbook/docs/generation/train/`
+   
    `https://ratsgo.github.io/nlpbook/docs/generation/inference1/`
+   
    `https://ratsgo.github.io/nlpbook/docs/generation/inference2/`
+   
    `https://huggingface.co/blog/how-to-generate`
    
 <br>
