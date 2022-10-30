@@ -16,7 +16,7 @@ tags:
 <br>
 
 * Codes  
-<br> 
+
     * Specify the packages of interest
         
           packages = c("Rmisc", #for summarizing data
@@ -26,6 +26,7 @@ tags:
                      "ggplot2", #for plotting
                      "ggrepel") #for labeling data points    
                      
+      <br>
       <br>
 
    * Load packages; install them if they are not installed
