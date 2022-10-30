@@ -14,7 +14,8 @@ tags:
 * These codes load packages and install those which are not installed.  
 <br>  
 <br>
-* Codes   
+* Codes  
+ 
     * Specify the packages of interest
         
           packages = c("Rmisc", #for summarizing data
