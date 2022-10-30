@@ -6,7 +6,7 @@
         <div class="column has-text-left-desktop has-text-left-tablet">
             <h1 class="title is-size-4-touch">{{post.title}}</h1>
             <div class="content has-text-grey">
-                {{ post.content | truncate: 200 | markdownify | strip_html | strip_newlines | strip | remove: '<div>' | remove: '<a>' | escape }}
+                {{ post.content | truncate: 300 | markdownify | strip_html | strip_newlines | strip | remove: '<div>' | remove: '<a>' | escape }}
                 <hr class="has-background-grey">
                 <i class="fas fa-clock"></i> <span class="has-text-weight-semibold">{% assign words = post.content | number_of_words %}{%- unless content.size == 0 -%}{{ words | divided_by:180 }} min{% endunless %}</span> read
 
