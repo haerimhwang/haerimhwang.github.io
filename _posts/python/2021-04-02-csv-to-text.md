@@ -12,7 +12,8 @@ tags:
 ---
 
 * This script splits a large CSV dataset into multiple text files based on the first column. The name of each file comes from the first column and the content of each file will come from all the cells in the second column.  
-<br>      
+<br> 
+<br>
 
 * Codes
     
@@ -21,7 +22,8 @@ tags:
             import os
             import csv 
             from itertools import groupby
-      
+            
+    <br>  
         
     * Step 2: Split a CSV file to text files
         
@@ -29,4 +31,7 @@ tags:
                 with open("%s.txt" % key, "w") as output: # or "with open("data/%s.txt" % key, "w") as output:" if you want to put all text files under the "data" folder
                     for row in rows: # iterate through rows            
                         output.write("".join(str(row[1])) + "\n") # combine the information in the cells under the second column
+                        
+<br>
+<br>
             
