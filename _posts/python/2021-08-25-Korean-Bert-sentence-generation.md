@@ -16,7 +16,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Python Script in Google Colab.](https://colab.research.google.com/drive/1q-SCWPBRFt6USIW1T2SYZAhaHd6qGlKH?usp=sharing)
+* Click [HERE] (https://colab.research.google.com/drive/1q-SCWPBRFt6USIW1T2SYZAhaHd6qGlKH?usp=sharing) for the Python Script in Google Colab.
 <br>
 <br>
 
@@ -25,4 +25,6 @@ tags:
    `https://ratsgo.github.io/nlpbook/docs/generation/inference1/`
    `https://ratsgo.github.io/nlpbook/docs/generation/inference2/`
    `https://huggingface.co/blog/how-to-generate`
-    
+   
+<br>
+<br>    
