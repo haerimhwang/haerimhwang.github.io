@@ -13,7 +13,7 @@ tags:
 
 * These codes load packages and install those which are not installed.  
 <br>  
-
+<br>
 * Codes   
     * Specify the packages of interest
         
@@ -22,7 +22,8 @@ tags:
                      "tidyr", #for tidying messy data
                      "reshape", #for reshaping data
                      "ggplot2", #for plotting
-                     "ggrepel") #for labeling data points          
+                     "ggrepel") #for labeling data points    
+                     
       <br>
 
    * Load packages; install them if they are not installed
