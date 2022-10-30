@@ -1,19 +1,18 @@
 ---
-title: Load and Install Packages
+title: Install and Load Packages
 layout: post
 categories: r
 post-image: "https://haerimhwang.github.io/assets/images/r.png"
-description: Codes for Installing and Loading Packages
+description: Codes for Loading and Installing Packages
 tags:
-- installing pacakges
 - loading pacakges
+- installing pacakges
 - data science 
 - r
 ---
 
 * These codes load packages and install those which are not installed.  
 <br>  
-<br>
 
 * Codes   
     * Specify the packages of interest
@@ -26,7 +25,6 @@ tags:
                      "ggrepel") #for labeling data points          
 <br>
 <br>
-
    * Load packages; install them if they are not installed
         
           package.check <- lapply(
