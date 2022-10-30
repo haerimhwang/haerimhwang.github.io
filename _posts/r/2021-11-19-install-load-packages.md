@@ -10,6 +10,7 @@ tags:
 - data science 
 - r
 ---
+
 * These codes load packages and install those which are not installed.  
 <br>  
 <br>
