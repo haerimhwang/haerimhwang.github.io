@@ -21,30 +21,30 @@ tags:
     
     * Step 1: Import modules
         
-            import os
-            import shutil
-            import glob 
+          import os
+          import shutil
+          import glob 
             
     <br>   
     
     * Step 2: Move files that match a certain criterion from one directory to another
         
-            source = "source_directory"
+          source = "source_directory"
             
-            filenames = glob.glob("source_directory/*.txt")
+          filenames = glob.glob("source_directory/*.txt")
             
-            for filename in filenames:
-                if "Korean.txt" in filename:
-                    destination = "source_directory/Korean/"
-                    shutil.move(filename, destination + filename) 
+          for filename in filenames:
+              if "Korean.txt" in filename:
+                  destination = "source_directory/Korean/"
+                  shutil.move(filename, destination + filename) 
             
-                elif "English.txt" in filename:
-                    destination = "source_directory/English/"
-                    shutil.move(filename, destination + filename)
+              elif "English.txt" in filename:
+                  destination = "source_directory/English/"
+                  shutil.move(filename, destination + filename)
             
-                elif "Mandarin.txt" in filename:
-                    destination = "source_directory/Mandarin/"
-                    shutil.move(filename, destination + filename) 
+              elif "Mandarin.txt" in filename:
+                  destination = "source_directory/Mandarin/"
+                  shutil.move(filename, destination + filename) 
                     
 <br>
 <br>
