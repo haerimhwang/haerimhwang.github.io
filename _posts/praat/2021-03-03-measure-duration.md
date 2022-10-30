@@ -37,10 +37,7 @@ tags:
           
     <br>
     
-    * Write a row with column titles to the result file
-    <br>
-    
-    * (Remember to edit this if you add or change the analyses!)
+    * Write a row with column titles to the result file; remember to edit this if you add or change the analyses!
         
           titleline$ = "object_name	duration	'newline$'"
           fileappend "'resultfile$'" 'titleline$'
@@ -56,11 +53,14 @@ tags:
     
     * Set up a “for” loop that will iterate once for every file in the list
     <br>
+    <br>
     
     * Query the file-list to get the first filename from it, then read that file in
     <br>
+    <br>
     
     * Make a variable called “object\_name$” that will be equal to the filename minus the “.wav” extension
+    <br>
     <br>
     
     * Save result to text file
@@ -86,6 +86,7 @@ tags:
     <br>
     
     * Clean up all files on the list
+    <br>
     <br>
     
     * Show if the process is completed
