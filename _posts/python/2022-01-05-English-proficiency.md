@@ -27,7 +27,7 @@ tags:
    * **Morphological, syntactic, and lexical accuracy** (or errors) were manually coded by two English native speakers. For example, morphological errors included errors in subject–verb agreement (e.g., The girl brush the teeth.), tense agreement (e.g., The bear woke up and say …), and adjectives (e.g., sleep for asleep). Syntactic errors included errors in the use of overt determiners (e.g., So Ø boy argued that the book is too close to her.) and voice (e.g., After that, the boy was waked and was afraid again.). Lexical errors involved non-target-like use of target forms with respect to their meaning or function, such as non-target-like use of lexical items (e.g., … she visited her mom and dad to stay with her.). For the full details about the error coding procedure, see K.-S. Park (2014, pp. 164–168). 
 <br>
     
-   * Note that your predoded data for accuracy should be saved as a CSV file. Click [this file](https://haerimhwang.github.io/assets/python/proficiency_data.csv) for example. 
+   * Note that your predoded data for accuracy should be saved as a CSV file. Click [this file](https://haerimhwang.github.io/assets/python/proficiency_data.csv){:target="_blank"} for example. 
 <br>
 <br>
 
@@ -54,7 +54,7 @@ tags:
           
    <br>
 
-    * Step 2: Split your CSV file to multiple textfiles by participant code (i.e., row\[0\]); you can download [this CSV file](https://haerimhwang.github.io/assets/python/proficiency_data.csv) for example.
+    * Step 2: Split your CSV file to multiple textfiles by participant code (i.e., row\[0\]); you can download [this CSV file](https://haerimhwang.github.io/assets/python/proficiency_data.csv){:target="_blank"} for example.
         
           for key, rows in groupby(csv.reader(open("proficiency_data.csv", encoding="utf-8-sig", errors="ignore")), 
                                     lambda row: row[0]): # group the data based on the first column (i.e., participant)
