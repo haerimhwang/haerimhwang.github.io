@@ -43,6 +43,7 @@ tags:
     * In the following mixed-effects model (run with a contrast coding), the two independent variables “construction” and “clause” are added as fixed effects.
         
           Haerim.model <- lmer(z-score ~ construction * clause + (1 + construction * clause | participant) + (1 + construction * clause | item), data)
+
 <br> 
 <br>
 
@@ -51,19 +52,20 @@ tags:
 <br>
     * By adding these random effects, now I have different intercept and slopes for “construction,” “clause,” and “construction:clause” (indicating interaction between “construction” and “clause”) per participant and item as below.
         
-            $participant
-                    (Intercept) 	construction	clause		construction:clause
-            L2A_01  −0.13035717	−1.8822782	−0.21515671	−0.14715510
-            L2A_02	0.06596786	−1.7498164	−0.22280625	−0.22145612
-            L2A_03	0.28485458	−1.3562880	−0.63579403	−1.24079459
-            … …
+          $participant
+                  (Intercept) 	construction	clause		construction:clause
+          L2A_01  −0.13035717	−1.8822782	−0.21515671	−0.14715510
+          L2A_02	0.06596786	−1.7498164	−0.22280625	−0.22145612
+          L2A_03	0.28485458	−1.3562880	−0.63579403	−1.24079459
+          … …
             
-            $item
-             	(Intercept) 	construction	clause		construction:clause
-            1	0.11852205	−1.292183	−0.6962850	−0.8422584
-            2	0.19970942	−1.387608	−0.5917419	−0.8100677
-            3	0.24531526	−1.374109	−0.5889505	−0.9270524
-            … …
+          $item
+           	(Intercept) 	construction	clause		construction:clause
+          1	0.11852205	−1.292183	−0.6962850	−0.8422584
+          2	0.19970942	−1.387608	−0.5917419	−0.8100677
+          3	0.24531526	−1.374109	−0.5889505	−0.9270524
+          … …
+
 <br>
 <br>
 
@@ -89,6 +91,7 @@ tags:
                           		clause			0.007876	0.08875		0.70	−0.95
                           		construction:clause	0.036609	0.19134		−0.60 	−0.45
             residual					0.168750	0.41079		0.16	0.76
+
 <br>
 <br>
 
@@ -103,6 +106,7 @@ tags:
             construction			−1.32417	0.09212	    22.78900	−14.375	  	6.47e-13***
             clause				−0.64325	0.09471	    22.83400	−6.792		6.55e-07***
             construction:clause		−0.94653	0.16904	    23.47700	−5.599		9.94e-06***
+
 <br>
 <br>
 
