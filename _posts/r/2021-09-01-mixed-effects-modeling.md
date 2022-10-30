@@ -15,6 +15,7 @@ tags:
 * This post explains basics of linear mixed-effects regression vs. ANOVA.  
 <br>
 <br>
+
 * What makes linear mixed-effects analyses different from ANOVA?  <br>
    * ANOVA assumes that observations are independent within and between participants and items. However, multiple responses from the same participant and those to the same item cannot be regarded as independent from each other. The way linear mixed-effects models to deal with this situation is to add random effects for participant and item. This allows us to resolve the non‑independence by assuming a different baseline value of dependent measure for each participant and item. We can model differences between participants/items by assuming different random intercepts and slopes for each participant/item.  
 <br>
