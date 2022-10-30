@@ -1,5 +1,5 @@
 ---
-title: Equalize amplitude
+title: Equalize Amplitude
 layout: post
 categories: praat
 post-image: "https://haerimhwang.github.io/assets/images/praat.png"
@@ -11,6 +11,8 @@ tags:
 ---
 
 * This script takes all the files in the specified directory, modify their amplitude (dB), and writes new files to a new folder. It takes three arguments: InputDir is the input folder; positive dB is a dB value to which you want your files to be modified.  
+<br>
+<br>
 
 * Codes
     
@@ -21,20 +23,36 @@ tags:
             positive dB 65
           endform
           
+    <br>
+    
     * Create an output folder (named “output”)
         
           createDirectory ("/Users/haerimhwang/Desktop/Done/output/")
-        
+          
+    <br>
+    
     * What Praat does for looping is first to create a string list and counts how many files there are in that list (find n)
+    <br>
+    
     * This allows us to do operation X for n-times
         
           Create Strings as file list... list 'inputDir$'*.wav
           numberOfFiles = Get number of strings
-
+          
+    <br>
+    
     * “for” is a function for loop.
+    <br>
+    
     * “ifile” means as follows:
+    <br>
+    
     * Start i with 1 and do the operation that follows: change i to 2 and do the operation, change i to 3…., keep until i becomes n
+    <br>
+    
     * Open i-th file in the string list
+    <br>
+    
     * Write the output file (see your script folder)
         
           for ifile to numberOfFiles
@@ -53,6 +71,13 @@ tags:
           endfor
           select all
           Remove
-            
+          
+<br>
+<br>
+
 * Reference:  
   `http://user.keio.ac.jp/~kawahara/scripts/equalize_amp_dB.praat`
+  
+<br>
+<br>
+
