@@ -18,7 +18,8 @@ tags:
 * You can download [the sample dataset](https://haerimhwang.github.io/assets/data/data_summary_L2.csv) for practice.  
 <br> 
 <br> 
-* Codes  <br>
+* Codes  
+   <br>
     * Open the sample CSV file you downloaded from the above link
         
           data_summary_L2 <- read.csv(file.choose(), header = TRUE, stringsAsFactors = T)
