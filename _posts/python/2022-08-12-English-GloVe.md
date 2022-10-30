@@ -16,6 +16,6 @@ tags:
 <br>
 <br>
 
-* Click [HERE](https://colab.research.google.com/drive/1Mqfz3LIfrLJV6JETAQPuA_dcQKJx-cDJ?usp=sharing){:target="_blank"} for the Python Script in Google Colab.
+* Click [HERE](https://colab.research.google.com/drive/1Mqfz3LIfrLJV6JETAQPuA_dcQKJx-cDJ?usp=sharing){:target="_blank"} for the Python script in Google Colab.
 <br>
 <br>
