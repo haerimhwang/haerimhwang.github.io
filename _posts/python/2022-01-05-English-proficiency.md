@@ -19,10 +19,12 @@ tags:
 <br>
 
    * **Morpho-syntactic complexity** was measured in terms of verbal density by dividing the number of finite verbs plus the number of nonfinite verbs (infinitives, gerunds, and participles) by the total number of T-units (see K.-S. Park, 2014, p. 157). 
-<br>
+  <br>
+  <br>
 
    * For **lexical complexity** , the Moving Average Type-Token Ratio (MATTR; Covington & McFall, 2010) was computed by calculating the average of the type-token ratio for every moving text sequence of 15 consecutive words. 
-<br>
+  <br>
+  <br>
     
    * **Morphological, syntactic, and lexical accuracy** (or errors) were manually coded by two English native speakers. For example, morphological errors included errors in subject–verb agreement (e.g., The girl brush the teeth.), tense agreement (e.g., The bear woke up and say …), and adjectives (e.g., sleep for asleep). Syntactic errors included errors in the use of overt determiners (e.g., So Ø boy argued that the book is too close to her.) and voice (e.g., After that, the boy was waked and was afraid again.). Lexical errors involved non-target-like use of target forms with respect to their meaning or function, such as non-target-like use of lexical items (e.g., … she visited her mom and dad to stay with her.). For the full details about the error coding procedure, see K.-S. Park (2014, pp. 164–168). 
 <br>
@@ -64,79 +66,79 @@ tags:
                       
    <br>
 
-* Step 3: Measure (a) Moving-Average Type-Token Ratio and (2) verbal density
+    * Step 3: Measure (a) Moving-Average Type-Token Ratio and (2) verbal density
     
-        ## Open text files under the working directory (e.g., L2 adult group)
-        filenames = glob.glob("data/*.txt")
-        
-        output = [] 
-        output_pos = []
-        
-        ## Set a punctuation list
-        punct = [",",".","?","'",'"',"!",":",";","(",")","''","``","--", "``", "''"]
-        
-        for filename in filenames: # iterate through text files in the list
-            text = open(filename, "r").read().split("\n") # open the file
-        
-            utterance_list = [] # create a holder for utterances
-            accuracy_coding_list = [] # create a holder for accuracy codings
-        
-            utt_counter = 0
-        
-            ## MATTR, Accuracy
-            for line in text[:-1]: # iterate through sentences in the text; the last line is blank
-        
-                line_sep = line.split("\t") # split each line by tab
-                utterance_list.append(line_sep[0]) # first part: utterance
-                accuracy_coding_list.append(line_sep[1]) # second part: accuracy coding
-                utt_counter += 1
-        
-            ppt_code = filename[5:-4] # get a ppt code
-        
-        
-            accuracy_int = [int(x) for x in accuracy_coding_list] # get an array of integers; one for each line of input
-        
-        
-            accuracy = sum(accuracy_int)/len(accuracy_int) # sum of the integers divided by the number of codings
-        
-            utterances = ' '.join(utterance_list) # make the utterances into text
-        
-            #output.append([ppt_code, mattr, accuracy]) # append ppt_code, mattr, and accuracy to the "output" list
-        
-            ## Verbal density
-            ## Count the number of verbs
-            for z in punct: # replace punctuations with nothing 
-                utterances_no_punct = utterances.replace(z, "")
-        
-            text_nltk = nltk.word_tokenize(utterances_no_punct)# segment a text into basic units--or tokens--such as words and punctuation
-            text_pos = nltk.pos_tag(text_nltk) # assign part of speech tags to Brown corpus (note that it must be tokenized first)
-        
-            verb = []
-            verb_counter = 0 
-        
-            for i, y in enumerate(text_pos):
-                #print(i, y)
-                if (text_pos[i][1]=='VBD' or text_pos[i][1]=='VBZ') and (text_pos[i+1][1]=='VBG' or text_pos[i+1][1]=='VBN'):
-                    #print(text_pos[i], text_pos[i+1])
-                    continue
-                elif (text_pos[i][1]=='VB') or (text_pos[i][1]=='VBG') or (text_pos[i][1]=='VBN') or (text_pos[i][1]=='VBP') or (text_pos[i][1]=='VBZ') or (text_pos[i][1]=='VBD'):
-                    # if the second item in a tuple (pos tag) is one of the verb POS categories,
-                    #print(text_pos[i])
-                    #verb.append(text_pos[i][0]) # append the tuple to the verb; to check in case
-                    verb_counter += 1 # add 1 to the counter    
-        
-            tunit = len(utterance_list) 
-        
-            verbal_density = verb_counter/tunit
-        
-            lex = LexicalRichness(str(utterance_list)) # instantiate new text object (use use_TextBlob=True argument to use the textblob tokenizer)
-        
-          mattr = lex.mattr(window_size = 15)
-        
-            output.append([ppt_code, mattr, accuracy, verb_counter, tunit, verbal_density]) # put all info into the "output" list
-            output = sorted(output, key=itemgetter(0)) # sort the "output" list basaed on the ppt_code
-        
-        print(output)
+          ## Open text files under the working directory (e.g., L2 adult group)
+          filenames = glob.glob("data/*.txt")
+            
+          output = [] 
+          output_pos = []
+            
+          ## Set a punctuation list
+          punct = [",",".","?","'",'"',"!",":",";","(",")","''","``","--", "``", "''"]
+            
+          for filename in filenames: # iterate through text files in the list
+              text = open(filename, "r").read().split("\n") # open the file
+            
+              utterance_list = [] # create a holder for utterances
+              accuracy_coding_list = [] # create a holder for accuracy codings
+            
+              utt_counter = 0
+            
+              ## MATTR, Accuracy
+              for line in text[:-1]: # iterate through sentences in the text; the last line is blank
+            
+                  line_sep = line.split("\t") # split each line by tab
+                  utterance_list.append(line_sep[0]) # first part: utterance
+                  accuracy_coding_list.append(line_sep[1]) # second part: accuracy coding
+                  utt_counter += 1
+            
+              ppt_code = filename[5:-4] # get a ppt code
+            
+            
+              accuracy_int = [int(x) for x in accuracy_coding_list] # get an array of integers; one for each line of input
+            
+            
+              accuracy = sum(accuracy_int)/len(accuracy_int) # sum of the integers divided by the number of codings
+            
+              utterances = ' '.join(utterance_list) # make the utterances into text
+            
+              #output.append([ppt_code, mattr, accuracy]) # append ppt_code, mattr, and accuracy to the "output" list
+            
+              ## Verbal density
+              ## Count the number of verbs
+              for z in punct: # replace punctuations with nothing 
+                  utterances_no_punct = utterances.replace(z, "")
+            
+              text_nltk = nltk.word_tokenize(utterances_no_punct)# segment a text into basic units--or tokens--such as words and punctuation
+              text_pos = nltk.pos_tag(text_nltk) # assign part of speech tags to Brown corpus (note that it must be tokenized first)
+           
+              verb = []
+              verb_counter = 0 
+            
+              for i, y in enumerate(text_pos):
+                  #print(i, y)
+                  if (text_pos[i][1]=='VBD' or text_pos[i][1]=='VBZ') and (text_pos[i+1][1]=='VBG' or text_pos[i+1][1]=='VBN'):
+                      #print(text_pos[i], text_pos[i+1])
+                      continue
+                  elif (text_pos[i][1]=='VB') or (text_pos[i][1]=='VBG') or (text_pos[i][1]=='VBN') or (text_pos[i][1]=='VBP') or (text_pos[i][1]=='VBZ') or (text_pos[i][1]=='VBD'):
+                      # if the second item in a tuple (pos tag) is one of the verb POS categories,
+                      #print(text_pos[i])
+                      #verb.append(text_pos[i][0]) # append the tuple to the verb; to check in case
+                      verb_counter += 1 # add 1 to the counter    
+            
+              tunit = len(utterance_list) 
+            
+              verbal_density = verb_counter/tunit
+            
+              lex = LexicalRichness(str(utterance_list)) # instantiate new text object (use use_TextBlob=True argument to use the textblob tokenizer)
+            
+            mattr = lex.mattr(window_size = 15)
+            
+              output.append([ppt_code, mattr, accuracy, verb_counter, tunit, verbal_density]) # put all info into the "output" list
+              output = sorted(output, key=itemgetter(0)) # sort the "output" list basaed on the ppt_code
+            
+          print(output)
         
     <br> 
    
