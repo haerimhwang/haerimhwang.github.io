@@ -19,9 +19,8 @@ layout: compress
         <div id="results-container"></div>
         
         
-        <!--POST Cards Section {% for post in site.categories.praat %} -->
-        {% assign sortedposts = site.posts | sort: 'title' %}
-        {% for post in sortedposts.categories.praat %}
+        <!--POST Cards Section -->
+        {% for post in site.categories.praat %}
             {% include post-card.html %}
         {% endfor %}
         
