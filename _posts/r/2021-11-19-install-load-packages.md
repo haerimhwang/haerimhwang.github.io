@@ -23,8 +23,8 @@ tags:
                      "reshape", #for reshaping data
                      "ggplot2", #for plotting
                      "ggrepel") #for labeling data points          
-<br>
-<br>
+      <br>
+
    * Load packages; install them if they are not installed
         
           package.check <- lapply(
