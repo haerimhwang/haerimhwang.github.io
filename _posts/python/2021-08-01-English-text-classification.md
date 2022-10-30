@@ -22,8 +22,10 @@ tags:
 <br>
 <br>
 
-* These codes were revised based on the following references.
+* These codes were revised based on the following references. 
+
    `https://colab.research.google.com/github/shranith/ML-notebooks/blob/master/text_classification_20ng.ipynb`  
+   
    `https://www.kaggle.com/dikshabhati2002/text-classification-lstm-bert-ml-models`
     
 <br>
