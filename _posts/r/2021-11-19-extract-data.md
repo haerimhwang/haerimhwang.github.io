@@ -13,6 +13,7 @@ tags:
 * These codes extract rows with partiular values in data frame.  
 <br>
 <br>
+
 * You can download [the sample dataset](https://haerimhwang.github.io/assets/data/CSV_judgment_data.csv){:target="_blank"} for practice.  
 <br>
 <br>
