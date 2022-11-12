@@ -16,7 +16,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Cloze Test](http://haerimhwang.pythonanywhere.com/). 
+* [Click Here for the Cloze Test](http://haerimhwang.pythonanywhere.com/){:target="_blank"}. 
 <br>
 <br>
 
