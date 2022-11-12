@@ -16,7 +16,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for the C-Test](http://haerimhwang.pythonanywhere.com/). 
+* [Click Here for the Cloze Test](http://haerimhwang.pythonanywhere.com/). 
 <br>
 <br>
 
