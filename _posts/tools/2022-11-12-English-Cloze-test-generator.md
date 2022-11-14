@@ -1,5 +1,5 @@
 ---
-title: English Cloze test generator
+title: English Cloze Test Generator
 layout: post
 categories: tools
 post-image: "https://haerimhwang.github.io/assets/images/cloze_generator.png"
