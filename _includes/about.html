@@ -1,3 +1,9 @@
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
+
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
     <div class="hero-body">
         <div class="container">
@@ -20,7 +26,7 @@
 
 
                 <div>    
-                    <iframe width = 380 height = 260 style="display: block; margin: auto; border-radius: 20px"  src="https://www.youtube.com/embed/cL8xiL47Dw4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen> </iframe>
+                    <iframe width = 380 height = 260 style="display: block; margin: auto; border-radius: 20px"  src="https://www.youtube.com/embed/cL8xiL47Dw4" frameborder="0" gesture="media" allow="encrypted-media" scrolling="no" onload="resizeIframe(this)" allowfullscreen> </iframe>
                     <br>
                     <p> <b> ↑ Where I work <b> </p>
                     <a href= "https://www.youtube.com/channel/UCrnx2FH-uSc6gYFZx9PJnYg" target="_blank"> Credit: NING Jingjie, Ethan </a> 
