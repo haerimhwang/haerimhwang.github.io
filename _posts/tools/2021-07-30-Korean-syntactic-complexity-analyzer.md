@@ -30,7 +30,7 @@ tags:
 <br>
 
 * [Click Here for Mac](https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing){:target="_blank"} <br>
-    * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu when this app is identified as one created by an unidentified developer on your device!  
+    * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
         
 * [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing){:target="_blank"} <br>
