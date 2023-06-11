@@ -11,7 +11,11 @@ tags:
 - python
 ---
 
-* The Korean Syntactic Complexity Analyzer (KOSCA) measures syntactic complexity of Korean texts. The seven indices computed by this tool are: <br>
+* The Korean Syntactic Complexity Analyzer (KOSCA) measures syntactic complexity of Korean texts. 
+<br>
+<br>
+
+* The seven indices computed by this tool are: <br>
 (1) number of sentences, <br>
 (2) number of morphemes per sentence, <br>
 (3) number of coordinate clauses per sentence, <br>
@@ -21,7 +25,7 @@ tags:
 (7) type frequency of particles per sentence. <br>
 <br>
 
-* This tool has been developed using [Kivy](https://kivy.org/#home){:target="_blank"} and [KoNLPy](https://konlpy.org/en/latest/){:target="_blank"}. 
+* This tool has been developed using [KoNLPy](https://konlpy.org/en/latest/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}. 
 <br>
 <br>
 
