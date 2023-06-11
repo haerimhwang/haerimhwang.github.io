@@ -38,7 +38,7 @@ tags:
 <br>
 
 
-* [Click Here for Mac](){:target="_blank"} <br>
+* [Click Here for Mac](https://drive.google.com/file/d/1sxCNmd4CnWeo-zGXd_ZQH57BaSf2Kpzn/view?usp=sharing){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
         
