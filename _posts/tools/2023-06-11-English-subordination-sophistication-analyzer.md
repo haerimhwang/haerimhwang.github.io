@@ -15,7 +15,11 @@ tags:
 - python
 ---
 
-* The Subordination Sophistication Analyzer (SSA) 1.0 measures subordination sophistication of English texts in addition to coordination complexity. The 9 indices computed by this tool are:  
+* The Subordination Sophistication Analyzer (SSA) 1.0 measures subordination sophistication of English texts in addition to coordination complexity. 
+<br>
+<br>
+
+* The 9 indices computed by this tool are:  
     (1) proportion of main clauses (= number of main clauses per clause), <br>
     (2) proportion of finite adverbial clauses (= number of finite adverbial clauses per clause), <br>
     (3) proportion of nonfinite adverbial clauses (= number of nonfinite adverbial clauses per clause),  <br>
@@ -29,7 +33,7 @@ tags:
 <br>
 <br>
 
-* This tool has been developed using [Lexical Richness](https://pypi.org/project/lexicalrichness/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}. 
+* This tool has been developed using [spaCy](https://spacy.io/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}. 
 <br>
 <br>
 
