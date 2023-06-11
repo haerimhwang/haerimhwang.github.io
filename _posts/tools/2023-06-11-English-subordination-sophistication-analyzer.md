@@ -42,7 +42,7 @@ tags:
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
         
-* [Click Here for Windows](){:target="_blank"} 
+* [Click Here for Windows](https://drive.google.com/file/d/1Mx7YHrgZ3Fzkud1N8ZXJ0pLDjiodIO2w/view?usp=sharing){:target="_blank"} 
 <br>
 <br>
 <br>      
