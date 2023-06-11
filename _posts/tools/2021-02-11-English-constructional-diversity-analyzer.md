@@ -13,7 +13,15 @@ tags:
 - python
 ---
 
-* The Constructional Diversity Analyzer (CDA) measures Constructional Diversity of English texts, which can serve as an alternative index for L2 syntactic development/proficiency. This analyzer (a) sorts clauses into 11 constructions, (b) calculates the token frequency of constructions (i.e., number of clauses) and type frequency of constructions (i.e., constructional diversity), (c) computes the frequency and proportion of each construction, and (d) measures the type frequency of verbs (i.e., verbal diversity) within each construction. Six of the constructions come from Construction Grammar (Goldberg, 1995; i.e., caused-motion construction, ditransitive construction, intransitive-motion construction, intransitive-resultative construction, phrasal-verb construction, transitive-resultative construction); the other five are common English constructions (i.e., attributive construction, passive construction, simple-intransitive construction, simple-transitive construction, there-expletive construction). This tool has been developed using [spaCy](https://spacy.io/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}.
+* The Constructional Diversity Analyzer (CDA) measures Constructional Diversity of English texts, which can serve as an alternative index for L2 syntactic development/proficiency. 
+<br>
+<br>
+
+* This analyzer (a) sorts clauses into 11 constructions, (b) calculates the token frequency of constructions (i.e., number of clauses) and type frequency of constructions (i.e., constructional diversity), (c) computes the frequency and proportion of each construction, and (d) measures the type frequency of verbs (i.e., verbal diversity) within each construction. Six of the constructions come from Construction Grammar (Goldberg, 1995; i.e., caused-motion construction, ditransitive construction, intransitive-motion construction, intransitive-resultative construction, phrasal-verb construction, transitive-resultative construction); the other five are common English constructions (i.e., attributive construction, passive construction, simple-intransitive construction, simple-transitive construction, there-expletive construction). 
+<br>
+<br>
+
+* This tool has been developed using [spaCy](https://spacy.io/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}.
 <br>
 <br>
 
