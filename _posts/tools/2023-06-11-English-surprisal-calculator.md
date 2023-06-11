@@ -15,7 +15,7 @@ tags:
 <br>
 <br>
 
-* [Click Here for the Cloze Test](){:target="_blank"}. 
+* [Click Here for the Cloze Test](https://haerimhwang-surprisal-calculator-streamlit-app-0m87bo.streamlit.app/){:target="_blank"}. 
 <br>
 <br>
 
