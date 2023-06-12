@@ -14,7 +14,9 @@ tags:
 * This web-based tool measures surprisal of an English sentence. 
 <br>
 <br>
-
+* This tool has been developed using the [surprisal](https://github.com/aalok-sathe/surprisal){:target="_blank"} package.
+<br>
+<br>
 * [Click Here for the Cloze Test](https://haerimhwang-surprisal-calculator-streamlit-app-0m87bo.streamlit.app/){:target="_blank"}. 
 <br>
 <br>
