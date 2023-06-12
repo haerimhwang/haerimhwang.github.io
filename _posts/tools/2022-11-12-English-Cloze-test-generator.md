@@ -15,6 +15,7 @@ tags:
 
 * This web-based tool generates a Cloze test which can help teach/learn English and measure English proficiency. 
 <br>
+<br>
 
 * This tool has been created using [NLTK](https://www.nltk.org/){:target="_blank"} and [Streamlit](https://streamlit.io/){:target="_blank"}. 
 <br>
