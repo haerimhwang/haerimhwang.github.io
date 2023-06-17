@@ -12,11 +12,11 @@ tags:
 - python
 ---
 
-* This script creates a Word2Vec model to analyze semantic similarities between English words. We use Google Colab for the script, which allows us to use GPU instead of CPU.
+* This script creates a Word2Vec model to analyze semantic similarities between English words.
 <br>
 <br>
 
-* Click [HERE](https://colab.research.google.com/drive/1cHaTykJf9-DqBaoDdNRnUG2cs5lx15Tf?usp=sharing){:target="_blank"} for the Python script in Google Colab.
+* Click [HERE](https://colab.research.google.com/drive/1Ozxqc2roYFw_6eAUagvdBad8PZtG7r31?usp=sharing){:target="_blank"} for the Python script in Google Colab.
 <br>
 <br>
     
