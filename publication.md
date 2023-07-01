@@ -1,4 +1,4 @@
 ---
-title: PUBLICATION
-layout: publication
+title: RESEARCH
+layout: research
 ---
