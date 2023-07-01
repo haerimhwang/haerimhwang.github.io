@@ -1,20 +1,24 @@
-<style>
-body, html {width: 100%; height: 100%; margin: 0; padding: 0}
-  .video-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: blue; overflow: hidden;}
-  .video-row { flex-grow: 1; border: none; margin: 0; padding: 0; }
-  
-</style>
+<script>
+//iframe크기조절, td에 id도 줄것
+function doResize()
+{
+container.height = myframe.document.body.scrollHeight;
+container.width = myframe.document.body.scrollWidth;
+}
+</script>
+
+      <script>
+
+      </script>
 
 
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
-
-      
-
-            <!--
-    <div class="hero-body">        
+    <div class="hero-body">
+        <div class="container">
+            
             <div class="container columns is-centered">
 
-                
+                <!--
                 <div>      
                     <figure class="image">
                         <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
@@ -26,21 +30,17 @@ body, html {width: 100%; height: 100%; margin: 0; padding: 0}
                     <br>
                     <br>
                 </div>
-               
+                -->
 
 
-           </div>
-           -->
-                 <div class = "video-container">    
-                    <iframe class = "video-row" style="display: block; margin: auto; border-radius: 20px"  src="https://www.youtube.com/embed/cL8xiL47Dw4" allowfullscreen> </iframe>
+                <div>    
+                    <iframe id="myiframe" width="670" height="100%" marginwidth=0 marginheight=0 hspace=0 vspace=0  onload="doResize()" style="display: block; margin: auto; border-radius: 20px"  src="https://www.youtube.com/embed/cL8xiL47Dw4" allowfullscreen> </iframe>
                     <br>
                     <p> <b> ↑ Where I work <b> </p>
                     <a href= "https://www.youtube.com/channel/UCrnx2FH-uSc6gYFZx9PJnYg" target="_blank"> Credit: NING Jingjie, Ethan </a> 
-                </div>      
-
-
-
-           
+                </div>
+                        
+            </div>
             <br>
             <br>
 
@@ -60,7 +60,6 @@ body, html {width: 100%; height: 100%; margin: 0; padding: 0}
                     </div>
                 </div>
             </div>
-
-
-
+        </div>
+    </div>
 </section>
