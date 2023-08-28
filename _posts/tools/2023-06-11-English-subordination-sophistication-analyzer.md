@@ -1,7 +1,7 @@
 ---
 title: Subordination Sophistication Analyzer
 layout: post
-categories: tools[TBC]
+categories: tools
 post-image: "https://haerimhwang.github.io/assets/images/SSA.png"
 description: GUI Application for Measuring Subordination Sophistication of English Texts
 tags:
