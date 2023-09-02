@@ -17,10 +17,6 @@ tags:
 * This tool has been developed using the [surprisal](https://github.com/aalok-sathe/surprisal){:target="_blank"} package.
 <br>
 <br>
-* [Click Here for the Cloze Test](https://haerimhwang-surprisal-calculator-streamlit-app-0m87bo.streamlit.app/){:target="_blank"}. 
+* [Click Here for the surprisal calculator](https://haerimhwang-surprisal-calculator-streamlit-app-0m87bo.streamlit.app/){:target="_blank"}. 
 <br>
 <br>
-
-* When you use this analyzer for your research, please cite:  
-   `Sathe, A. (1980). Surprisal (software). https://github.com/aalok-sathe/surprisal/` 
-    
