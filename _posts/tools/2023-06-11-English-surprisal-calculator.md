@@ -1,7 +1,7 @@
 ---
 title: Surprisal calculator
 layout: post
-categories: tools[TBC]
+categories: tools
 post-image: "https://haerimhwang.github.io/assets/images/surprisal.png"
 description: Web-based surprisal calculator
 tags:
@@ -11,7 +11,7 @@ tags:
 - python
 ---
 
-* This web-based tool measures surprisal of an English sentence. 
+* This web-based tool measures surprisal values of each token in an English sentence. 
 <br>
 <br>
 * This tool has been developed using the [surprisal](https://github.com/aalok-sathe/surprisal){:target="_blank"} package.
