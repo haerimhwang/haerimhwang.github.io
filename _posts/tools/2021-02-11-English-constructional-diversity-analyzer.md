@@ -25,13 +25,14 @@ tags:
 <br>
 <br>
 
-* [Click Here for Mac](https://drive.google.com/file/d/12Gk2Lx2dsiNqM9gjv7Y_c1PHmKRyd5iY/view?usp=sharing){:target="_blank"} <br>
-    * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu when this app is identified as one created by an unidentified developer on your device!  
+* [Click Here for Mac](https://drive.google.com/uc?export=download&id=12Gk2Lx2dsiNqM9gjv7Y_c1PHmKRyd5iY){:target="_blank"} <br>
+    * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu when this app is identified as one created by an unidentified developer on your device!
+<!-- https://drive.google.com/file/d/12Gk2Lx2dsiNqM9gjv7Y_c1PHmKRyd5iY/view?usp=sharing -->
 <br>
         
-* [Click Here for Windows](https://drive.google.com/file/d/1tvhqda8o9LwyMPgI8NR8qVPQOVRVi5ln/view?usp=sharing){:target="_blank"}  
+* [Click Here for Windows](https://drive.google.com/uc?export=download&id=1tvhqda8o9LwyMPgI8NR8qVPQOVRVi5ln){:target="_blank"}  
 <br>      
-    
+ <!-- https://drive.google.com/file/d/1tvhqda8o9LwyMPgI8NR8qVPQOVRVi5ln/view?usp=sharing -->   
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
     
