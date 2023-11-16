@@ -33,16 +33,16 @@ tags:
 <br>
 <br>
 
-* [Click Here for Mac](https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing){:target="_blank"} <br>
+* [Click Here for Mac](https://drive.google.com/uc?export=download&id=1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
 <br>   
-        
-* [Click Here for Windows](https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing){:target="_blank"} <br>
+<!-- https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing -->         
+* [Click Here for Windows](https://drive.google.com/uc?export=download&id=1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD){:target="_blank"} <br>
     * On Windows, this tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"} and (2) set Environment Variables in Java. Click [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf){:target="_blank"} for full instructions. 
 <br>
 <br>      
-    
+<!-- https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing -->     
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
 <br>
