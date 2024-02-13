@@ -20,6 +20,6 @@ tags:
 <br>
 <br>
 
-* When you use this analyzer for your research, please cite:  
+* When you use this tool for your research, please cite:  
    `Brown, J. D. (1980). Relative merits of four methods for scoring cloze tests. The Modern Language Journal, 64, 311–317.` 
     
