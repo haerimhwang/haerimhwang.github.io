@@ -36,7 +36,7 @@ tags:
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
     
-* When you use this analyzer for your research, please cite:  
-    `Hwang, H., & Kim, H. (2022). Automatic analysis of constructional diversity as a predictor of EFL students’ writing proficiency. Applied linguistics. (online first)`  
+* When you use this application for your research, please cite:  
+    `Hwang, H., & Kim, H. (2023). Automatic analysis of constructional diversity as a predictor of EFL students’ writing proficiency. Applied Linguistics, 44(1), 127–147. https://doi.org/10.1093/applin/amac046`  
    
      `Hwang, H., Choe, A., & Zenker, F. (2020). Construction Counter: A tool to measure (nonnative) language development. Brown Bag Series, University of Hawai‘i at Mānoa, Honolulu, USA. (April 16)`  
