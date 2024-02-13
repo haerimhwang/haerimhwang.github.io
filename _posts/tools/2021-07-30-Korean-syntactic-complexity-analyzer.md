@@ -47,5 +47,5 @@ tags:
 <br>
 <br>
 
-* When you use this analyzer for your research, please cite:  
+* When you use this tool for your research, please cite:  
     `Hwang, H.</b>, & Kim, H. (2024).  Korean Syntactic Complexity Analyzer (KOSCA): An NLP tool for the analysis of syntactic complexity in second language production. Language Testing. Advance online publication. https://doi.org/10.1177/02655322231222596`
