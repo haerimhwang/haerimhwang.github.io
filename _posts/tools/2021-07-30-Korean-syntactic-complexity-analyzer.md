@@ -46,8 +46,6 @@ tags:
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
 <br>
-    
-* Stay tuned for citation!
-<br>
-<b> Hwang, H.</b>, & Kim, H. (2024).  <a href = "https://doi.org/10.1177/02655322231222596" target="_blank"> Korean Syntactic Complexity Analyzer (KOSCA): An NLP tool for the analysis of syntactic complexity in second language production. </a> Language Testing. Advance online publication. https://doi.org/10.1177/02655322231222596
-<br>
+
+* When you use this analyzer for your research, please cite:  
+    `Hwang, H.</b>, & Kim, H. (2024).  Korean Syntactic Complexity Analyzer (KOSCA): An NLP tool for the analysis of syntactic complexity in second language production. Language Testing. Advance online publication. https://doi.org/10.1177/02655322231222596`
