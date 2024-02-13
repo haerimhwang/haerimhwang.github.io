@@ -58,6 +58,5 @@ tags:
 <br>
 <br>
     
-* Stay tuned for citation!
-<br>
-<br>
+* When you use this tool for your research, please cite:  
+    `Hwang, H. (accepted). Development of morphological diversity in second language Korean: An NLP analysis using the Korean Morphological Richness Analyzer 1.0. System.`  
