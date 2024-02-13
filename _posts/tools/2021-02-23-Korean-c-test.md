@@ -20,6 +20,6 @@ tags:
 <br>
 <br>
 
-* When you use this analyzer for your research, please cite:  
+* When you use this tool for your research, please cite:  
   `Lee-Ellis, S. (2009). The development and validation of a Korean C-Test using Rasch analysis. Language Testing, 26, 245–274.`  
     
