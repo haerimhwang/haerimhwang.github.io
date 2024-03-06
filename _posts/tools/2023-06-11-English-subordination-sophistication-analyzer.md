@@ -52,7 +52,7 @@ tags:
 <br>
 <br>
     
-* Stay tuned for citation!
-<br>
-<br>
+* When you use this tool for your research, please cite:  
+    `Hwang, H. (accepted). The development of subordination sophistication in learner production: Effects of subordination type and finiteness. Written Communication.`  
+
 
