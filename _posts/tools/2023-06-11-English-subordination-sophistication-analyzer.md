@@ -53,6 +53,6 @@ tags:
 <br>
     
 * When you use this tool for your research, please cite:  
-    `Hwang, H. (accepted). The development of subordination sophistication in learner production: Effects of subordination type and finiteness. Written Communication.`  
+    `Hwang, H. (accepted). The impact of subordination type and finiteness on second language development in timed impromptu writing: An NLP-based analysis using the Subordination Sophistication Analyzer. Written Communication.`  
 
 
