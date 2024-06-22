@@ -33,9 +33,14 @@ tags:
 <br>
 <br>
 
-* [Click Here for Mac](https://drive.google.com/uc?export=download&id=1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq){:target="_blank"} <br>
+* [Click Here for Intel-Based Mac](https://drive.google.com/uc?export=download&id=1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
-    * If your Mac is an M1 or later model, you'll need to download and install JAVA from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
+<br>
+<br>
+
+* [Click Here for ARM-Based Mac (e.g., M1 or later model)](){:target="_blank"} <br>
+    * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
+    * Download and install JAVA from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
 <br>
 <br>   
 <!-- https://drive.google.com/file/d/1otxdsropIbNtPNenfeZ7Z2LUFvjdWRHq/view?usp=sharing -->         
