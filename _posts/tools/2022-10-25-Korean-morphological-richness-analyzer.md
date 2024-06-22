@@ -16,7 +16,7 @@ tags:
 * The Korean Morphological Richenss Analyzer (KOMORA) 1.0 measures syntactic complexity of Korean texts. 
 <br>
 <br>
-
+<br>
 * The 15 indices computed by this tool are:  
     (1) number of sentences, <br>
     (2) number of eojeols, <br>
@@ -35,21 +35,16 @@ tags:
     (15) HD-D (McCarthy & Jarvis, 2007). 
 <br>
 <br>
-
 * This tool has been developed using [Lexical Richness](https://pypi.org/project/lexicalrichness/){:target="_blank"}, [Kivy](https://kivy.org/#home){:target="_blank"}, and [KoNLPy](https://konlpy.org/en/latest/){:target="_blank"}. 
 <br>
 <br>
-
 * Find the user manual for KOMORA from [here](https://haerimhwang.github.io/assets/KOMORA_user_manual.pdf){:target="_blank"}. 
 <br>
 <br>
-<br>
-
 * [Click Here for Intel-Based Mac](https://drive.google.com/uc?export=download&id=1kYiJ-mRSuSwOPwrWFGlKtXa9vjQ5CMJq){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
 <br>
-
 * [Click Here for ARM-Based Mac (e.g., M1 or later model)](https://drive.google.com/uc?export=download&id=1su-AGR7tobdvbwrMr-ULSOioVKm7WRX2){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
     * Download and install JAVA (jdk-8u411-macosx-aarch64) from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
