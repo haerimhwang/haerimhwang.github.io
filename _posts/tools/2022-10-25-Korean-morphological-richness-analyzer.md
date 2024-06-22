@@ -51,7 +51,7 @@ tags:
 
 * [Click Here for ARM-Based Mac (e.g., M1 or later model)](){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
-    * Download and install JAVA from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
+    * Download and install JAVA (jdk-8u411-macosx-aarch64) from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
 <br>
 <br>
 <!--https://drive.google.com/file/d/1swXgTJa0nGhXAIrslWH9RaXnXGAdHltI/view?usp=share_link-->        
