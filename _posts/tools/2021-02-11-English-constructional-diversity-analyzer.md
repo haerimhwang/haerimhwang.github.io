@@ -29,8 +29,8 @@ tags:
 <br>
 <br>     
 * [Click Here for Windows](https://drive.google.com/uc?export=download&id=1dxCnKDqfO5uBxfNu5CMNjvK41YmeHpaO){:target="_blank"}  
-<br>      
-<br> 
+<br>
+
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
 <br>
