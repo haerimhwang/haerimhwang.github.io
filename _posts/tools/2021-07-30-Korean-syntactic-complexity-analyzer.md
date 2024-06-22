@@ -41,7 +41,7 @@ tags:
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
     * Download and install JAVA (jdk-8u411-macosx-aarch64) from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
 <br>
-<br>          
+
 * [Click Here for Windows](https://drive.google.com/uc?export=download&id=1NcONS_brmOG8WGGx5jB6fWHe3FL8SvQC){:target="_blank"} <br>
     * On Windows, this tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"} and (2) set Environment Variables in Java. Click [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf){:target="_blank"} for full instructions. 
 <br>
