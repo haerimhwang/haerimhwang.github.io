@@ -24,13 +24,13 @@ tags:
 (6) number of verbs per sentence, and <br>
 (7) type frequency of particles per sentence. <br>
 <br>
+<br>
+<br>
 
 * This tool has been developed using [KoNLPy](https://konlpy.org/en/latest/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}. 
 <br>
 <br>
-
 * Find the user manual for KOSCA from [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf){:target="_blank"}. 
-<br>
 <br>
 <br>
 * [Click Here for Intel-Based Mac](https://drive.google.com/uc?export=download&id=1Q1fzZBG0xuEpiqqonJjj9gqprTpoir8Z){:target="_blank"} <br>
