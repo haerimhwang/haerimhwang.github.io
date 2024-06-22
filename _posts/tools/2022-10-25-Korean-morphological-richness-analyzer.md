@@ -43,24 +43,26 @@ tags:
 * Find the user manual for KOMORA from [here](https://haerimhwang.github.io/assets/KOMORA_user_manual.pdf){:target="_blank"}. 
 <br>
 <br>
+<br>
 
-* [Click Here for Intel-Based Mac](https://drive.google.com/uc?export=download&id=1swXgTJa0nGhXAIrslWH9RaXnXGAdHltI){:target="_blank"} <br>
+* [Click Here for Intel-Based Mac](https://drive.google.com/uc?export=download&id=1kYiJ-mRSuSwOPwrWFGlKtXa9vjQ5CMJq){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
 <br>
 
-* [Click Here for ARM-Based Mac (e.g., M1 or later model)](){:target="_blank"} <br>
+* [Click Here for ARM-Based Mac (e.g., M1 or later model)](https://drive.google.com/uc?export=download&id=1su-AGR7tobdvbwrMr-ULSOioVKm7WRX2){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** or **RIGHT-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
     * Download and install JAVA (jdk-8u411-macosx-aarch64) from [HERE](https://www.oracle.com/java/technologies/javase/jdk8-arm-downloads.html){:target="_blank"} to open KOSCA.  
 <br>
 <br>
 <!--https://drive.google.com/file/d/1swXgTJa0nGhXAIrslWH9RaXnXGAdHltI/view?usp=share_link-->        
-* [Click Here for Windows](https://drive.google.com/uc?export=download&id=1YE3fnkBIhr1RlvNVmxhgF-l9QvCvbX3k){:target="_blank"} <br>
+* [Click Here for Windows](https://drive.google.com/uc?export=download&id=1eEtYooco4-sjl-5dq-CcEG7fHm9WuI79){:target="_blank"} <br>
     * On Windows, this tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"} and (2) set Environment Variables in Java. Click [here](https://haerimhwang.github.io/assets/KOMORA_user_manual.pdf){:target="_blank"} for full instructions. 
 <br>
 <br>      
 <!-- https://drive.google.com/file/d/1YE3fnkBIhr1RlvNVmxhgF-l9QvCvbX3k/view?usp=share_link -->     
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
+<br>
 <br>
 <br>
     
