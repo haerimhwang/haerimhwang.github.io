@@ -20,22 +20,21 @@ tags:
 * This analyzer (a) sorts clauses into 11 constructions, (b) calculates the token frequency of constructions (i.e., number of clauses) and type frequency of constructions (i.e., constructional diversity), (c) computes the frequency and proportion of each construction, and (d) measures the type frequency of verbs (i.e., verbal diversity) within each construction. Six of the constructions come from Construction Grammar (Goldberg, 1995; i.e., caused-motion construction, ditransitive construction, intransitive-motion construction, intransitive-resultative construction, phrasal-verb construction, transitive-resultative construction); the other five are common English constructions (i.e., attributive construction, passive construction, simple-intransitive construction, simple-transitive construction, there-expletive construction). 
 <br>
 <br>
-
+<br>
 * This tool has been developed using [spaCy](https://spacy.io/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}.
 <br>
 <br>
-
 * [Click Here for Mac](https://drive.google.com/uc?export=download&id=1ieRpjePHfVfK8ZSae1OUKxflj6xgscc6){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu when this app is identified as one created by an unidentified developer on your device!
-<!-- https://drive.google.com/file/d/12Gk2Lx2dsiNqM9gjv7Y_c1PHmKRyd5iY/view?usp=sharing -->
 <br>
-        
+<br>     
 * [Click Here for Windows](https://drive.google.com/uc?export=download&id=1dxCnKDqfO5uBxfNu5CMNjvK41YmeHpaO){:target="_blank"}  
 <br>      
- <!-- https://drive.google.com/file/d/1tvhqda8o9LwyMPgI8NR8qVPQOVRVi5ln/view?usp=sharing -->   
+<br> 
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
-    
+<br>
+<br>
 * When you use this application for your research, please cite:  
     `Hwang, H., & Kim, H. (2023). Automatic analysis of constructional diversity as a predictor of EFL students’ writing proficiency. Applied Linguistics, 44(1), 127–147. https://doi.org/10.1093/applin/amac046`  
    
