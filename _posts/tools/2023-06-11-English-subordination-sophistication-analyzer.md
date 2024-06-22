@@ -28,8 +28,7 @@ tags:
     (6) proportion of finite relative clauses (= number of finite relative clauses per clause), <br>
     (7) proportion of nonfinite relative clauses (= number of nonfinite relative clauses per clause),  <br>
     (8) proportion of finite coordinate clauses (= number of finite coordinate clauses per clause), <br>
-    (9) proportion of nonfinite coordinate clauses (= number of nonfinite coordinate clauses per clause).  <br>
-
+    (9) proportion of nonfinite coordinate clauses (= number of nonfinite coordinate clauses per clause).  
 <br>
 <br>
 <br>
