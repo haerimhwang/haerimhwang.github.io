@@ -45,8 +45,7 @@ tags:
 * [Click Here for Windows](https://drive.google.com/uc?export=download&id=1NcONS_brmOG8WGGx5jB6fWHe3FL8SvQC){:target="_blank"} <br>
     * On Windows, this tool requires to (1) download and install JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"} and (2) set Environment Variables in Java. Click [here](https://haerimhwang.github.io/assets/KOSCA_user_manual.pdf){:target="_blank"} for full instructions. 
 <br>
-<br>      
-<!-- https://drive.google.com/file/d/1O74U1QgxRvJk9mQ1avk2hd3axVNJP6hD/view?usp=sharing -->     
+<br>           
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
 <br>
 <br>
