@@ -32,23 +32,20 @@ tags:
 
 <br>
 <br>
+<br>
 
 * This tool has been developed using [spaCy](https://spacy.io/){:target="_blank"} and [Kivy](https://kivy.org/#home){:target="_blank"}. 
 <br>
 <br>
-
-
 * [Click Here for Mac](https://drive.google.com/uc?export=download&id=1rKVXWnfQFRBCTUZbRFq7m9-KoQXzdAUT){:target="_blank"} <br>
     * You may need to **CONTROL-CLICK** the app icon and then choose **OPEN** from the shortcut menu if this app is identified as one created by an unidentified developer on your device.
 <br>
-<br>
-<!--  https://drive.google.com/file/d/1sxCNmd4CnWeo-zGXd_ZQH57BaSf2Kpzn/view?usp=sharing -->        
+<br>       
 * [Click Here for Windows](https://drive.google.com/uc?export=download&id=1dmAMy-vxfiuA9W109pK4uCEjb5vscRqg){:target="_blank"} 
 <br>
 <br>
-<br>      
-<!--  https://drive.google.com/file/d/1Mx7YHrgZ3Fzkud1N8ZXJ0pLDjiodIO2w/view?usp=sharing -->    
 * It can take 1 to 3 minutes to open the application depending on the performance of your device because it installs a few natural language processing packages.  
+<br>
 <br>
 <br>
     
